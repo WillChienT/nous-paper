@@ -28,7 +28,7 @@ The framework consists of:
 
 ## Paper
 
-Read the full paper: **[main.pdf](main.pdf)**
+Read the full paper: **[Nous_Cognitive_Priors_for_Diverse_LLM_Agents.pdf](Nous_Cognitive_Priors_for_Diverse_LLM_Agents.pdf)**
 
 ## Paper
 
@@ -55,4 +55,4 @@ Paper: [CC BY-NC-ND 4.0](LICENSE)
 
 ## Contact
 
-Haowei Qian — haowei0509@gmail.com
+Haowei Qian — will@novasurge.ai
