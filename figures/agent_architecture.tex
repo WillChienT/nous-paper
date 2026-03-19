@@ -1,0 +1,81 @@
+% Figure: Agent Architecture — Nous as cognitive preprocessing layer
+% Information flow: Input → φ (Nous) → r (Foundation Model) → Output
+\begin{tikzpicture}[
+    node distance=1.8cm,
+    block/.style={
+        rectangle, rounded corners=4pt,
+        minimum height=1.2cm, text=white,
+        font=\sffamily\small, draw=none, align=center
+    },
+    aux/.style={
+        rectangle, rounded corners=3pt,
+        minimum width=2.4cm, minimum height=0.8cm,
+        font=\sffamily\tiny, align=center,
+        draw=gray!50, fill=gray!15, text=gray!80
+    },
+    mainflow/.style={-{Stealth[length=3mm]}, thick, gray!70},
+    auxflow/.style={-{Stealth[length=2mm]}, thin, gray!40},
+    mathlabel/.style={font=\small, text=gray!60},
+    label/.style={font=\sffamily\tiny, text=gray!60}
+]
+
+% === Main flow (left to right) ===
+
+% Input
+\node[block, fill=gray!45, text=black, minimum width=2cm] (input) at (0,0)
+    {Input $x$};
+
+% Nous — highlighted
+\node[block, fill=teal!75, minimum width=3.2cm, minimum height=1.5cm,
+      line width=1.5pt, draw=teal!90!black,
+      font=\sffamily\small\bfseries, right=1.6cm of input] (nous)
+    {\nous{}\\[-1pt]{\normalfont\sffamily\tiny Cognitive Preprocessing}};
+\node[font=\sffamily\tiny\bfseries, text=orange!80!red, anchor=south west]
+    at ([xshift=-2pt, yshift=1pt]nous.north east) {\textsc{new}};
+
+% Foundation Model
+\node[block, fill=gray!70, minimum width=3.4cm, minimum height=1.5cm,
+      right=1.6cm of nous] (model)
+    {Foundation Model\\[-1pt]{\normalfont\sffamily\tiny Reasoning Engine}};
+
+% Output
+\node[block, fill=gray!45, text=black, minimum width=2cm,
+      right=1.6cm of model] (output)
+    {Output};
+
+% Main flow arrows
+\draw[mainflow] (input) -- (nous);
+\draw[mainflow] (nous) -- (model);
+\draw[mainflow] (model) -- (output);
+
+% Math labels along arrows
+\node[mathlabel, above=4pt] at ($(input)!0.5!(nous)$) {$x$};
+\node[mathlabel, above=4pt] at ($(nous)!0.5!(model)$) {$\phi(x)$};
+\node[mathlabel, above=4pt] at ($(model)!0.5!(output)$) {$r(\phi(x))$};
+
+% === Auxiliary modules (below Foundation Model) ===
+
+\node[aux, minimum width=2.8cm] (skills) at ($(model) + (0, -1.6)$)
+    {Skills / Tools\\{\tiny API calls, retrieval}};
+
+\node[aux, minimum width=2.8cm] (memory) at ($(model) + (0, -2.8)$)
+    {Memory / Knowledge\\{\tiny Facts, context, history}};
+
+% Auxiliary arrows (bidirectional)
+\draw[auxflow] (model.south) -- (skills.north);
+\draw[auxflow] (skills.north) -- (model.south);
+\draw[auxflow] (skills.south) -- (memory.north);
+\draw[auxflow] (memory.north) -- (skills.south);
+
+% Brace for auxiliary
+\draw[decorate, decoration={brace, amplitude=4pt}, thick, gray!35]
+    ([xshift=1.6cm]skills.north east) -- ([xshift=1.6cm]memory.south east)
+    node[midway, right=6pt, font=\sffamily\tiny, text=gray!50, align=left]
+    {Existing\\layers};
+
+% Annotation: what Nous does
+\node[label, text=teal!70!black, align=center, anchor=north]
+    at ([yshift=-6pt]nous.south)
+    {Pre-reasoning\\cognitive bias};
+
+\end{tikzpicture}

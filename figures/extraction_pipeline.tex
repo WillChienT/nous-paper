@@ -1,0 +1,82 @@
+% Figure: Extraction and Injection Pipeline
+\begin{tikzpicture}[
+    node distance=1.2cm and 1.6cm,
+    box/.style={rectangle, rounded corners=3pt, draw=#1!60, fill=#1!10,
+                minimum height=0.8cm, minimum width=1.8cm,
+                font=\sffamily\tiny, align=center, text=#1!80!black},
+    smallbox/.style={rectangle, rounded corners=2pt, draw=#1!50, fill=#1!8,
+                minimum height=0.42cm, minimum width=1.2cm,
+                font=\sffamily\tiny, align=center, text=#1!70!black},
+    arr/.style={-{Stealth[length=2mm]}, thick, #1!50},
+    bus/.style={thick, #1!50},
+    phase/.style={font=\sffamily\tiny\bfseries, text=#1!70},
+]
+
+% Phase labels
+\node[phase=blue] at (0, 2.5) {EXTRACTION};
+\node[phase=green!60!black] at (11.5, 2.5) {INJECTION};
+
+% Source
+\node[box=gray] (events) at (0, 0) {Market\\Events};
+
+% Event Parser
+\node[box=blue] (parser) at (2.2, 0) {Feature\\Computation};
+
+% Features
+\node[box=blue] (features) at (4.2, 0) {Typed\\Features};
+
+% Extractors (single column)
+\node[smallbox=blue] (e1) at (6.8,  1.75) {Risk};
+\node[smallbox=blue] (e2) at (6.8,  1.25) {Time};
+\node[smallbox=blue] (e3) at (6.8,  0.75) {Cognitive};
+\node[smallbox=blue] (e4) at (6.8,  0.25) {Attention};
+\node[smallbox=blue] (e5) at (6.8, -0.25) {Belief};
+\node[smallbox=blue] (e6) at (6.8, -0.75) {Domain};
+\node[smallbox=blue] (e7) at (6.8, -1.25) {Independence};
+\node[smallbox=blue] (e8) at (6.8, -1.75) {Loss};
+
+% Nous Instance
+\node[box=teal, minimum width=2.0cm, minimum height=1.0cm] (nous) at (9.8, 0) {Nous\\Instance};
+
+% Translator
+\node[box=green!60!black] (trans) at (11.8, 0) {Translator};
+
+% System Prompt
+\node[box=green!60!black] (prompt) at (13.8, 0) {System\\Prompt};
+
+% LLM
+\node[box=purple] (llm) at (13.8, -1.5) {LLM};
+
+% Output
+\node[box=gray] (output) at (13.8, -3.0) {Cognitively\\Diverse Output};
+
+% === Arrows — extraction phase ===
+\draw[arr=gray] (events) -- (parser);
+\draw[arr=blue] (parser) -- (features);
+
+% Fan-out: features → vertical bus → each extractor
+\coordinate (fork) at (5.5, 0);
+\draw[bus=blue] (features.east) -- (fork);
+\draw[bus=blue] (fork |- e1.west) -- (fork |- e8.west);
+\foreach \e in {e1,e2,e3,e4,e5,e6,e7,e8} {
+    \draw[arr=blue] (fork |- \e.west) -- (\e.west);
+}
+
+% Fan-in: each extractor → vertical bus → Nous
+\coordinate (merge) at (8.5, 0);
+\foreach \e in {e1,e2,e3,e4,e5,e6,e7,e8} {
+    \draw[bus=blue] (\e.east) -- (merge |- \e.east);
+}
+\draw[bus=blue] (merge |- e1.east) -- (merge |- e8.east);
+\draw[arr=blue] (merge) -- (nous.west);
+
+% === Arrows — injection phase ===
+\draw[arr=teal] (nous) -- (trans);
+\draw[arr=green!60!black] (trans) -- (prompt);
+\draw[arr=green!60!black] (prompt) -- (llm);
+\draw[arr=purple] (llm) -- (output);
+
+% Dashed separation line
+\draw[dashed, gray!40, thick] (9.0, 2.3) -- (9.0, -3.5);
+
+\end{tikzpicture}

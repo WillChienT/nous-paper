@@ -1,0 +1,22 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# PDF - keep main.pdf for direct reading
+# *.pdf
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store

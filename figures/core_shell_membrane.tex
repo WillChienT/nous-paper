@@ -1,0 +1,54 @@
+% Figure 2: Core-Shell-Membrane concentric architecture
+\begin{tikzpicture}[
+    font=\sffamily\small
+]
+
+% Membrane (outermost)
+\fill[orange!15] (0,0) circle (3.8cm);
+\draw[orange!60, thick, dashed] (0,0) circle (3.8cm);
+
+% Shell (middle)
+\fill[teal!20] (0,0) circle (2.7cm);
+\draw[teal!60, thick] (0,0) circle (2.7cm);
+
+% Core (innermost)
+\fill[blue!25] (0,0) circle (1.5cm);
+\draw[blue!70, thick] (0,0) circle (1.5cm);
+
+% Core labels
+\node[font=\sffamily\footnotesize\bfseries, text=blue!80] at (0,0.5) {Core};
+\node[font=\sffamily\tiny, text=blue!60, align=center] at (0,-0.2) {Risk Perception\\Time Scale\\Cognitive Style};
+
+% Shell labels
+\node[font=\sffamily\footnotesize\bfseries, text=teal!80] at (0,2.1) {Shell};
+\node[font=\sffamily\tiny, text=teal!60, align=center] at (2.0,0) {Attention\\Allocation};
+\node[font=\sffamily\tiny, text=teal!60, align=center] at (-2.0,0) {Belief Update\\Inertia};
+\node[font=\sffamily\tiny, text=teal!60, align=center] at (0,-2.0) {Domain\\Confidence};
+
+% Membrane labels
+\node[font=\sffamily\footnotesize\bfseries, text=orange!70] at (0,3.3) {Membrane};
+\node[font=\sffamily\tiny, text=orange!60] at (3.0,1.8) {Independence};
+\node[font=\sffamily\tiny, text=orange!60] at (-3.0,1.8) {Loss Response};
+
+% Right-side gradient arrows
+\draw[-{Stealth[length=2.5mm]}, thick, blue!60]
+    (5.2, -2.5) -- (5.2, 2.5)
+    node[midway, right=3pt, font=\sffamily\tiny, text=blue!60, align=left] {Stability};
+
+\draw[-{Stealth[length=2.5mm]}, thick, orange!60]
+    (6.2, 2.5) -- (6.2, -2.5)
+    node[midway, right=3pt, font=\sffamily\tiny, text=orange!60, align=left] {Mutability};
+
+% Layer property annotations
+\node[font=\sffamily\tiny, text=gray, align=center] at (-5.0, 1.0)
+    {High reactivity\\Fast adaptation};
+\node[font=\sffamily\tiny, text=gray, align=center] at (-5.0, -0.5)
+    {Moderate inertia\\Slow evolution};
+\node[font=\sffamily\tiny, text=gray, align=center] at (-5.0, -2.0)
+    {Near-immutable\\Identity anchor};
+
+\draw[gray!40, thin, ->] (-3.9, 1.0) -- (-3.8, 1.0);
+\draw[gray!40, thin, ->] (-3.9, -0.5) -- (-2.7, -0.5);
+\draw[gray!40, thin, ->] (-3.9, -2.0) -- (-1.5, -1.0);
+
+\end{tikzpicture}
