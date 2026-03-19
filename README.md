@@ -30,22 +30,9 @@ The framework consists of:
 
 Read the full paper: **[main.pdf](main.pdf)**
 
-## Building from Source
+## Paper
 
-```bash
-pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
-```
-
-Requires TeXLive with standard packages (amsmath, tikz, pgfplots, natbib, algorithm2e, booktabs).
-
-## File Structure
-
-```
-main.tex           — Full paper (31 pages incl. appendix)
-references.bib     — 47 BibTeX entries
-figures/           — TikZ source files for all figures
-main.pdf           — Compiled PDF
-```
+31 pages including appendix, 47 references, 4 figures, 3 tables.
 
 ## Related Code
 
