@@ -1,0 +1,4589 @@
+{
+  "meta": {
+    "n_questions": 50,
+    "elapsed_seconds": 31220.0,
+    "eval_set_path": "eval_set_mantic_baseline.jsonl"
+  },
+  "records": [
+    {
+      "market_id": "601697",
+      "question": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 235065166.637259,
+      "n_wallets_traded": 6,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.04,
+      "scenarios_yes": [
+        {
+          "name": "Sudden Labor Market Collapse",
+          "prob": 0.02
+        },
+        {
+          "name": "Unexpected Deflationary Shock",
+          "prob": 0.01
+        },
+        {
+          "name": "Radical Dovish Policy Pivot",
+          "prob": 0.01
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fed Holds Rates Steady",
+          "prob": 0.6
+        },
+        {
+          "name": "Standard 25 bps Cut",
+          "prob": 0.35
+        },
+        {
+          "name": "Hawkish Hold or Hike",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4470,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "601697",
+      "question": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 235065166.637259,
+      "n_wallets_traded": 6,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.03,
+      "scenarios_yes": [
+        {
+          "name": "Sharp Labor Market Deterioration",
+          "prob": 0.15
+        },
+        {
+          "name": "Unexpected Inflation Collapse",
+          "prob": 0.2
+        },
+        {
+          "name": "New Dovish Leadership Influence",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Market Pricing and Expectations",
+          "prob": 0.85
+        },
+        {
+          "name": "FOMC Division and Caution",
+          "prob": 0.7
+        },
+        {
+          "name": "Gradualist Approach Precedent",
+          "prob": 0.6
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3700,
+      "research_summary_length": 4470,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "601700",
+      "question": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 216455743.153891,
+      "n_wallets_traded": 6,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.05,
+      "scenarios_yes": [
+        {
+          "name": "Unexpected Inflation Spike",
+          "prob": 0.03
+        },
+        {
+          "name": "Financial Stability Emergency",
+          "prob": 0.01
+        },
+        {
+          "name": "Policy Reversal/Political Pressure",
+          "prob": 0.01
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Standard Pause (Hold)",
+          "prob": 0.45
+        },
+        {
+          "name": "Projected Rate Cut",
+          "prob": 0.4
+        },
+        {
+          "name": "Growth Slowdown Cut",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6704,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "601700",
+      "question": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 216455743.153891,
+      "n_wallets_traded": 6,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.02,
+      "scenarios_yes": [
+        {
+          "name": "Unexpected Inflation Spike",
+          "prob": 0.1
+        },
+        {
+          "name": "Surging Wage Growth",
+          "prob": 0.05
+        },
+        {
+          "name": "Political Pressure for Tightening",
+          "prob": 0.03
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Current Easing Cycle Continues",
+          "prob": 0.8
+        },
+        {
+          "name": "Inflation Near Target",
+          "prob": 0.75
+        },
+        {
+          "name": "Market Expectations for Hold/Cut",
+          "prob": 0.9
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2726,
+      "research_summary_length": 6704,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "654415",
+      "question": "Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+      "resolution_date": "2026-03-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-11",
+      "q_post_cutoff": true,
+      "volume": 172972056.63332495,
+      "n_wallets_traded": 15,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.06,
+      "scenarios_yes": [
+        {
+          "name": "Energy Price Shock Forces Preemptive Hike",
+          "prob": 0.05
+        },
+        {
+          "name": "Inflation Expectations Unanchor Rapidly",
+          "prob": 0.03
+        },
+        {
+          "name": "Hawkish Factions Overcome Easing Bias",
+          "prob": 0.02
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fed Holds Steady to Assess Uncertainty",
+          "prob": 0.85
+        },
+        {
+          "name": "Soft Labor Market Confirms Easing Bias",
+          "prob": 0.1
+        },
+        {
+          "name": "Geopolitical Risks Delay Any Tightening",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6049,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "654415",
+      "question": "Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+      "resolution_date": "2026-03-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-11",
+      "q_post_cutoff": true,
+      "volume": 172972056.63332495,
+      "n_wallets_traded": 15,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.1,
+      "scenarios_yes": [
+        {
+          "name": "Energy Price Shocks",
+          "prob": 0.3
+        },
+        {
+          "name": "Elevated Inflation Expectations",
+          "prob": 0.25
+        },
+        {
+          "name": "Internal Dissent and Hawkish Factions",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Softening Labor Market",
+          "prob": 0.4
+        },
+        {
+          "name": "Geopolitical Uncertainty",
+          "prob": 0.35
+        },
+        {
+          "name": "Projection of Future Cuts",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2639,
+      "research_summary_length": 6049,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "601699",
+      "question": "No change in Fed interest rates after January 2026 meeting?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 106767096.072298,
+      "n_wallets_traded": 17,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.94,
+      "scenarios_yes": [
+        {
+          "name": "Standard Data-Dependent Hold",
+          "prob": 0.65
+        },
+        {
+          "name": "Cautious Pause Due to Sticky Inflation",
+          "prob": 0.2
+        },
+        {
+          "name": "Hawkish Consensus Overrides Labor Concerns",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Unexpected Labor Market Shock",
+          "prob": 0.03
+        },
+        {
+          "name": "Financial Stability Crisis Requiring Emergency Cut",
+          "prob": 0.01
+        },
+        {
+          "name": "Dovish Overturn on Recession Fears",
+          "prob": 0.01
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4610,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "601699",
+      "question": "No change in Fed interest rates after January 2026 meeting?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 106767096.072298,
+      "n_wallets_traded": 17,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.85,
+      "scenarios_yes": [
+        {
+          "name": "Persistent Inflation Above Target",
+          "prob": 0.6
+        },
+        {
+          "name": "Soft Labor Market Without Collapse",
+          "prob": 0.7
+        },
+        {
+          "name": "Market Expectations for Hold",
+          "prob": 0.8
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Unemployment Rate Increase",
+          "prob": 0.4
+        },
+        {
+          "name": "FOMC Dissenters Favoring Easing",
+          "prob": 0.3
+        },
+        {
+          "name": "Potential Economic Shock",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2289,
+      "research_summary_length": 4610,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "601698",
+      "question": "Fed decreases interest rates by 25 bps after January 2026 meeting?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 101211542.667667,
+      "n_wallets_traded": 14,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.15,
+      "scenarios_yes": [
+        {
+          "name": "Unexpected Labor Market Collapse",
+          "prob": 0.08
+        },
+        {
+          "name": "Sudden Geopolitical De-escalation and Deflationary Shock",
+          "prob": 0.04
+        },
+        {
+          "name": "Political Pressure Overrides Economic Data",
+          "prob": 0.03
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Sticky Inflation and Oil Shock Persist",
+          "prob": 0.65
+        },
+        {
+          "name": "Resilient Growth and Data-Dependent Pause",
+          "prob": 0.25
+        },
+        {
+          "name": "Inflationary Spike Forces Hold or Hike Signal",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6478,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "601698",
+      "question": "Fed decreases interest rates by 25 bps after January 2026 meeting?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 101211542.667667,
+      "n_wallets_traded": 14,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Labor Market Softening",
+          "prob": 0.15
+        },
+        {
+          "name": "Recession Fears",
+          "prob": 0.2
+        },
+        {
+          "name": "Dovish Dissent",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Persistent Inflation",
+          "prob": 0.35
+        },
+        {
+          "name": "Geopolitical Oil Shock",
+          "prob": 0.25
+        },
+        {
+          "name": "Strong Economic Growth",
+          "prob": 0.4
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2887,
+      "research_summary_length": 6478,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "654413",
+      "question": "Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?",
+      "resolution_date": "2026-03-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-11",
+      "q_post_cutoff": true,
+      "volume": 87103283.7263213,
+      "n_wallets_traded": 20,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.015,
+      "scenarios_yes": [
+        {
+          "name": "Labor Market Collapse Override",
+          "prob": 0.01
+        },
+        {
+          "name": "Unexpected Inflation Disinflation",
+          "prob": 0.005
+        },
+        {
+          "name": "Political Pressure for Stimulus",
+          "prob": 0.005
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Inflation and Oil Shock Priority",
+          "prob": 0.85
+        },
+        {
+          "name": "Data-Dependent Pause",
+          "prob": 0.1
+        },
+        {
+          "name": "Leadership Transition Wait-and-See",
+          "prob": 0.04
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4932,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "654413",
+      "question": "Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?",
+      "resolution_date": "2026-03-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-11",
+      "q_post_cutoff": true,
+      "volume": 87103283.7263213,
+      "n_wallets_traded": 20,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.2,
+      "scenarios_yes": [
+        {
+          "name": "Labor Market Weakness Intensifies",
+          "prob": 0.3
+        },
+        {
+          "name": "Inflation Expectations Drop Quickly",
+          "prob": 0.25
+        },
+        {
+          "name": "Dovish Shift in SEP Projections",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Inflation Remains Sticky",
+          "prob": 0.4
+        },
+        {
+          "name": "Oil Prices Continue Rising",
+          "prob": 0.35
+        },
+        {
+          "name": "Hawkish SEP Projections",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3914,
+      "research_summary_length": 4932,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "669662",
+      "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+      "resolution_date": "2026-04-29",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-04-22",
+      "q_post_cutoff": true,
+      "volume": 76909226.49304736,
+      "n_wallets_traded": 15,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.78,
+      "scenarios_yes": [
+        {
+          "name": "Geopolitical Inflation Anchor",
+          "prob": 0.45
+        },
+        {
+          "name": "Wait-and-See Data Dependency",
+          "prob": 0.25
+        },
+        {
+          "name": "Market Expectation Alignment",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Unexpected Labor Market Collapse",
+          "prob": 0.12
+        },
+        {
+          "name": "Internal Dissent Overturns Consensus",
+          "prob": 0.06
+        },
+        {
+          "name": "Sudden Inflation Spike Requiring Hike",
+          "prob": 0.02
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5723,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "669662",
+      "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+      "resolution_date": "2026-04-29",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-04-22",
+      "q_post_cutoff": true,
+      "volume": 76909226.49304736,
+      "n_wallets_traded": 15,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.85,
+      "scenarios_yes": [
+        {
+          "name": "Geopolitical Inflation Risks",
+          "prob": 0.4
+        },
+        {
+          "name": "Persistent Inflation Stickiness",
+          "prob": 0.35
+        },
+        {
+          "name": "Market Expectations of No Change",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Economic Slowdown Leading to Rate Cut",
+          "prob": 0.15
+        },
+        {
+          "name": "Dissenting Officials Influencing a Cut",
+          "prob": 0.1
+        },
+        {
+          "name": "Unexpected Inflation Spike Leading to Hike",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2201,
+      "research_summary_length": 5723,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "669663",
+      "question": "Will the Fed increase interest rates by 25+ bps after the April 2026 meeting?",
+      "resolution_date": "2026-04-29",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-04-22",
+      "q_post_cutoff": true,
+      "volume": 75978206.16104123,
+      "n_wallets_traded": 18,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.025,
+      "scenarios_yes": [
+        {
+          "name": "Catastrophic Supply Shock",
+          "prob": 0.01
+        },
+        {
+          "name": "War-Driven Inflation Spike",
+          "prob": 0.01
+        },
+        {
+          "name": "Unexpected Labor Market Overheating",
+          "prob": 0.005
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fed Holds Rates (Status Quo)",
+          "prob": 0.85
+        },
+        {
+          "name": "Fed Cuts Rates (Dovish Pivot)",
+          "prob": 0.1
+        },
+        {
+          "name": "Fed Holds but Signals Immediate Cut",
+          "prob": 0.035
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5728,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "669663",
+      "question": "Will the Fed increase interest rates by 25+ bps after the April 2026 meeting?",
+      "resolution_date": "2026-04-29",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-04-22",
+      "q_post_cutoff": true,
+      "volume": 75978206.16104123,
+      "n_wallets_traded": 18,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.1,
+      "scenarios_yes": [
+        {
+          "name": "War-Related Inflation Risks",
+          "prob": 0.2
+        },
+        {
+          "name": "Hawkish Dissent",
+          "prob": 0.15
+        },
+        {
+          "name": "Inflation Forecast Revisions",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Market Expectations for Stability or Cuts",
+          "prob": 0.8
+        },
+        {
+          "name": "Median Projection for Rate Cuts",
+          "prob": 0.7
+        },
+        {
+          "name": "Stable Economic Growth Outlook",
+          "prob": 0.65
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2872,
+      "research_summary_length": 5728,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "669660",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+      "resolution_date": "2026-04-29",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-04-22",
+      "q_post_cutoff": true,
+      "volume": 66025383.9220003,
+      "n_wallets_traded": 17,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.035,
+      "scenarios_yes": [
+        {
+          "name": "Sudden Financial System Shock",
+          "prob": 0.02
+        },
+        {
+          "name": "Catastrophic Labor Market Collapse",
+          "prob": 0.01
+        },
+        {
+          "name": "Unexpected Dovish Policy Pivot",
+          "prob": 0.005
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fed Holds Rates Steady Due to Inflation",
+          "prob": 0.65
+        },
+        {
+          "name": "Fed Cuts 25 bps Gradually",
+          "prob": 0.3
+        },
+        {
+          "name": "Fed Delays Decision for More Data",
+          "prob": 0.04
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5101,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "669660",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+      "resolution_date": "2026-04-29",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-04-22",
+      "q_post_cutoff": true,
+      "volume": 66025383.9220003,
+      "n_wallets_traded": 17,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.15,
+      "scenarios_yes": [
+        {
+          "name": "Labor Market Weakness",
+          "prob": 0.25
+        },
+        {
+          "name": "Financial Turmoil",
+          "prob": 0.15
+        },
+        {
+          "name": "Geopolitical Energy Crisis",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Inflation Concerns",
+          "prob": 0.4
+        },
+        {
+          "name": "Gradual Approach Preference",
+          "prob": 0.35
+        },
+        {
+          "name": "Historical Precedent of Cautious Easing",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2279,
+      "research_summary_length": 5101,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "669661",
+      "question": "Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?",
+      "resolution_date": "2026-04-29",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-04-22",
+      "q_post_cutoff": true,
+      "volume": 65311948.7161929,
+      "n_wallets_traded": 8,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.025,
+      "scenarios_yes": [
+        {
+          "name": "Sudden Labor Market Collapse",
+          "prob": 0.01
+        },
+        {
+          "name": "Geopolitical De-escalation Shock",
+          "prob": 0.005
+        },
+        {
+          "name": "Unexpected Inflation Data Revision",
+          "prob": 0.005
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Status Quo: Sticky Inflation Persists",
+          "prob": 0.95
+        },
+        {
+          "name": "Inflation Upside Surprise Reinforces Hold",
+          "prob": 0.03
+        },
+        {
+          "name": "Mixed Data Leads to Continued Caution",
+          "prob": 0.015
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5618,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "669661",
+      "question": "Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?",
+      "resolution_date": "2026-04-29",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-04-22",
+      "q_post_cutoff": true,
+      "volume": 65311948.7161929,
+      "n_wallets_traded": 8,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.05,
+      "scenarios_yes": [
+        {
+          "name": "Labor Market Softening",
+          "prob": 0.3
+        },
+        {
+          "name": "Market Expectations for Easing",
+          "prob": 0.25
+        },
+        {
+          "name": "Global Monetary Policy Divergence",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Persistent Inflation",
+          "prob": 0.4
+        },
+        {
+          "name": "Fed Communication and Projections",
+          "prob": 0.35
+        },
+        {
+          "name": "Market-Implied Probabilities",
+          "prob": 0.98
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2617,
+      "research_summary_length": 5618,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1500755",
+      "question": "Will Judy Shelton be confirmed as Fed Chair?",
+      "resolution_date": "2026-10-31",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-10-24",
+      "q_post_cutoff": true,
+      "volume": 23970639.983398777,
+      "n_wallets_traded": 21,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.01,
+      "scenarios_yes": [
+        {
+          "name": "Unexpected Nomination and Confirmation",
+          "prob": 0.005
+        },
+        {
+          "name": "Political Compromise Candidate",
+          "prob": 0.002
+        },
+        {
+          "name": "Information Gap: Nomination occurred late 2026",
+          "prob": 0.001
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Never Nominated for Board",
+          "prob": 0.85
+        },
+        {
+          "name": "Nominated but Failed Board Confirmation",
+          "prob": 0.1
+        },
+        {
+          "name": "Confirmed as Governor but Not Selected as Chair",
+          "prob": 0.043
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5302,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1500755",
+      "question": "Will Judy Shelton be confirmed as Fed Chair?",
+      "resolution_date": "2026-10-31",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-10-24",
+      "q_post_cutoff": true,
+      "volume": 23970639.983398777,
+      "n_wallets_traded": 21,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.01,
+      "scenarios_yes": [
+        {
+          "name": "Unexpected Political Shift",
+          "prob": 0.01
+        },
+        {
+          "name": "PresidentOverridesSenateResistance",
+          "prob": 0.005
+        },
+        {
+          "name": "SheltonChangesPolicyViews",
+          "prob": 0.005
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "PastRejectionBySenate",
+          "prob": 0.95
+        },
+        {
+          "name": "LackofCurrentConsideration",
+          "prob": 0.85
+        },
+        {
+          "name": "ProceduralHurdlesWithoutBoardMembership",
+          "prob": 0.75
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 1680,
+      "research_summary_length": 5302,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1500754",
+      "question": "Will Kevin Warsh be confirmed as Fed Chair?",
+      "resolution_date": "2026-10-31",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-10-24",
+      "q_post_cutoff": true,
+      "volume": 14412257.808405764,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.99,
+      "scenarios_yes": [
+        {
+          "name": "Confirmed in May 2026 as documented",
+          "prob": 1.0
+        },
+        {
+          "name": "Confirmed via procedural maneuvering before May",
+          "prob": 0.0
+        },
+        {
+          "name": "Confirmed with a different vote margin but same outcome",
+          "prob": 0.0
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Nomination withdrawn before floor vote",
+          "prob": 0.0
+        },
+        {
+          "name": "Senate rejected the nominee",
+          "prob": 0.0
+        },
+        {
+          "name": "Nominee declined the appointment",
+          "prob": 0.0
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4389,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1500754",
+      "question": "Will Kevin Warsh be confirmed as Fed Chair?",
+      "resolution_date": "2026-10-31",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-10-24",
+      "q_post_cutoff": true,
+      "volume": 14412257.808405764,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.99,
+      "scenarios_yes": [
+        {
+          "name": "Republican Majority Supports Nomination",
+          "prob": 0.85
+        },
+        {
+          "name": "Influential Conservative Backing",
+          "prob": 0.75
+        },
+        {
+          "name": "Committee Vote in Favor",
+          "prob": 0.9
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Democratic Opposition to Policies",
+          "prob": 0.65
+        },
+        {
+          "name": "Potential Republican Defections",
+          "prob": 0.4
+        },
+        {
+          "name": "Procedural Delays or Obstruction",
+          "prob": 0.3
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2776,
+      "research_summary_length": 4389,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1391203",
+      "question": "Will Liverpool FC win on 2026-03-03?",
+      "resolution_date": "2026-03-03",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-24",
+      "q_post_cutoff": true,
+      "volume": 11995661.364783,
+      "n_wallets_traded": 8,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.46,
+      "scenarios_yes": [
+        {
+          "name": "Resilient Rotation and Early Goal",
+          "prob": 0.25
+        },
+        {
+          "name": "Opponent Defensive Errors",
+          "prob": 0.15
+        },
+        {
+          "name": "Late Substitute Goal",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Collapse due to Injuries",
+          "prob": 0.3
+        },
+        {
+          "name": "Tactical Draw / Rotation Focus",
+          "prob": 0.25
+        },
+        {
+          "name": "Fatigue-Induced Loss",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4016,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1391203",
+      "question": "Will Liverpool FC win on 2026-03-03?",
+      "resolution_date": "2026-03-03",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-24",
+      "q_post_cutoff": true,
+      "volume": 11995661.364783,
+      "n_wallets_traded": 8,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.45,
+      "scenarios_yes": [
+        {
+          "name": "Injury Concerns Mitigated",
+          "prob": 0.3
+        },
+        {
+          "name": "Strong Home Form",
+          "prob": 0.4
+        },
+        {
+          "name": "Opponent Underperformance",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Weakness Exploited",
+          "prob": 0.4
+        },
+        {
+          "name": "Midfield Dominance by Opponent",
+          "prob": 0.35
+        },
+        {
+          "name": "Fatigue Impacting Performance",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3179,
+      "research_summary_length": 4016,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1335034",
+      "question": "Will BV Borussia 09 Dortmund win on 2026-02-17?",
+      "resolution_date": "2026-02-17",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-10",
+      "q_post_cutoff": true,
+      "volume": 11617612.259371,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.42,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Home Performance",
+          "prob": 0.15
+        },
+        {
+          "name": "Clinical Counter-Attack Victory",
+          "prob": 0.15
+        },
+        {
+          "name": "Set-Piece Decider",
+          "prob": 0.12
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical Stalemate (Draw)",
+          "prob": 0.3
+        },
+        {
+          "name": "Defensive Collapse (Loss)",
+          "prob": 0.15
+        },
+        {
+          "name": "Late Equalizer (Draw)",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5140,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1335034",
+      "question": "Will BV Borussia 09 Dortmund win on 2026-02-17?",
+      "resolution_date": "2026-02-17",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-10",
+      "q_post_cutoff": true,
+      "volume": 11617612.259371,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Effective Attacking Strategy",
+          "prob": 0.35
+        },
+        {
+          "name": "Resilient Defense Against Pressing",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Mistakes Under Pressure",
+          "prob": 0.4
+        },
+        {
+          "name": "Atalanta's Tactical Discipline",
+          "prob": 0.35
+        },
+        {
+          "name": "Inability to Maintain Momentum",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3201,
+      "research_summary_length": 5140,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1209706",
+      "question": "Will Liverpool FC win on 2026-01-31?",
+      "resolution_date": "2026-01-31",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-24",
+      "q_post_cutoff": true,
+      "volume": 10673406.910317,
+      "n_wallets_traded": 8,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.44,
+      "scenarios_yes": [
+        {
+          "name": "Anfield Breakthrough",
+          "prob": 0.25
+        },
+        {
+          "name": "Newcastle Defensive Collapse",
+          "prob": 0.12
+        },
+        {
+          "name": "Tactical Correction by Slot",
+          "prob": 0.07
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High-Scoring Draw",
+          "prob": 0.22
+        },
+        {
+          "name": "Late Defensive Error Leading to Loss",
+          "prob": 0.1
+        },
+        {
+          "name": "Possession Stalemate (0-0/1-1)",
+          "prob": 0.13
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5327,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1209706",
+      "question": "Will Liverpool FC win on 2026-01-31?",
+      "resolution_date": "2026-01-31",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-24",
+      "q_post_cutoff": true,
+      "volume": 10673406.910317,
+      "n_wallets_traded": 8,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Exploiting Newcastle's Defense",
+          "prob": 0.35
+        },
+        {
+          "name": "Resilience Under Pressure",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Continuing Form Slump",
+          "prob": 0.4
+        },
+        {
+          "name": "Newcastle's Counter-Attacking Strategy",
+          "prob": 0.3
+        },
+        {
+          "name": "Fatigue Affecting Performance",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2517,
+      "research_summary_length": 5327,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1500770",
+      "question": "Will Michelle Bowman be confirmed as Fed Chair?",
+      "resolution_date": "2026-10-31",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-10-24",
+      "q_post_cutoff": true,
+      "volume": 10611543.693432987,
+      "n_wallets_traded": 10,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.01,
+      "scenarios_yes": [
+        {
+          "name": "Research brief is factually incorrect and Warsh was never confirmed",
+          "prob": 0.001
+        },
+        {
+          "name": "Warsh resigns or is removed in 2026 and Bowman is nominated and confirmed as replacement",
+          "prob": 0.005
+        },
+        {
+          "name": "Definition of 'confirmed' includes a retroactive or alternate interpretation not supported by standard reporting",
+          "prob": 0.001
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Kevin Warsh serves as Fed Chair as confirmed in May 2026",
+          "prob": 0.99
+        },
+        {
+          "name": "Bowman serves as Vice Chair for Supervision but never ascends to Chair",
+          "prob": 0.995
+        },
+        {
+          "name": "The selection process for the 2026 term concluded with Warsh, closing the window for Bowman's confirmation as Chair",
+          "prob": 0.998
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5177,
+      "research_sources_count": 7
+    },
+    {
+      "market_id": "1500770",
+      "question": "Will Michelle Bowman be confirmed as Fed Chair?",
+      "resolution_date": "2026-10-31",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-10-24",
+      "q_post_cutoff": true,
+      "volume": 10611543.693432987,
+      "n_wallets_traded": 10,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.1,
+      "scenarios_yes": [
+        {
+          "name": "Bowman's Experience and Advocacy",
+          "prob": 0.3
+        },
+        {
+          "name": "Internal Support from Administration",
+          "prob": 0.25
+        },
+        {
+          "name": "Senate Confirmation for Vice Chair Role",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Warsh's Selection Over Bowman",
+          "prob": 0.4
+        },
+        {
+          "name": "Narrow Vote on Vice Chair Nomination",
+          "prob": 0.35
+        },
+        {
+          "name": "Partisan Divide in Senate",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 1898,
+      "research_summary_length": 5177,
+      "research_sources_count": 7
+    },
+    {
+      "market_id": "1384029",
+      "question": "Will Arsenal FC win on 2026-03-01?",
+      "resolution_date": "2026-03-01",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-22",
+      "q_post_cutoff": true,
+      "volume": 10093606.974152,
+      "n_wallets_traded": 6,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.71,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Control via Set-Pieces",
+          "prob": 0.45
+        },
+        {
+          "name": "Late Winner after Chelsea Equalizer",
+          "prob": 0.25
+        },
+        {
+          "name": "Defensive Masterclass 1-0/2-1",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fatigue-Induced Draw",
+          "prob": 0.35
+        },
+        {
+          "name": "Revenge Upset by Chelsea",
+          "prob": 0.15
+        },
+        {
+          "name": "Tactical Stalemate (0-0/1-1)",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4804,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1384029",
+      "question": "Will Arsenal FC win on 2026-03-01?",
+      "resolution_date": "2026-03-01",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-22",
+      "q_post_cutoff": true,
+      "volume": 10093606.974152,
+      "n_wallets_traded": 6,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "Home Dominance Against Chelsea",
+          "prob": 0.8
+        },
+        {
+          "name": "Momentum from North London Derby Win",
+          "prob": 0.75
+        },
+        {
+          "name": "Chelsea's Inconsistency and Defensive Vulnerabilities",
+          "prob": 0.6
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fixture Congestion Leading to Fatigue",
+          "prob": 0.4
+        },
+        {
+          "name": "Chelsea's Revenge Motivation",
+          "prob": 0.35
+        },
+        {
+          "name": "Recent Draw and Concentration Issues",
+          "prob": 0.3
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 4369,
+      "research_summary_length": 4804,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1138265",
+      "question": "Will Liverpool FC win on 2026-01-21?",
+      "resolution_date": "2026-01-21",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-14",
+      "q_post_cutoff": true,
+      "volume": 9940935.873046,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.43,
+      "scenarios_yes": [
+        {
+          "name": "High-scoring away win despite defensive lapses",
+          "prob": 0.35
+        },
+        {
+          "name": "Tactical discipline leads to narrow 1-0 or 2-1 victory",
+          "prob": 0.2
+        },
+        {
+          "name": "Marseille overcommits and gets caught on counter-attack",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive injuries lead to a 2+ goal loss",
+          "prob": 0.25
+        },
+        {
+          "name": "Tactical stalemate ends in a draw",
+          "prob": 0.2
+        },
+        {
+          "name": "Marseille capitalizes on early Liverpool errors for a win",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5961,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1138265",
+      "question": "Will Liverpool FC win on 2026-01-21?",
+      "resolution_date": "2026-01-21",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-14",
+      "q_post_cutoff": true,
+      "volume": 9940935.873046,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Strong attacking performance with key players contributing",
+          "prob": 0.4
+        },
+        {
+          "name": "Defensive resilience despite recent issues",
+          "prob": 0.35
+        },
+        {
+          "name": "Psychological edge from the first-leg victory",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Marseille's home advantage and motivation to overturn the deficit",
+          "prob": 0.4
+        },
+        {
+          "name": "Liverpool's defensive vulnerabilities leading to goals conceded",
+          "prob": 0.35
+        },
+        {
+          "name": "Impact of injuries on Liverpool's lineup cohesion",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3236,
+      "research_summary_length": 5961,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1193623",
+      "question": "Will Paris Saint-Germain FC win on 2026-01-28?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 9860208.306297,
+      "n_wallets_traded": 8,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.63,
+      "scenarios_yes": [
+        {
+          "name": "PSG leverages home advantage and defensive returns to secure a narrow 1-0 or 2-1 victory",
+          "prob": 0.45
+        },
+        {
+          "name": "PSG dominates possession and scores early, neutralizing Newcastle's counter-attack threat",
+          "prob": 0.3
+        },
+        {
+          "name": "Newcastle's away form collapses completely, leading to a comfortable PSG win",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "PSG's missing midfield creativity leads to a stalemate (0-0 or 1-1 draw)",
+          "prob": 0.35
+        },
+        {
+          "name": "Newcastle executes a perfect counter-attack strategy to win 1-0 or 2-1",
+          "prob": 0.15
+        },
+        {
+          "name": "PSG struggles to break down a defensive Newcastle block and loses due to defensive error",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6063,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1193623",
+      "question": "Will Paris Saint-Germain FC win on 2026-01-28?",
+      "resolution_date": "2026-01-28",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-21",
+      "q_post_cutoff": true,
+      "volume": 9860208.306297,
+      "n_wallets_traded": 8,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.72,
+      "scenarios_yes": [
+        {
+          "name": "Home Advantage and Key Returns",
+          "prob": 0.8
+        },
+        {
+          "name": "High Motivation for Qualification",
+          "prob": 0.75
+        },
+        {
+          "name": "Newcastle's Struggles in Away Matches",
+          "prob": 0.6
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Injury Concerns Impacting Midfield",
+          "prob": 0.4
+        },
+        {
+          "name": "Counter-Attacking Threat from Newcastle",
+          "prob": 0.5
+        },
+        {
+          "name": "Newcastle's Resilience and Historical Upsets",
+          "prob": 0.3
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2902,
+      "research_summary_length": 6063,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1352590",
+      "question": "Will FC Barcelona win on 2026-02-12?",
+      "resolution_date": "2026-02-12",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-05",
+      "q_post_cutoff": true,
+      "volume": 9542375.599363,
+      "n_wallets_traded": 7,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.28,
+      "scenarios_yes": [
+        {
+          "name": "Resilient Counter-Attack Win",
+          "prob": 0.15
+        },
+        {
+          "name": "Late Goal from Bench/De Jong Return",
+          "prob": 0.08
+        },
+        {
+          "name": "Atl\u00e9tico Defensive Collapse",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical Stalemate (Draw)",
+          "prob": 0.42
+        },
+        {
+          "name": "Atl\u00e9tico Home Fortress Victory",
+          "prob": 0.33
+        },
+        {
+          "name": "Fatigue-Induced Defensive Error",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5067,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1352590",
+      "question": "Will FC Barcelona win on 2026-02-12?",
+      "resolution_date": "2026-02-12",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-05",
+      "q_post_cutoff": true,
+      "volume": 9542375.599363,
+      "n_wallets_traded": 7,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.4,
+      "scenarios_yes": [
+        {
+          "name": "Strong Performance Despite Injuries",
+          "prob": 0.35
+        },
+        {
+          "name": "Atl\u00e9tico Struggles Defensively",
+          "prob": 0.25
+        },
+        {
+          "name": "Momentum from Recent Wins",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Injuries Severely Impact Lineup",
+          "prob": 0.4
+        },
+        {
+          "name": "Atl\u00e9tico's Home Advantage and Tactical Edge",
+          "prob": 0.35
+        },
+        {
+          "name": "Fatigue Affects Performance",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3681,
+      "research_summary_length": 5067,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1358314",
+      "question": "Will Arsenal FC win on 2026-02-22?",
+      "resolution_date": "2026-02-22",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-15",
+      "q_post_cutoff": true,
+      "volume": 8645680.350651,
+      "n_wallets_traded": 7,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.58,
+      "scenarios_yes": [
+        {
+          "name": "Arsenal overcomes injury crisis with squad depth",
+          "prob": 0.45
+        },
+        {
+          "name": "Tottenham's defensive frailties lead to another high-scoring loss",
+          "prob": 0.25
+        },
+        {
+          "name": "Gritty 1-0 away win via set-piece or counter-attack",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Arsenal fails to break down deep block, resulting in a draw",
+          "prob": 0.25
+        },
+        {
+          "name": "Tottenham scores early on counter-attack and holds for a win",
+          "prob": 0.15
+        },
+        {
+          "name": "Fatigue and derby chaos lead to an Arsenal collapse",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5076,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1358314",
+      "question": "Will Arsenal FC win on 2026-02-22?",
+      "resolution_date": "2026-02-22",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-15",
+      "q_post_cutoff": true,
+      "volume": 8645680.350651,
+      "n_wallets_traded": 7,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "Superior Form and League Position",
+          "prob": 0.8
+        },
+        {
+          "name": "Recent Derby Dominance",
+          "prob": 0.75
+        },
+        {
+          "name": "Momentum from Cup Victory",
+          "prob": 0.6
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Injury Concerns",
+          "prob": 0.4
+        },
+        {
+          "name": "Fatigue and Fixture Congestion",
+          "prob": 0.35
+        },
+        {
+          "name": "Derby Volatility",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3021,
+      "research_summary_length": 5076,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1138269",
+      "question": "Will FC Barcelona win on 2026-01-21?",
+      "resolution_date": "2026-01-21",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-14",
+      "q_post_cutoff": true,
+      "volume": 8584792.035064,
+      "n_wallets_traded": 6,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.72,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Away Performance",
+          "prob": 0.45
+        },
+        {
+          "name": "Late Winner After Tight Contest",
+          "prob": 0.2
+        },
+        {
+          "name": "Tactical Counter-Attack Neutralization",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Racing Santander Upset Victory",
+          "prob": 0.15
+        },
+        {
+          "name": "Draw Leading to Penalty Loss",
+          "prob": 0.1
+        },
+        {
+          "name": "Fatigue-Induced Draw or Narrow Loss",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4878,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1138269",
+      "question": "Will FC Barcelona win on 2026-01-21?",
+      "resolution_date": "2026-01-21",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-14",
+      "q_post_cutoff": true,
+      "volume": 8584792.035064,
+      "n_wallets_traded": 6,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.8,
+      "scenarios_yes": [
+        {
+          "name": "Barcelona's Momentum Continues",
+          "prob": 0.6
+        },
+        {
+          "name": "Jo\u00e3o Cancelo Reinforces Defense",
+          "prob": 0.5
+        },
+        {
+          "name": "Depth Overcomes Absences",
+          "prob": 0.4
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Away Pressure Leads to Mistakes",
+          "prob": 0.3
+        },
+        {
+          "name": "Racing's Attack Exploits Gaps",
+          "prob": 0.4
+        },
+        {
+          "name": "Midfield Disruption Hampers Play",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2398,
+      "research_summary_length": 4878,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1363649",
+      "question": "Will Club Atl\u00e9tico de Madrid win on 2026-02-24?",
+      "resolution_date": "2026-02-24",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-17",
+      "q_post_cutoff": true,
+      "volume": 8489980.92698,
+      "n_wallets_traded": 8,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.2,
+      "scenarios_yes": [
+        {
+          "name": "Midweek La Liga home win",
+          "prob": 0.15
+        },
+        {
+          "name": "Champions League knockout victory",
+          "prob": 0.1
+        },
+        {
+          "name": "Copa del Rey match win",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "No match scheduled on the date",
+          "prob": 0.6
+        },
+        {
+          "name": "Match played but result is a loss or draw",
+          "prob": 0.25
+        },
+        {
+          "name": "Match played but team suffers unexpected defeat due to injuries",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 404,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1363649",
+      "question": "Will Club Atl\u00e9tico de Madrid win on 2026-02-24?",
+      "resolution_date": "2026-02-24",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-17",
+      "q_post_cutoff": true,
+      "volume": 8489980.92698,
+      "n_wallets_traded": 8,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Strong team form leading into the match",
+          "prob": 0.4
+        },
+        {
+          "name": "Key players are fit and in good condition",
+          "prob": 0.35
+        },
+        {
+          "name": "Playing at home with a supportive crowd",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Recent poor performance or inconsistent results",
+          "prob": 0.3
+        },
+        {
+          "name": "Injuries to key players affecting team strength",
+          "prob": 0.4
+        },
+        {
+          "name": "Facing a strong opponent with better recent form",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3436,
+      "research_summary_length": 404,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1102112",
+      "question": "Will Tottenham Hotspur FC win on 2026-01-17?",
+      "resolution_date": "2026-01-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-10",
+      "q_post_cutoff": true,
+      "volume": 8408043.507648,
+      "n_wallets_traded": 7,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.13,
+      "scenarios_yes": [
+        {
+          "name": "Early Breakthrough and Control",
+          "prob": 0.05
+        },
+        {
+          "name": "Derby Motivation Overcomes Injuries",
+          "prob": 0.04
+        },
+        {
+          "name": "West Ham Away Form Collapse",
+          "prob": 0.03
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "West Ham Counter-Attack Victory",
+          "prob": 0.35
+        },
+        {
+          "name": "Late Defensive Collapse (Loss)",
+          "prob": 0.25
+        },
+        {
+          "name": "Gritty Draw",
+          "prob": 0.3
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5927,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1102112",
+      "question": "Will Tottenham Hotspur FC win on 2026-01-17?",
+      "resolution_date": "2026-01-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-10",
+      "q_post_cutoff": true,
+      "volume": 8408043.507648,
+      "n_wallets_traded": 7,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.2,
+      "scenarios_yes": [
+        {
+          "name": "Home advantage and derby intensity",
+          "prob": 0.3
+        },
+        {
+          "name": "High-quality attacking players capitalize on chances",
+          "prob": 0.25
+        },
+        {
+          "name": "West Ham's defensive vulnerabilities exploited",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Severe injury crisis affecting team performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Poor home form trend continuing",
+          "prob": 0.35
+        },
+        {
+          "name": "Defensive instability leading to goals against",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3240,
+      "research_summary_length": 5927,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1111915",
+      "question": "Will Aston Villa FC win on 2026-01-18?",
+      "resolution_date": "2026-01-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-11",
+      "q_post_cutoff": true,
+      "volume": 8195506.559319,
+      "n_wallets_traded": 10,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.58,
+      "scenarios_yes": [
+        {
+          "name": "Villa overcomes injury crisis with early goal",
+          "prob": 0.35
+        },
+        {
+          "name": "Defensive grind leads to narrow 1-0 or 2-1 win",
+          "prob": 0.2
+        },
+        {
+          "name": "Everton collapses under pressure",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Villa fails to convert chances resulting in a draw",
+          "prob": 0.25
+        },
+        {
+          "name": "Everton scores via set-piece and holds on",
+          "prob": 0.1
+        },
+        {
+          "name": "Midfield control lost leading to Villa loss",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5157,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1111915",
+      "question": "Will Aston Villa FC win on 2026-01-18?",
+      "resolution_date": "2026-01-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-11",
+      "q_post_cutoff": true,
+      "volume": 8195506.559319,
+      "n_wallets_traded": 10,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Home Advantage",
+          "prob": 0.7
+        },
+        {
+          "name": "Defensive Solidity",
+          "prob": 0.65
+        },
+        {
+          "name": "Betting Market Confidence",
+          "prob": 0.6
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Injury Crisis",
+          "prob": 0.5
+        },
+        {
+          "name": "Recent Lack of Goals",
+          "prob": 0.45
+        },
+        {
+          "name": "Everton's Resilience",
+          "prob": 0.4
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2306,
+      "research_summary_length": 5157,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1509243",
+      "question": "Will Liverpool FC win on 2026-03-18?",
+      "resolution_date": "2026-03-18",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-03-11",
+      "q_post_cutoff": true,
+      "volume": 8167338.320957994,
+      "n_wallets_traded": 7,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.5,
+      "scenarios_yes": [],
+      "scenarios_no": [],
+      "parse_failed": true,
+      "thinking_length": 0,
+      "research_summary_length": 5771,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1509243",
+      "question": "Will Liverpool FC win on 2026-03-18?",
+      "resolution_date": "2026-03-18",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-03-11",
+      "q_post_cutoff": true,
+      "volume": 8167338.320957994,
+      "n_wallets_traded": 7,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.38,
+      "scenarios_yes": [
+        {
+          "name": "Early Goal and Multiple Scores",
+          "prob": 0.3
+        },
+        {
+          "name": "Galatasaray Falters Under Pressure",
+          "prob": 0.25
+        },
+        {
+          "name": "Liverpool's Resilience and Comeback History",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Weakness Exploited",
+          "prob": 0.35
+        },
+        {
+          "name": "Pressure Causes Mistakes",
+          "prob": 0.3
+        },
+        {
+          "name": "Galatasaray's Defensive Strategy Succeeds",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3534,
+      "research_summary_length": 5771,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "842006",
+      "question": "Will Austria win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 8108124.935098929,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.17,
+      "scenarios_yes": [
+        {
+          "name": "Home Crowd Overwhelm",
+          "prob": 0.15
+        },
+        {
+          "name": "Jury-Televote Perfect Split",
+          "prob": 0.12
+        },
+        {
+          "name": "Favorite Collapse",
+          "prob": 0.08
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Israel Dominates Public Vote",
+          "prob": 0.35
+        },
+        {
+          "name": "Strong Regional Blocs (Greece/Finland)",
+          "prob": 0.25
+        },
+        {
+          "name": "New Song Fails to Connect Internationally",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5217,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "842006",
+      "question": "Will Austria win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 8108124.935098929,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.15,
+      "scenarios_yes": [
+        {
+          "name": "Home Advantage",
+          "prob": 0.35
+        },
+        {
+          "name": "Strong Recent History",
+          "prob": 0.25
+        },
+        {
+          "name": "Momentum from 2025 Win",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Strong International Competition",
+          "prob": 0.3
+        },
+        {
+          "name": "New Entry Uncertainty",
+          "prob": 0.25
+        },
+        {
+          "name": "Political and Voting Dynamics",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 1938,
+      "research_summary_length": 5217,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1112525",
+      "question": "Will FC Barcelona win on 2026-01-18?",
+      "resolution_date": "2026-01-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-11",
+      "q_post_cutoff": true,
+      "volume": 7976026.758481,
+      "n_wallets_traded": 12,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.58,
+      "scenarios_yes": [
+        {
+          "name": "Squad Depth Overcomes Injuries",
+          "prob": 0.45
+        },
+        {
+          "name": "Tactical Adjustment Secures Control",
+          "prob": 0.35
+        },
+        {
+          "name": "Individual Brilliance from Bench",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Midfield Void Exploited by Sociedad",
+          "prob": 0.3
+        },
+        {
+          "name": "Stalemate Due to Lack of Cutting Edge",
+          "prob": 0.35
+        },
+        {
+          "name": "Counter-Attack Defeat",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5065,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1112525",
+      "question": "Will FC Barcelona win on 2026-01-18?",
+      "resolution_date": "2026-01-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-11",
+      "q_post_cutoff": true,
+      "volume": 7976026.758481,
+      "n_wallets_traded": 12,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Barcelona's offensive depth compensates for Raphinha's absence",
+          "prob": 0.75
+        },
+        {
+          "name": "Historical dominance in head-to-head matches",
+          "prob": 0.6
+        },
+        {
+          "name": "Momentum from recent victories against top teams",
+          "prob": 0.5
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Injury to key midfielder Pedri disrupts midfield control",
+          "prob": 0.8
+        },
+        {
+          "name": "Barcelona's vulnerability in away matches against mid-table teams",
+          "prob": 0.7
+        },
+        {
+          "name": "Real Sociedad's home resilience and tactical discipline",
+          "prob": 0.6
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3634,
+      "research_summary_length": 5065,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1130345",
+      "question": "Will Paris Saint-Germain FC win on 2026-01-20?",
+      "resolution_date": "2026-01-20",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-13",
+      "q_post_cutoff": true,
+      "volume": 7769518.680133,
+      "n_wallets_traded": 12,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.48,
+      "scenarios_yes": [
+        {
+          "name": "PSG exploits Sporting's depleted defense",
+          "prob": 0.45
+        },
+        {
+          "name": "PSG scores early and manages the game",
+          "prob": 0.4
+        },
+        {
+          "name": "Individual brilliance from PSG attackers breaks the deadlock",
+          "prob": 0.35
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Sporting's home advantage neutralizes PSG leading to a draw",
+          "prob": 0.3
+        },
+        {
+          "name": "PSG's defensive vulnerabilities lead to a narrow loss",
+          "prob": 0.25
+        },
+        {
+          "name": "PSG rotation due to fatigue results in a stalemate or loss",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6160,
+      "research_sources_count": 8
+    },
+    {
+      "market_id": "1130345",
+      "question": "Will Paris Saint-Germain FC win on 2026-01-20?",
+      "resolution_date": "2026-01-20",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-13",
+      "q_post_cutoff": true,
+      "volume": 7769518.680133,
+      "n_wallets_traded": 12,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "PSG's squad depth and quality dominate",
+          "prob": 0.4
+        },
+        {
+          "name": "PSG capitalizes on Sporting's injury crisis",
+          "prob": 0.35
+        },
+        {
+          "name": "PSG's away form in Champions League continues",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Sporting's home advantage proves decisive",
+          "prob": 0.35
+        },
+        {
+          "name": "Historical Sporting-PSG matchups favor the host",
+          "prob": 0.25
+        },
+        {
+          "name": "PSG struggles defensively against a motivated Sporting",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2504,
+      "research_summary_length": 6160,
+      "research_sources_count": 8
+    },
+    {
+      "market_id": "1335027",
+      "question": "Will Real Madrid CF win on 2026-02-17?",
+      "resolution_date": "2026-02-17",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-10",
+      "q_post_cutoff": true,
+      "volume": 7735685.327279,
+      "n_wallets_traded": 8,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.42,
+      "scenarios_yes": [
+        {
+          "name": "Redemption Counter-Attack",
+          "prob": 0.15,
+          "description": "Real Madrid adopts a defensive counter-attacking strategy, capitalizes on Benfica's high line, and scores 2-1 or 3-2, utilizing the return of Camavinga to control the midfield tempo."
+        },
+        {
+          "name": "Defensive Masterclass",
+          "prob": 0.1,
+          "description": "Despite missing key defenders, the remaining squad organizes a perfect defensive block, stifles Benfica's attack, and scores a single goal from a set-piece or individual brilliance."
+        },
+        {
+          "name": "Benfica Collapse",
+          "prob": 0.08,
+          "description": "Benfica, riding high on recent success, becomes complacent or suffers a tactical error, allowing Real Madrid to exploit gaps and secure a narrow victory."
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Breakdown",
+          "prob": 0.25,
+          "description": "Real Madrid's depleted defense (missing Milit\u00e3o, Mendy) is exposed by Benfica's attack, leading to a repeat of the 4-2 scoreline or a similar heavy defeat."
+        },
+        {
+          "name": "Stalemate",
+          "prob": 0.2,
+          "description": "Real Madrid plays cautiously away from home, managing to hold Benfica to a draw (e.g., 1-1 or 0-0), which resolves as a 'NO' for the 'Win' question."
+        },
+        {
+          "name": "Midfield Dominance by Benfica",
+          "prob": 0.15,
+          "description": "Without Bellingham, Real Madrid loses control of the midfield. Benfica dictates the pace, scores early, and forces Real Madrid to chase the game, leading to a loss."
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5397,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1335027",
+      "question": "Will Real Madrid CF win on 2026-02-17?",
+      "resolution_date": "2026-02-17",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-10",
+      "q_post_cutoff": true,
+      "volume": 7735685.327279,
+      "n_wallets_traded": 8,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.4,
+      "scenarios_yes": [
+        {
+          "name": "Camavinga's Impact",
+          "prob": 0.3
+        },
+        {
+          "name": "Benfica Overconfidence",
+          "prob": 0.25
+        },
+        {
+          "name": "Redemption Motivation",
+          "prob": 0.4
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Injury Impact",
+          "prob": 0.6
+        },
+        {
+          "name": "Benfica's Tactical Superiority",
+          "prob": 0.5
+        },
+        {
+          "name": "Away Pressure",
+          "prob": 0.45
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 4329,
+      "research_summary_length": 5397,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1111919",
+      "question": "Will Stade Rennais FC 1901 win on 2026-01-18?",
+      "resolution_date": "2026-01-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-11",
+      "q_post_cutoff": true,
+      "volume": 6995887.520583,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.48,
+      "scenarios_yes": [
+        {
+          "name": "Motivated Breakthrough",
+          "prob": 0.25
+        },
+        {
+          "name": "Home Fortress Late Winner",
+          "prob": 0.15
+        },
+        {
+          "name": "Le Havre Defensive Collapse",
+          "prob": 0.08
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical Stalemate (Draw)",
+          "prob": 0.38
+        },
+        {
+          "name": "Le Havre Counter-Attack Win",
+          "prob": 0.14
+        },
+        {
+          "name": "Rennes Defensive Error",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5387,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1111919",
+      "question": "Will Stade Rennais FC 1901 win on 2026-01-18?",
+      "resolution_date": "2026-01-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-11",
+      "q_post_cutoff": true,
+      "volume": 6995887.520583,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Home advantage and Le Havre's poor away form",
+          "prob": 0.4
+        },
+        {
+          "name": "Stronger attack outperforming defense",
+          "prob": 0.35
+        },
+        {
+          "name": "Motivation to climb the table",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Recent draw indicating tactical stalemate",
+          "prob": 0.4
+        },
+        {
+          "name": "Le Havre's high draw rate away",
+          "prob": 0.3
+        },
+        {
+          "name": "Rennes' inconsistency and fatigue",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3093,
+      "research_summary_length": 5387,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1354427",
+      "question": "Will Manchester City FC win on 2026-02-21?",
+      "resolution_date": "2026-02-21",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-14",
+      "q_post_cutoff": true,
+      "volume": 6779393.630582,
+      "n_wallets_traded": 7,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.68,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Home Control",
+          "prob": 0.45
+        },
+        {
+          "name": "Resilient Second-Half Comeback",
+          "prob": 0.15
+        },
+        {
+          "name": "Tactical Neutralization of Counter-Attack",
+          "prob": 0.08
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Frustration Draw",
+          "prob": 0.18
+        },
+        {
+          "name": "Fatigue-Induced Loss",
+          "prob": 0.06
+        },
+        {
+          "name": "Early Goal Conceded & Collapse",
+          "prob": 0.04
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5268,
+      "research_sources_count": 9
+    },
+    {
+      "market_id": "1354427",
+      "question": "Will Manchester City FC win on 2026-02-21?",
+      "resolution_date": "2026-02-21",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-14",
+      "q_post_cutoff": true,
+      "volume": 6779393.630582,
+      "n_wallets_traded": 7,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.75,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.8
+        },
+        {
+          "name": "Newcastle Struggles Against Top Teams",
+          "prob": 0.7
+        },
+        {
+          "name": "Pep Guardiola's Tactical Adjustments",
+          "prob": 0.6
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Mistakes Leading to a Goal",
+          "prob": 0.5
+        },
+        {
+          "name": "Newcastle's Resilient Defense",
+          "prob": 0.4
+        },
+        {
+          "name": "Fatigue Impacting Performance",
+          "prob": 0.3
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2210,
+      "research_summary_length": 5268,
+      "research_sources_count": 9
+    },
+    {
+      "market_id": "842009",
+      "question": "Will Bulgaria win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 6729770.157830087,
+      "n_wallets_traded": 11,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.12,
+      "scenarios_yes": [
+        {
+          "name": "Televote Landslide",
+          "prob": 0.06
+        },
+        {
+          "name": "Balanced Jury/Televote Performance",
+          "prob": 0.04
+        },
+        {
+          "name": "Collapse of Traditional Favorites",
+          "prob": 0.03
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Runner-Up Finish (2nd/3rd Place)",
+          "prob": 0.25
+        },
+        {
+          "name": "Mid-Table Finish due to Score Split",
+          "prob": 0.3
+        },
+        {
+          "name": "Strong Field Dominance by Favorites",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5630,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "842009",
+      "question": "Will Bulgaria win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 6729770.157830087,
+      "n_wallets_traded": 11,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.05,
+      "scenarios_yes": [
+        {
+          "name": "Song resonates widely with audiences",
+          "prob": 0.3
+        },
+        {
+          "name": "Exceptional live performance by DARA",
+          "prob": 0.25
+        },
+        {
+          "name": "Favorable jury and televote alignment",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Song underperforms in public votes",
+          "prob": 0.35
+        },
+        {
+          "name": "Strong competition from other countries",
+          "prob": 0.3
+        },
+        {
+          "name": "Voting bloc dynamics favor others",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2482,
+      "research_summary_length": 5630,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "842015",
+      "question": "Will Finland win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 6594936.095275031,
+      "n_wallets_traded": 12,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.29,
+      "scenarios_yes": [
+        {
+          "name": "Televote Dominance Overcomes Jury Split",
+          "prob": 0.15
+        },
+        {
+          "name": "Balanced High Scores from Juries and Public",
+          "prob": 0.1
+        },
+        {
+          "name": "Competitor Collapse Allows Default Win",
+          "prob": 0.04
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Jury Block Limits Total Points",
+          "prob": 0.25
+        },
+        {
+          "name": "Public Vote Fragmentation Among Top Contenders",
+          "prob": 0.2
+        },
+        {
+          "name": "Anti-Favorite Backlash and Surprise Winner",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5670,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "842015",
+      "question": "Will Finland win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 6594936.095275031,
+      "n_wallets_traded": 12,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.45,
+      "scenarios_yes": [
+        {
+          "name": "Strong Bookmaker Support",
+          "prob": 0.31
+        },
+        {
+          "name": "High Public Engagement in Finland",
+          "prob": 0.25
+        },
+        {
+          "name": "Momentum from Previous Year's Performance",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Potential Jury/Public Split",
+          "prob": 0.15
+        },
+        {
+          "name": "Strong International Competition",
+          "prob": 0.18
+        },
+        {
+          "name": "Risk of Favorite's Curse",
+          "prob": 0.12
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3298,
+      "research_summary_length": 5670,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1157310",
+      "question": "Will Liverpool FC win on 2026-01-24?",
+      "resolution_date": "2026-01-24",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-17",
+      "q_post_cutoff": true,
+      "volume": 6555920.232116,
+      "n_wallets_traded": 7,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.42,
+      "scenarios_yes": [
+        {
+          "name": "Breakout Performance",
+          "prob": 0.35
+        },
+        {
+          "name": "Individual Brilliance",
+          "prob": 0.25
+        },
+        {
+          "name": "Bournemouth Collapse",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Draw Pattern Continues",
+          "prob": 0.45
+        },
+        {
+          "name": "Home Advantage Prevails",
+          "prob": 0.2
+        },
+        {
+          "name": "Defensive Fragility Exploited",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4961,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1157310",
+      "question": "Will Liverpool FC win on 2026-01-24?",
+      "resolution_date": "2026-01-24",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-17",
+      "q_post_cutoff": true,
+      "volume": 6555920.232116,
+      "n_wallets_traded": 7,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Historical Dominance",
+          "prob": 0.82
+        },
+        {
+          "name": "Away Form Resilience",
+          "prob": 0.7
+        },
+        {
+          "name": "Motivation to Correct Course",
+          "prob": 0.6
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Vulnerabilities",
+          "prob": 0.4
+        },
+        {
+          "name": "Current Form Slump",
+          "prob": 0.5
+        },
+        {
+          "name": "Bournemouth's Home Advantage",
+          "prob": 0.7
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2857,
+      "research_summary_length": 4961,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1370420",
+      "question": "Will Real Madrid CF win on 2026-02-25?",
+      "resolution_date": "2026-02-25",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-18",
+      "q_post_cutoff": true,
+      "volume": 6301354.287728,
+      "n_wallets_traded": 10,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.73,
+      "scenarios_yes": [
+        {
+          "name": "Real Madrid wins the second leg comfortably",
+          "prob": 0.45
+        },
+        {
+          "name": "Match ends in a draw, Real Madrid wins in extra time or penalties",
+          "prob": 0.2
+        },
+        {
+          "name": "Real Madrid loses 1-0 but wins in extra time or penalties",
+          "prob": 0.08
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Benfica wins 2-0 or more on the night",
+          "prob": 0.05
+        },
+        {
+          "name": "Match ends in a draw, Real Madrid loses in extra time or penalties",
+          "prob": 0.15
+        },
+        {
+          "name": "Real Madrid loses 1-0 and loses in extra time or penalties",
+          "prob": 0.12
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5007,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1370420",
+      "question": "Will Real Madrid CF win on 2026-02-25?",
+      "resolution_date": "2026-02-25",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-18",
+      "q_post_cutoff": true,
+      "volume": 6301354.287728,
+      "n_wallets_traded": 10,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.75,
+      "scenarios_yes": [
+        {
+          "name": "Aggregate Lead and Home Advantage",
+          "prob": 0.8
+        },
+        {
+          "name": "Strong Recent Form in La Liga",
+          "prob": 0.75
+        },
+        {
+          "name": "Resilient Tactical Management by Coach Arbeloa",
+          "prob": 0.65
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Key Injuries Including Jude Bellingham",
+          "prob": 0.7
+        },
+        {
+          "name": "Defensive Vulnerabilities Exploited by Benfica",
+          "prob": 0.65
+        },
+        {
+          "name": "High Motivation and Aggressive Play from Benfica",
+          "prob": 0.6
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2986,
+      "research_summary_length": 5007,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1209703",
+      "question": "Will Chelsea FC win on 2026-01-31?",
+      "resolution_date": "2026-01-31",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-24",
+      "q_post_cutoff": true,
+      "volume": 6112737.801484,
+      "n_wallets_traded": 10,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.64,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Home Performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Narrow Victory via Resilience",
+          "prob": 0.25
+        },
+        {
+          "name": "Palmer Impact Secures Win",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Collapse Leads to Draw/Loss",
+          "prob": 0.2
+        },
+        {
+          "name": "Palmer Absence Stifles Attack",
+          "prob": 0.15
+        },
+        {
+          "name": "West Ham Relegation Fight Upset",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4830,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1209703",
+      "question": "Will Chelsea FC win on 2026-01-31?",
+      "resolution_date": "2026-01-31",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-24",
+      "q_post_cutoff": true,
+      "volume": 6112737.801484,
+      "n_wallets_traded": 10,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.85
+        },
+        {
+          "name": "Recent Form Under Rosenior",
+          "prob": 0.75
+        },
+        {
+          "name": "Attacking Firepower",
+          "prob": 0.65
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "West Ham's Resilience",
+          "prob": 0.45
+        },
+        {
+          "name": "Chelsea's Injury Crisis",
+          "prob": 0.35
+        },
+        {
+          "name": "Inconsistency in Performance",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2131,
+      "research_summary_length": 4830,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "842028",
+      "question": "Will Norway win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 6091905.863410967,
+      "n_wallets_traded": 24,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.018,
+      "scenarios_yes": [
+        {
+          "name": "Viral Live Performance Surge",
+          "prob": 0.015
+        },
+        {
+          "name": "Favorites Collapse/Stumble",
+          "prob": 0.008
+        },
+        {
+          "name": "Perfect Nordic Bloc Consolidation",
+          "prob": 0.005
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Expected Mid-Table Finish (Top 10-15)",
+          "prob": 0.65
+        },
+        {
+          "name": "Historical Volatility: Bottom-Table Finish",
+          "prob": 0.25
+        },
+        {
+          "name": "Favorites Dominate Flawlessly",
+          "prob": 0.08
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5468,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "842028",
+      "question": "Will Norway win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 6091905.863410967,
+      "n_wallets_traded": 24,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.04,
+      "scenarios_yes": [
+        {
+          "name": "Strong Regional Support",
+          "prob": 0.3
+        },
+        {
+          "name": "Exceptional Song Appeal",
+          "prob": 0.25
+        },
+        {
+          "name": "Unexpected Global Buzz",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Highly Competitive Field",
+          "prob": 0.4
+        },
+        {
+          "name": "Low Pre-Contest Momentum",
+          "prob": 0.35
+        },
+        {
+          "name": "Historical Volatility and Poor Odds",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2538,
+      "research_summary_length": 5468,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1275259",
+      "question": "Will Paris Saint-Germain FC win on 2026-02-08?",
+      "resolution_date": "2026-02-08",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-01",
+      "q_post_cutoff": true,
+      "volume": 5937648.636832,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.48,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Home Performance",
+          "prob": 0.25
+        },
+        {
+          "name": "Resilient Late Winner",
+          "prob": 0.15
+        },
+        {
+          "name": "Narrow Tactical Victory",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High-Intensity Draw",
+          "prob": 0.3
+        },
+        {
+          "name": "Defensive Collapse Loss",
+          "prob": 0.15
+        },
+        {
+          "name": "Fatigue-Induced Loss",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4821,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1275259",
+      "question": "Will Paris Saint-Germain FC win on 2026-02-08?",
+      "resolution_date": "2026-02-08",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-01",
+      "q_post_cutoff": true,
+      "volume": 5937648.636832,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Momentum Carries Over",
+          "prob": 0.35
+        },
+        {
+          "name": "Key Players Return",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Le Classique Unpredictability",
+          "prob": 0.4
+        },
+        {
+          "name": "Defensive Weakness Exploited",
+          "prob": 0.3
+        },
+        {
+          "name": "Fatigue Affects Performance",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 4158,
+      "research_summary_length": 4821,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1138286",
+      "question": "Will Juventus FC win on 2026-01-21?",
+      "resolution_date": "2026-01-21",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-14",
+      "q_post_cutoff": true,
+      "volume": 5858725.689235,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.62,
+      "scenarios_yes": [
+        {
+          "name": "Juventus capitalizes on Benfica fatigue and scores early",
+          "prob": 0.35
+        },
+        {
+          "name": "High-scoring affair where Juventus offense outpaces defense",
+          "prob": 0.25
+        },
+        {
+          "name": "Juventus tightens defense and secures narrow 1-0 or 2-1 win",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Both defenses fail leading to a high-scoring draw",
+          "prob": 0.3
+        },
+        {
+          "name": "Benfica exploits Juventus defensive lapses for a win",
+          "prob": 0.2
+        },
+        {
+          "name": "Juventus fails to score and loses on a counter-attack",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5894,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1138286",
+      "question": "Will Juventus FC win on 2026-01-21?",
+      "resolution_date": "2026-01-21",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-14",
+      "q_post_cutoff": true,
+      "volume": 5858725.689235,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Benfica Fatigue",
+          "prob": 0.3
+        },
+        {
+          "name": "Tactical Superiority",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Mistakes",
+          "prob": 0.4
+        },
+        {
+          "name": "Champions League Volatility",
+          "prob": 0.35
+        },
+        {
+          "name": "Benfica's Quality Shines Through",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3578,
+      "research_summary_length": 5894,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1273937",
+      "question": "Will the US next strike Iran on February 28, 2026 (ET)?",
+      "resolution_date": "2026-02-28",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-21",
+      "q_post_cutoff": true,
+      "volume": 5837356.570176992,
+      "n_wallets_traded": 8,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.78,
+      "scenarios_yes": [
+        {
+          "name": "Planned Joint Operation Execution",
+          "prob": 0.65
+        },
+        {
+          "name": "Accelerated Strike Due to New Provocation",
+          "prob": 0.15
+        },
+        {
+          "name": "Political Mandate to Enforce Ultimatum",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Last-Minute Diplomatic Concession",
+          "prob": 0.12
+        },
+        {
+          "name": "Strategic Delay or Shift to Non-Kinetic Options",
+          "prob": 0.08
+        },
+        {
+          "name": "Internal Government Block or Legal Halt",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4983,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1273937",
+      "question": "Will the US next strike Iran on February 28, 2026 (ET)?",
+      "resolution_date": "2026-02-28",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-21",
+      "q_post_cutoff": true,
+      "volume": 5837356.570176992,
+      "n_wallets_traded": 8,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.78,
+      "scenarios_yes": [
+        {
+          "name": "Failed Diplomatic Deadline",
+          "prob": 0.85
+        },
+        {
+          "name": "Explicit Coordination with Israel",
+          "prob": 0.75
+        },
+        {
+          "name": "Escalating Rhetoric and Military Posturing",
+          "prob": 0.65
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Last-Minute Diplomatic Efforts",
+          "prob": 0.4
+        },
+        {
+          "name": "Domestic Political Constraints",
+          "prob": 0.3
+        },
+        {
+          "name": "Uncertainty in Military Coordination",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2817,
+      "research_summary_length": 4983,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "842010",
+      "question": "Will Croatia win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 5653065.611972025,
+      "n_wallets_traded": 14,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Universal Resonance: Lelek's folk-pop fusion breaks out globally, securing top-tier jury scores and a massive televote, repeating the 2024 success but with jury balance.",
+          "prob": 0.15
+        },
+        {
+          "name": "Field Fragmentation: Major favorites (Italy, Sweden, Austria) underperform or release weak entries, leaving Croatia as the clear consensus choice for both juries and public.",
+          "prob": 0.1
+        },
+        {
+          "name": "The 'Perfect Storm' Performance: A flawless stage performance in Vienna creates a viral moment that transcends language barriers, securing the win by a narrow margin.",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "The 2024 Repeat: Lelek dominates the televote but fails to impress juries due to the folk style, resulting in a 2nd or 3rd place finish.",
+          "prob": 0.25
+        },
+        {
+          "name": "Big 5/Host Dominance: Italy, Sweden, or the host Austria releases a superior, balanced entry that sweeps the points, pushing Croatia to Top 5.",
+          "prob": 0.3
+        },
+        {
+          "name": "Regional Ceiling: The song fails to connect with non-regional voters (Northern/Western Europe), capping the total points and resulting in a Top 10 finish.",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6096,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "842010",
+      "question": "Will Croatia win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 5653065.611972025,
+      "n_wallets_traded": 14,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Strong Jury Appeal",
+          "prob": 0.3
+        },
+        {
+          "name": "Regional Voting Boost",
+          "prob": 0.25
+        },
+        {
+          "name": "Balanced Public and Jury Support",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Weak Jury Scores Despite Strong Televote",
+          "prob": 0.35
+        },
+        {
+          "name": "Competition from Favorites Like Italy or Sweden",
+          "prob": 0.3
+        },
+        {
+          "name": "Regional Voting Ceiling Limits Points",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2239,
+      "research_summary_length": 6096,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1311959",
+      "question": "Will Club Atl\u00e9tico de Madrid win on 2026-02-14?",
+      "resolution_date": "2026-02-14",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-07",
+      "q_post_cutoff": true,
+      "volume": 5437076.308053,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.54,
+      "scenarios_yes": [
+        {
+          "name": "Home fixture against mid-table opposition",
+          "prob": 0.75
+        },
+        {
+          "name": "Home fixture against top-tier opposition",
+          "prob": 0.45
+        },
+        {
+          "name": "Away fixture against bottom-tier opposition",
+          "prob": 0.35
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Away fixture against mid-table or top-tier opposition",
+          "prob": 0.7
+        },
+        {
+          "name": "Home fixture resulting in a draw due to top-tier opponent",
+          "prob": 0.4
+        },
+        {
+          "name": "Away fixture resulting in a draw against defensive opposition",
+          "prob": 0.5
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4000,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1311959",
+      "question": "Will Club Atl\u00e9tico de Madrid win on 2026-02-14?",
+      "resolution_date": "2026-02-14",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-07",
+      "q_post_cutoff": true,
+      "volume": 5437076.308053,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.75,
+      "scenarios_yes": [
+        {
+          "name": "Home Advantage",
+          "prob": 0.8
+        },
+        {
+          "name": "Strong Recent Form",
+          "prob": 0.7
+        },
+        {
+          "name": "Motivation for European Qualification",
+          "prob": 0.65
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Away Struggles",
+          "prob": 0.32
+        },
+        {
+          "name": "Inconsistency Against Top Teams",
+          "prob": 0.4
+        },
+        {
+          "name": "Fixture Congestion and Fatigue",
+          "prob": 0.35
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2643,
+      "research_summary_length": 4000,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "842008",
+      "question": "Will Belgium win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 5420855.065119036,
+      "n_wallets_traded": 17,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.045,
+      "scenarios_yes": [
+        {
+          "name": "The Viral Public Vote Upset",
+          "prob": 0.02
+        },
+        {
+          "name": "The Balanced Perfect Score",
+          "prob": 0.015
+        },
+        {
+          "name": "Favorite Collapse",
+          "prob": 0.01
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Sweden Maintains Favorite Status",
+          "prob": 0.65
+        },
+        {
+          "name": "Jury/Public Vote Split Limits Belgium",
+          "prob": 0.2
+        },
+        {
+          "name": "Regional Voting Blocs Cap Belgium's Score",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5550,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "842008",
+      "question": "Will Belgium win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 5420855.065119036,
+      "n_wallets_traded": 17,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Strong Fan Support and Buzz",
+          "prob": 0.35
+        },
+        {
+          "name": "Historical Precedent of Surprise Winners",
+          "prob": 0.25
+        },
+        {
+          "name": "Rest of the World Vote Boost",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fierce Competition from Favorites (e.g., Sweden)",
+          "prob": 0.4
+        },
+        {
+          "name": "Low Base Rate of Winning for Belgium",
+          "prob": 0.35
+        },
+        {
+          "name": "Jury vs. Public Vote Split",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 1559,
+      "research_summary_length": 5550,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "842020",
+      "question": "Will Israel win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 5354730.222391996,
+      "n_wallets_traded": 11,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.025,
+      "scenarios_yes": [
+        {
+          "name": "Unprecedented Televote Surge",
+          "prob": 0.02
+        },
+        {
+          "name": "Jury Reversal and Balanced Scores",
+          "prob": 0.01
+        },
+        {
+          "name": "Competitor Collapse",
+          "prob": 0.015
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High Televote but Low Jury (Top 5 Finish)",
+          "prob": 0.4
+        },
+        {
+          "name": "Strong Favorite Victory (Finland/Greece)",
+          "prob": 0.35
+        },
+        {
+          "name": "Significant Backlash and Low Scores",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6742,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "842020",
+      "question": "Will Israel win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 5354730.222391996,
+      "n_wallets_traded": 11,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.15,
+      "scenarios_yes": [
+        {
+          "name": "Strong Televote Mobilization",
+          "prob": 0.3
+        },
+        {
+          "name": "Regional Support Surges",
+          "prob": 0.25
+        },
+        {
+          "name": "Song's Emotional Impact",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Geopolitical Boycotts Reduce Votes",
+          "prob": 0.4
+        },
+        {
+          "name": "Jury Scores are Low",
+          "prob": 0.35
+        },
+        {
+          "name": "Strong Competitors Outperform",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3128,
+      "research_summary_length": 6742,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1373941",
+      "question": "Will Nottingham Forest FC win on 2026-02-26?",
+      "resolution_date": "2026-02-26",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-19",
+      "q_post_cutoff": true,
+      "volume": 5140584.586505,
+      "n_wallets_traded": 6,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.22,
+      "scenarios_yes": [
+        {
+          "name": "Igor Jesus Clinical Finish",
+          "prob": 0.15
+        },
+        {
+          "name": "New Manager Tactical Masterclass",
+          "prob": 0.08
+        },
+        {
+          "name": "Fenerbah\u00e7e Self-Destructs",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fenerbah\u00e7e Home Dominance",
+          "prob": 0.45
+        },
+        {
+          "name": "High-Scoring Draw",
+          "prob": 0.3
+        },
+        {
+          "name": "Forest Defensive Collapse (Red Card/Injuries)",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5579,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1373941",
+      "question": "Will Nottingham Forest FC win on 2026-02-26?",
+      "resolution_date": "2026-02-26",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-19",
+      "q_post_cutoff": true,
+      "volume": 5140584.586505,
+      "n_wallets_traded": 6,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.2,
+      "scenarios_yes": [
+        {
+          "name": "Igor Jesus scores a decisive goal",
+          "prob": 0.35
+        },
+        {
+          "name": "Defensive resilience under new management",
+          "prob": 0.25
+        },
+        {
+          "name": "Fenerbah\u00e7e's home advantage is neutralized",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Managerial instability leads to tactical disarray",
+          "prob": 0.4
+        },
+        {
+          "name": "Key injuries severely impact performance",
+          "prob": 0.35
+        },
+        {
+          "name": "Hostile atmosphere and Fenerbah\u00e7e's form prove decisive",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3710,
+      "research_summary_length": 5579,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "969422",
+      "question": "Will Liverpool FC win on 2026-01-01?",
+      "resolution_date": "2026-01-01",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2025-12-25",
+      "q_post_cutoff": true,
+      "volume": 5120126.367763,
+      "n_wallets_traded": 11,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.24,
+      "scenarios_yes": [
+        {
+          "name": "Fixture remains on Jan 1 and Liverpool wins at home",
+          "prob": 0.25
+        },
+        {
+          "name": "Fixture remains on Jan 1 and Liverpool wins away",
+          "prob": 0.15
+        },
+        {
+          "name": "A cup match is scheduled for Jan 1 and Liverpool wins",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Premier League fixture is rescheduled to a later date",
+          "prob": 0.55
+        },
+        {
+          "name": "Match occurs on Jan 1 but ends in a draw",
+          "prob": 0.2
+        },
+        {
+          "name": "Match occurs on Jan 1 and Liverpool loses",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 3783,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "969422",
+      "question": "Will Liverpool FC win on 2026-01-01?",
+      "resolution_date": "2026-01-01",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2025-12-25",
+      "q_post_cutoff": true,
+      "volume": 5120126.367763,
+      "n_wallets_traded": 11,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.45,
+      "scenarios_yes": [
+        {
+          "name": "Fixture Confirmed and Favorable Opponent",
+          "prob": 0.3
+        },
+        {
+          "name": "Strong Team Performance Despite Fatigue",
+          "prob": 0.25
+        },
+        {
+          "name": "Resilient Defense Against Top Teams",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fixture Rescheduled or Canceled",
+          "prob": 0.4
+        },
+        {
+          "name": "Defensive Vulnerabilities Exploited",
+          "prob": 0.35
+        },
+        {
+          "name": "Fatigue Leading to Poor Performance",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2059,
+      "research_summary_length": 3783,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "842021",
+      "question": "Will Italy win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 4904250.646841986,
+      "n_wallets_traded": 35,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.065,
+      "scenarios_yes": [
+        {
+          "name": "Global Viral Hit: Sanremo winner releases a high-energy track that dominates global streaming and splits the vote among favorites.",
+          "prob": 0.04
+        },
+        {
+          "name": "Bloc Dominance: A mid-tempo song maximizes Southern European voting blocs while the host and other favorites underperform.",
+          "prob": 0.03
+        },
+        {
+          "name": "Rest of the World Surge: The entry gains massive non-European popularity, securing the crucial 'Rest of the World' points to edge out the favorites.",
+          "prob": 0.02
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Sanremo Trap: The winner is a domestic hit that fails to resonate with international juries, finishing in the top 10 but not winning.",
+          "prob": 0.3
+        },
+        {
+          "name": "Favorite Victory: One of the pre-contest favorites (Bulgaria, Israel, or Romania) delivers a superior performance and wins decisively.",
+          "prob": 0.4
+        },
+        {
+          "name": "Host/Upset: Austria (host) or another dark horse wins due to staging or voting shifts, leaving Italy in the top 5.",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5190,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "842021",
+      "question": "Will Italy win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 4904250.646841986,
+      "n_wallets_traded": 35,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.2,
+      "scenarios_yes": [
+        {
+          "name": "Strong Song Selection at Sanremo",
+          "prob": 0.3
+        },
+        {
+          "name": "Favorable Voting Dynamics",
+          "prob": 0.25
+        },
+        {
+          "name": "Weak Performance from Favorites",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Unfavorable Song Selection",
+          "prob": 0.3
+        },
+        {
+          "name": "Strong Competition from Other Countries",
+          "prob": 0.25
+        },
+        {
+          "name": "Adverse Voting Changes Due to Boycotts",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3305,
+      "research_summary_length": 5190,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1164917",
+      "question": "Will Juventus FC win on 2026-01-25?",
+      "resolution_date": "2026-01-25",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-18",
+      "q_post_cutoff": true,
+      "volume": 4898648.107124,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.37,
+      "scenarios_yes": [
+        {
+          "name": "Defensive Masterclass and Counter-Attack",
+          "prob": 0.15
+        },
+        {
+          "name": "Napoli Away Defensive Collapse",
+          "prob": 0.12
+        },
+        {
+          "name": "Tactical Dominance by Juventus",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical Stalemate (Draw)",
+          "prob": 0.35
+        },
+        {
+          "name": "Napoli Clinical Efficiency",
+          "prob": 0.2
+        },
+        {
+          "name": "Juventus Defensive Breakdown",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5520,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1164917",
+      "question": "Will Juventus FC win on 2026-01-25?",
+      "resolution_date": "2026-01-25",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-18",
+      "q_post_cutoff": true,
+      "volume": 4898648.107124,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.38,
+      "scenarios_yes": [
+        {
+          "name": "Home advantage and strong defense",
+          "prob": 0.4
+        },
+        {
+          "name": "Recent momentum from win against Cagliari",
+          "prob": 0.35
+        },
+        {
+          "name": "Napoli's away vulnerability",
+          "prob": 0.3
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Napoli's superior form and win rate",
+          "prob": 0.45
+        },
+        {
+          "name": "Juventus' high draw rate this season",
+          "prob": 0.4
+        },
+        {
+          "name": "Tactical matchup favoring Napoli",
+          "prob": 0.35
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 4241,
+      "research_summary_length": 5520,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "842019",
+      "question": "Will Greece win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 4876393.435678006,
+      "n_wallets_traded": 27,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.08,
+      "scenarios_yes": [
+        {
+          "name": "Televote Surge Overcomes Jury Deficit",
+          "prob": 0.15
+        },
+        {
+          "name": "Unexpected Jury Resonance with 'Ferto'",
+          "prob": 0.1
+        },
+        {
+          "name": "Top Favorites Suffer Major Staging/Voting Errors",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Strong Top 5 Finish (4th-5th Place)",
+          "prob": 0.45
+        },
+        {
+          "name": "Mid-Table Finish Due to Low Jury Scores",
+          "prob": 0.3
+        },
+        {
+          "name": "Dominant Performance by Leading Favorites (Finland/Australia)",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5435,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "842019",
+      "question": "Will Greece win Eurovision 2026?",
+      "resolution_date": "2026-05-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-05-09",
+      "q_post_cutoff": true,
+      "volume": 4876393.435678006,
+      "n_wallets_traded": 27,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.25,
+      "scenarios_yes": [
+        {
+          "name": "High Televote Support",
+          "prob": 0.4
+        },
+        {
+          "name": "Strong Jury Consensus",
+          "prob": 0.3
+        },
+        {
+          "name": "Weak Performance by Favorites",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Dominance of Top Contenders",
+          "prob": 0.5
+        },
+        {
+          "name": "Jury Vote Limitations",
+          "prob": 0.4
+        },
+        {
+          "name": "Semi-Final Qualification Risk",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2729,
+      "research_summary_length": 5435,
+      "research_sources_count": 6
+    }
+  ]
+}

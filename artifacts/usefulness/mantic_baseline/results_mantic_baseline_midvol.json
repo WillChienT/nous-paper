@@ -1,0 +1,4598 @@
+{
+  "meta": {
+    "n_questions": 50,
+    "elapsed_seconds": 29762.7,
+    "eval_set_path": "eval_set_mantic_midvol.jsonl",
+    "eval_set_type": "mid-volume (p25-p75)"
+  },
+  "records": [
+    {
+      "market_id": "1172388",
+      "question": "Will Elon Musk post 320-339 tweets from January 16 to January 23, 2026?",
+      "resolution_date": "2026-01-23",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-16",
+      "q_post_cutoff": true,
+      "volume": 914928.243816,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.38,
+      "scenarios_yes": [
+        {
+          "name": "Slight Moderation from Precedent",
+          "prob": 0.45
+        },
+        {
+          "name": "Stabilized High Baseline",
+          "prob": 0.35
+        },
+        {
+          "name": "Event-Driven Consistency",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Continuation of Peak Intensity (340+)",
+          "prob": 0.5
+        },
+        {
+          "name": "Significant Activity Drop (<320)",
+          "prob": 0.35
+        },
+        {
+          "name": "Extreme Spike (>350)",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6808,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1172388",
+      "question": "Will Elon Musk post 320-339 tweets from January 16 to January 23, 2026?",
+      "resolution_date": "2026-01-23",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-16",
+      "q_post_cutoff": true,
+      "volume": 914928.243816,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.45,
+      "scenarios_yes": [
+        {
+          "name": "Recent Precedent of 340 Tweets",
+          "prob": 0.4
+        },
+        {
+          "name": "High Baseline Average with Slight Dip",
+          "prob": 0.35
+        },
+        {
+          "name": "Active Engagement During Key Events",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Volatility Leading to Lower Activity",
+          "prob": 0.4
+        },
+        {
+          "name": "Maintaining or Exceeding December's 340 Tweets",
+          "prob": 0.35
+        },
+        {
+          "name": "Platform Changes Affecting Posting Habits",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2287,
+      "research_summary_length": 6808,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1623275",
+      "question": "Will Elon Musk post 240-259 tweets from March 20 to March 27, 2026?",
+      "resolution_date": "2026-03-27",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-20",
+      "q_post_cutoff": true,
+      "volume": 1270079.8643930007,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.12,
+      "scenarios_yes": [
+        {
+          "name": "Sustained Low-Activity Week",
+          "prob": 0.12
+        },
+        {
+          "name": "Minor Platform Restrictions",
+          "prob": 0.05
+        },
+        {
+          "name": "Statistical Anomaly (Regression to 2022 Mean)",
+          "prob": 0.03
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Standard High-Volume Week (>259)",
+          "prob": 0.75
+        },
+        {
+          "name": "Major Event Spike (>259)",
+          "prob": 0.1
+        },
+        {
+          "name": "Suspension or Extended Hiatus (<240)",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4908,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1623275",
+      "question": "Will Elon Musk post 240-259 tweets from March 20 to March 27, 2026?",
+      "resolution_date": "2026-03-27",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-20",
+      "q_post_cutoff": true,
+      "volume": 1270079.8643930007,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.15,
+      "scenarios_yes": [
+        {
+          "name": "Quiet Week Scenario",
+          "prob": 0.3
+        },
+        {
+          "name": "Platform Issues Scenario",
+          "prob": 0.2
+        },
+        {
+          "name": "Voluntary Hiatus Scenario",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High Activity Scenario",
+          "prob": 0.4
+        },
+        {
+          "name": "Low Activity Due to Suspension",
+          "prob": 0.25
+        },
+        {
+          "name": "Mixed Activity Scenario",
+          "prob": 0.35
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 4019,
+      "research_summary_length": 4908,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "993069",
+      "question": "Will Sevilla FC win on 2026-01-04?",
+      "resolution_date": "2026-01-04",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2025-12-28",
+      "q_post_cutoff": true,
+      "volume": 281393.112494,
+      "n_wallets_traded": 9,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.34,
+      "scenarios_yes": [
+        {
+          "name": "Sevilla wins a scheduled La Liga home match against a mid-table opponent",
+          "prob": 0.18
+        },
+        {
+          "name": "Sevilla wins a scheduled La Liga away match against a lower-table opponent",
+          "prob": 0.12
+        },
+        {
+          "name": "Sevilla wins a Copa del Rey match scheduled for that weekend",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "No match is scheduled for Sevilla on this specific date",
+          "prob": 0.15
+        },
+        {
+          "name": "Sevilla plays but loses the match",
+          "prob": 0.45
+        },
+        {
+          "name": "Sevilla plays but the match ends in a draw",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 0,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "993069",
+      "question": "Will Sevilla FC win on 2026-01-04?",
+      "resolution_date": "2026-01-04",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2025-12-28",
+      "q_post_cutoff": true,
+      "volume": 281393.112494,
+      "n_wallets_traded": 9,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.45,
+      "scenarios_yes": [
+        {
+          "name": "Sevilla in good form with key players fit",
+          "prob": 0.4
+        },
+        {
+          "name": "Strong team cohesion and recent momentum",
+          "prob": 0.35
+        },
+        {
+          "name": "Facing a weaker opponent",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Poor recent performance by Sevilla",
+          "prob": 0.4
+        },
+        {
+          "name": "Key players injured or suspended",
+          "prob": 0.35
+        },
+        {
+          "name": "Tough opponent with strong record against Sevilla",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2443,
+      "research_summary_length": 0,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1200105",
+      "question": "Will SC Braga win on 2026-01-29?",
+      "resolution_date": "2026-01-29",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-22",
+      "q_post_cutoff": true,
+      "volume": 354905.560135,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.54,
+      "scenarios_yes": [
+        {
+          "name": "Quality Gap Exploitation",
+          "prob": 0.25
+        },
+        {
+          "name": "Late Goal Grind",
+          "prob": 0.2
+        },
+        {
+          "name": "Opponent Defensive Error",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical Stalemate (Draw)",
+          "prob": 0.25
+        },
+        {
+          "name": "Away Upset",
+          "prob": 0.15
+        },
+        {
+          "name": "Fatigue/Rotation Failure",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4984,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1200105",
+      "question": "Will SC Braga win on 2026-01-29?",
+      "resolution_date": "2026-01-29",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-22",
+      "q_post_cutoff": true,
+      "volume": 354905.560135,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Superior European Form",
+          "prob": 0.4
+        },
+        {
+          "name": "Recent Momentum Against Premier League Team",
+          "prob": 0.3
+        },
+        {
+          "name": "Opponent Vulnerability and Tactical Discipline",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Away Fixture Difficulty in Netherlands",
+          "prob": 0.4
+        },
+        {
+          "name": "Domestic Struggles Impacting Performance",
+          "prob": 0.3
+        },
+        {
+          "name": "Draw Potential Against Defensive Dutch Side",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2715,
+      "research_summary_length": 4984,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "868678",
+      "question": "Will Sporting CP win on 2026-01-02?",
+      "resolution_date": "2026-01-02",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2025-12-26",
+      "q_post_cutoff": true,
+      "volume": 324605.552805,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.68,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Away Performance",
+          "prob": 0.45
+        },
+        {
+          "name": "Title Race Motivation Narrow Win",
+          "prob": 0.18
+        },
+        {
+          "name": "Gil Vicente Defensive Collapse",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Gil Vicente Low-Block Draw",
+          "prob": 0.25
+        },
+        {
+          "name": "Fatigue/Rotation Induced Draw",
+          "prob": 0.08
+        },
+        {
+          "name": "Rare Away Loss",
+          "prob": 0.02
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5349,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "868678",
+      "question": "Will Sporting CP win on 2026-01-02?",
+      "resolution_date": "2026-01-02",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2025-12-26",
+      "q_post_cutoff": true,
+      "volume": 324605.552805,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "Strong Performance and Goal Scoring",
+          "prob": 0.4
+        },
+        {
+          "name": "Mid-Game Turnaround with Effective Strategy",
+          "prob": 0.3
+        },
+        {
+          "name": "Gil Vicente Struggles Defensively",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Draw Due to Gil Vicente's Resilience at Home",
+          "prob": 0.35
+        },
+        {
+          "name": "Fatigue and Squad Rotation Impact Performance",
+          "prob": 0.25
+        },
+        {
+          "name": "Gil Vicente Secures an Upset with Effective Play",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2966,
+      "research_summary_length": 5349,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1054483",
+      "question": "Will SS Lazio win on 2026-01-11?",
+      "resolution_date": "2026-01-11",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-04",
+      "q_post_cutoff": true,
+      "volume": 634638.277246,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.43,
+      "scenarios_yes": [
+        {
+          "name": "Rebound Victory",
+          "prob": 0.25
+        },
+        {
+          "name": "High-Scoring Win",
+          "prob": 0.1
+        },
+        {
+          "name": "Tactical 1-0/2-0 Win",
+          "prob": 0.07
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Stalemate Draw",
+          "prob": 0.32
+        },
+        {
+          "name": "Defensive Collapse Loss",
+          "prob": 0.15
+        },
+        {
+          "name": "Second Half Loss from Draw",
+          "prob": 0.11
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4585,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1054483",
+      "question": "Will SS Lazio win on 2026-01-11?",
+      "resolution_date": "2026-01-11",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-04",
+      "q_post_cutoff": true,
+      "volume": 634638.277246,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.45,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.42
+        },
+        {
+          "name": "Bounce Back from Recent Loss",
+          "prob": 0.35
+        },
+        {
+          "name": "Effective Offensive Play",
+          "prob": 0.38
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Vulnerabilities Exploited",
+          "prob": 0.45
+        },
+        {
+          "name": "Inconsistent Form Leading to Draw or Loss",
+          "prob": 0.4
+        },
+        {
+          "name": "Opponent's Strong Performance",
+          "prob": 0.37
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2363,
+      "research_summary_length": 4585,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1168346",
+      "question": "Will Elon Musk post 165-189 tweets from January 15 to January 17, 2026?",
+      "resolution_date": "2026-01-17",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-10",
+      "q_post_cutoff": true,
+      "volume": 586884.716211,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.28,
+      "scenarios_yes": [
+        {
+          "name": "Davos constraints suppress output to 55-63/day",
+          "prob": 0.15
+        },
+        {
+          "name": "Weekend lull reduces volume to target range",
+          "prob": 0.1
+        },
+        {
+          "name": "2025 average was skewed; true baseline is ~60/day",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Volume exceeds 189 due to baseline >67/day and event hype",
+          "prob": 0.65
+        },
+        {
+          "name": "Volume drops below 165 due to total unavailability",
+          "prob": 0.05
+        },
+        {
+          "name": "Volume fluctuates wildly, missing the narrow 165-189 band entirely",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5111,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1168346",
+      "question": "Will Elon Musk post 165-189 tweets from January 15 to January 17, 2026?",
+      "resolution_date": "2026-01-17",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-10",
+      "q_post_cutoff": true,
+      "volume": 586884.716211,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Lower Baseline Activity",
+          "prob": 0.25
+        },
+        {
+          "name": "Davos Event Sparks Moderate Engagement",
+          "prob": 0.3
+        },
+        {
+          "name": "Unusual Lull in Posting",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Higher Baseline Exceeds Range",
+          "prob": 0.45
+        },
+        {
+          "name": "Davos Constraints Reduce Activity",
+          "prob": 0.25
+        },
+        {
+          "name": "Market Expectation of Higher Volumes",
+          "prob": 0.3
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2258,
+      "research_summary_length": 5111,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1006475",
+      "question": "Will Alex De Minaur win the 2026 Australian Open?",
+      "resolution_date": "2026-02-01",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-25",
+      "q_post_cutoff": true,
+      "volume": 1094363.725154,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.035,
+      "scenarios_yes": [
+        {
+          "name": "Historical Breakthrough",
+          "prob": 0.35
+        },
+        {
+          "name": "Draw Collapse and Upset",
+          "prob": 0.25
+        },
+        {
+          "name": "Perfect Form Run",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Quarterfinal Exit (0-8 Record)",
+          "prob": 0.65
+        },
+        {
+          "name": "Semifinal Plateau",
+          "prob": 0.25
+        },
+        {
+          "name": "Final Heartbreak",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5200,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1006475",
+      "question": "Will Alex De Minaur win the 2026 Australian Open?",
+      "resolution_date": "2026-02-01",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-25",
+      "q_post_cutoff": true,
+      "volume": 1094363.725154,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.15,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Performance",
+          "prob": 0.15
+        },
+        {
+          "name": "Upsets in Other Brackets",
+          "prob": 0.2
+        },
+        {
+          "name": "Breakthrough Against Top Players",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Loss to a Top-20 Opponent",
+          "prob": 0.35
+        },
+        {
+          "name": "Quarterfinal Ceiling Continues",
+          "prob": 0.25
+        },
+        {
+          "name": "Struggles Against Big Servers",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 4958,
+      "research_summary_length": 5200,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "986648",
+      "question": "Will RC Celta de Vigo win on 2026-01-03?",
+      "resolution_date": "2026-01-03",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2025-12-27",
+      "q_post_cutoff": true,
+      "volume": 778744.242368,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.38,
+      "scenarios_yes": [
+        {
+          "name": "Celta's superior away form continues against inconsistent Sevilla",
+          "prob": 0.45
+        },
+        {
+          "name": "Sevilla fails to capitalize on home advantage due to defensive errors",
+          "prob": 0.35
+        },
+        {
+          "name": "Celta executes a tactical masterclass to secure a narrow away win",
+          "prob": 0.3
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Match ends in a draw due to tight defensive play and home advantage",
+          "prob": 0.4
+        },
+        {
+          "name": "Sevilla exploits Celta's defensive vulnerabilities for a home win",
+          "prob": 0.3
+        },
+        {
+          "name": "Fixture congestion and fatigue lead to a stalemate or late Sevilla goal",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5452,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "986648",
+      "question": "Will RC Celta de Vigo win on 2026-01-03?",
+      "resolution_date": "2026-01-03",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2025-12-27",
+      "q_post_cutoff": true,
+      "volume": 778744.242368,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.35,
+      "scenarios_yes": [
+        {
+          "name": "Strong Away Form",
+          "prob": 0.42
+        },
+        {
+          "name": "Sevilla's Inconsistency",
+          "prob": 0.35
+        },
+        {
+          "name": "Recent Strong Performances",
+          "prob": 0.3
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Sevilla's Home Advantage",
+          "prob": 0.4
+        },
+        {
+          "name": "Defensive Vulnerabilities",
+          "prob": 0.25
+        },
+        {
+          "name": "Fatigue from Multiple Competitions",
+          "prob": 0.3
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3336,
+      "research_summary_length": 5452,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "896777",
+      "question": "Will Germany win the most gold medals in the 2026 Winter Olympics?",
+      "resolution_date": "2026-02-22",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-15",
+      "q_post_cutoff": true,
+      "volume": 1161092.498115,
+      "n_wallets_traded": 13,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Norway's Nordic Decline & German Sliding Peak",
+          "prob": 0.15
+        },
+        {
+          "name": "Biathlon Dominance Shift to Germany",
+          "prob": 0.12
+        },
+        {
+          "name": "Norwegian Injury Crisis in Cross-Country",
+          "prob": 0.08
+        },
+        {
+          "name": "Perfect Storm: Germany 16 Golds, Norway 11 Golds",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Norway Maintains Status Quo (14+ Golds)",
+          "prob": 0.65
+        },
+        {
+          "name": "Germany Underperforms Sliding Sports",
+          "prob": 0.45
+        },
+        {
+          "name": "Italy Host Boost Squeezes Germany to 2nd",
+          "prob": 0.35
+        },
+        {
+          "name": "Norway Depth Secures Golds Despite Star Absences",
+          "prob": 0.55
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6049,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "896777",
+      "question": "Will Germany win the most gold medals in the 2026 Winter Olympics?",
+      "resolution_date": "2026-02-22",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-15",
+      "q_post_cutoff": true,
+      "volume": 1161092.498115,
+      "n_wallets_traded": 13,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.15,
+      "scenarios_yes": [
+        {
+          "name": "Germany's Dominance in Sliding Sports",
+          "prob": 0.35
+        },
+        {
+          "name": "Norway's Underperformance in Biathlon",
+          "prob": 0.25
+        },
+        {
+          "name": "Italy's Poor Performance Despite Hosting",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Norway Maintains Historical Dominance",
+          "prob": 0.45
+        },
+        {
+          "name": "Italy Surpasses Germany in Gold Medals",
+          "prob": 0.3
+        },
+        {
+          "name": "Germany's Team Sports Fail to Deliver",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2960,
+      "research_summary_length": 6049,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1271567",
+      "question": "Will Kenneth Walker III win the Super Bowl LX MVP?",
+      "resolution_date": "2026-02-08",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-01",
+      "q_post_cutoff": true,
+      "volume": 1277212.134886,
+      "n_wallets_traded": 10,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.07,
+      "scenarios_yes": [
+        {
+          "name": "Ground-and-Pound Victory",
+          "prob": 0.04
+        },
+        {
+          "name": "Quarterback Struggle",
+          "prob": 0.02
+        },
+        {
+          "name": "Late-Game Heroics",
+          "prob": 0.01
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Quarterback Dominance",
+          "prob": 0.45
+        },
+        {
+          "name": "Seahawks Lose Super Bowl",
+          "prob": 0.4
+        },
+        {
+          "name": "Balanced Offense or Defensive MVP",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5102,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1271567",
+      "question": "Will Kenneth Walker III win the Super Bowl LX MVP?",
+      "resolution_date": "2026-02-08",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-01",
+      "q_post_cutoff": true,
+      "volume": 1277212.134886,
+      "n_wallets_traded": 10,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.25,
+      "scenarios_yes": [
+        {
+          "name": "Seahawks Win with Strong Running Game",
+          "prob": 0.4
+        },
+        {
+          "name": "Walker Delivers a Career-Defining Performance",
+          "prob": 0.35
+        },
+        {
+          "name": "Opposing Team's Star Quarterback Underperforms",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Seahawks Lose the Super Bowl",
+          "prob": 0.3
+        },
+        {
+          "name": "Quarterback Dominates Game Narrative",
+          "prob": 0.4
+        },
+        {
+          "name": "Defensive Player or Special Teams Stand Out",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 1611,
+      "research_summary_length": 5102,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1063292",
+      "question": "Will Elon Musk post 520-539 tweets from January 2 to January 9, 2026?",
+      "resolution_date": "2026-01-09",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-02",
+      "q_post_cutoff": true,
+      "volume": 1290313.961384,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.08,
+      "scenarios_yes": [
+        {
+          "name": "Moderate Activity Week",
+          "prob": 0.15
+        },
+        {
+          "name": "Slight Dip from High Baseline",
+          "prob": 0.1
+        },
+        {
+          "name": "Targeted Posting Strategy",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High Volume Surge (560+)",
+          "prob": 0.85
+        },
+        {
+          "name": "Significant Drop (<520)",
+          "prob": 0.1
+        },
+        {
+          "name": "Extreme Spike (>600)",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5900,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1063292",
+      "question": "Will Elon Musk post 520-539 tweets from January 2 to January 9, 2026?",
+      "resolution_date": "2026-01-09",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-02",
+      "q_post_cutoff": true,
+      "volume": 1290313.961384,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Recent Weekly Averages Continue",
+          "prob": 0.2
+        },
+        {
+          "name": "Political Catalysts Increase Activity",
+          "prob": 0.3
+        },
+        {
+          "name": "Volatility with a Few High-Activity Days",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Higher Volume Expected by Markets",
+          "prob": 0.4
+        },
+        {
+          "name": "Market Signals Favor Higher Ranges",
+          "prob": 0.3
+        },
+        {
+          "name": "Potential Drop in Activity",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3443,
+      "research_summary_length": 5900,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1387675",
+      "question": "Will Elon Musk post 300-319 tweets from February 20 to February 27, 2026?",
+      "resolution_date": "2026-02-27",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-20",
+      "q_post_cutoff": true,
+      "volume": 1191122.224443,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.13,
+      "scenarios_yes": [
+        {
+          "name": "Stable Moderate Week",
+          "prob": 0.15
+        },
+        {
+          "name": "Compensatory Balance of Volatility",
+          "prob": 0.1
+        },
+        {
+          "name": "Algorithmic Shift to Lower Frequency",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Quiet Week or Travel Constraints",
+          "prob": 0.35
+        },
+        {
+          "name": "Event-Driven Spike Pushing Total >319",
+          "prob": 0.3
+        },
+        {
+          "name": "Baseline Lower Than Expected (<300)",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5329,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1387675",
+      "question": "Will Elon Musk post 300-319 tweets from February 20 to February 27, 2026?",
+      "resolution_date": "2026-02-27",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-20",
+      "q_post_cutoff": true,
+      "volume": 1191122.224443,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Sustained moderate activity",
+          "prob": 0.4
+        },
+        {
+          "name": "xAI integration boosts activity",
+          "prob": 0.3
+        },
+        {
+          "name": "Event-driven spikes balance lower days",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Burnout or quiet period",
+          "prob": 0.4
+        },
+        {
+          "name": "Overestimation trend continues",
+          "prob": 0.35
+        },
+        {
+          "name": "Travel or external constraints reduce activity",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3090,
+      "research_summary_length": 5329,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1044553",
+      "question": "Will AS Roma win on 2026-01-10?",
+      "resolution_date": "2026-01-10",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-03",
+      "q_post_cutoff": true,
+      "volume": 605201.188836,
+      "n_wallets_traded": 7,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.64,
+      "scenarios_yes": [
+        {
+          "name": "Optimal Rotation & Home Dominance",
+          "prob": 0.45
+        },
+        {
+          "name": "Resilient Late Win",
+          "prob": 0.15
+        },
+        {
+          "name": "Opponent Error/Red Card",
+          "prob": 0.04
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical Stalemate (Draw)",
+          "prob": 0.22
+        },
+        {
+          "name": "Fatigue-Induced Defensive Collapse",
+          "prob": 0.08
+        },
+        {
+          "name": "Key Player Injury/Ineffectiveness",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4610,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1044553",
+      "question": "Will AS Roma win on 2026-01-10?",
+      "resolution_date": "2026-01-10",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-03",
+      "q_post_cutoff": true,
+      "volume": 605201.188836,
+      "n_wallets_traded": 7,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.72,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Form",
+          "prob": 0.68
+        },
+        {
+          "name": "Superior League Standing and Motivation",
+          "prob": 0.75
+        },
+        {
+          "name": "Key Players in Good Form",
+          "prob": 0.8
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fixture Congestion Leading to Fatigue",
+          "prob": 0.4
+        },
+        {
+          "name": "Sassuolo's Potential Upset Tactics",
+          "prob": 0.35
+        },
+        {
+          "name": "Recent Inconsistencies in Home Matches",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2376,
+      "research_summary_length": 4610,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1089011",
+      "question": "Will Tesla deliver less than 350000 vehicles in Q1 2026",
+      "resolution_date": "2026-03-31",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-24",
+      "q_post_cutoff": true,
+      "volume": 290293.44009500026,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.62,
+      "scenarios_yes": [
+        {
+          "name": "Stagnation/Flat YoY",
+          "prob": 0.45
+        },
+        {
+          "name": "Slight Recovery but Below Threshold",
+          "prob": 0.35
+        },
+        {
+          "name": "Production Bottleneck Miss",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Consensus Stabilization",
+          "prob": 0.3
+        },
+        {
+          "name": "Strong Regional Rebound",
+          "prob": 0.15
+        },
+        {
+          "name": "Inventory Drawdown Success",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5094,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1089011",
+      "question": "Will Tesla deliver less than 350000 vehicles in Q1 2026",
+      "resolution_date": "2026-03-31",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-24",
+      "q_post_cutoff": true,
+      "volume": 290293.44009500026,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Analyst Consensus Miss",
+          "prob": 0.4
+        },
+        {
+          "name": "Continued Decline in Deliveries",
+          "prob": 0.35
+        },
+        {
+          "name": "Production Line Disruptions",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Modest Recovery or Stabilization",
+          "prob": 0.3
+        },
+        {
+          "name": "Strong Regional Sales Growth",
+          "prob": 0.35
+        },
+        {
+          "name": "Sufficient Inventory Buffer",
+          "prob": 0.35
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2516,
+      "research_summary_length": 5094,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "676460",
+      "question": "Will \u00c1lvaro Roberto Ramos Chaves win the 2026 Costa Rican presidential election?",
+      "resolution_date": "2026-02-01",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-25",
+      "q_post_cutoff": true,
+      "volume": 658071.990492,
+      "n_wallets_traded": 12,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.01,
+      "scenarios_yes": [
+        {
+          "name": "Catastrophic Collapse of Frontrunner",
+          "prob": 0.005
+        },
+        {
+          "name": "Massive Undecided Surge to Ramos",
+          "prob": 0.002
+        },
+        {
+          "name": "Disqualification of Laura Fernandez",
+          "prob": 0.001
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "First-Round Victory for Fernandez",
+          "prob": 0.65
+        },
+        {
+          "name": "Runoff Defeat for Ramos",
+          "prob": 0.3
+        },
+        {
+          "name": "Fragmentation Prevents Ramos from Top 2",
+          "prob": 0.04
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6052,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "676460",
+      "question": "Will \u00c1lvaro Roberto Ramos Chaves win the 2026 Costa Rican presidential election?",
+      "resolution_date": "2026-02-01",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-25",
+      "q_post_cutoff": true,
+      "volume": 658071.990492,
+      "n_wallets_traded": 12,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.13,
+      "scenarios_yes": [
+        {
+          "name": "Undecided Voters Swing Strongly Toward Ramos",
+          "prob": 0.15
+        },
+        {
+          "name": "Ramos Wins Runoff Despite First-Round Deficit",
+          "prob": 0.1
+        },
+        {
+          "name": "Frontrunner Suffers Major Scandal or Controversy",
+          "prob": 0.08
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fern\u00e1ndez Secures First-Round Victory",
+          "prob": 0.65
+        },
+        {
+          "name": "Ramos Fails to Overcome Double-Digit Deficit in Runoff",
+          "prob": 0.25
+        },
+        {
+          "name": "Security Narrative Solidifies Fern\u00e1ndez's Lead",
+          "prob": 0.18
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 1740,
+      "research_summary_length": 6052,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1320350",
+      "question": "Will Elon Musk post 65-89 tweets from February 5 to February 7, 2026?",
+      "resolution_date": "2026-02-07",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-31",
+      "q_post_cutoff": true,
+      "volume": 694150.657549,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.12,
+      "scenarios_yes": [
+        {
+          "name": "Sustained Low Activity",
+          "prob": 0.05
+        },
+        {
+          "name": "Partial Hiatus Mix",
+          "prob": 0.04
+        },
+        {
+          "name": "Technical/Travel Constraint",
+          "prob": 0.03
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Standard High Volume (Mean ~204)",
+          "prob": 0.6
+        },
+        {
+          "name": "Event-Driven Spike (>150 total)",
+          "prob": 0.25
+        },
+        {
+          "name": "Deep Silence (<65 total)",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5498,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1320350",
+      "question": "Will Elon Musk post 65-89 tweets from February 5 to February 7, 2026?",
+      "resolution_date": "2026-02-07",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-31",
+      "q_post_cutoff": true,
+      "volume": 694150.657549,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.38,
+      "scenarios_yes": [
+        {
+          "name": "Quiet Period Scenario",
+          "prob": 0.3
+        },
+        {
+          "name": "Technical Issues Scenario",
+          "prob": 0.25
+        },
+        {
+          "name": "Deliberate Silence Scenario",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High Activity Scenario",
+          "prob": 0.4
+        },
+        {
+          "name": "Low Activity Due to Travel or Events",
+          "prob": 0.25
+        },
+        {
+          "name": "Market Predictions Scenario",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3160,
+      "research_summary_length": 5498,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1030640",
+      "question": "Will Al Hilal Saudi Club win on 2026-01-08?",
+      "resolution_date": "2026-01-08",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-01",
+      "q_post_cutoff": true,
+      "volume": 436130.224479,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.81,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Home Victory",
+          "prob": 0.55
+        },
+        {
+          "name": "Tight Win via Late Goal",
+          "prob": 0.18
+        },
+        {
+          "name": "Reserve Squad Victory",
+          "prob": 0.08
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Stalemate (Draw)",
+          "prob": 0.14
+        },
+        {
+          "name": "Counter-Attack Draw",
+          "prob": 0.04
+        },
+        {
+          "name": "Upset Loss",
+          "prob": 0.01
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4820,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1030640",
+      "question": "Will Al Hilal Saudi Club win on 2026-01-08?",
+      "resolution_date": "2026-01-08",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-01",
+      "q_post_cutoff": true,
+      "volume": 436130.224479,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.8,
+      "scenarios_yes": [
+        {
+          "name": "Al Hilal's Unbeaten Record Continues",
+          "prob": 0.85
+        },
+        {
+          "name": "Strong Home Performance Against Weaker Opponent",
+          "prob": 0.75
+        },
+        {
+          "name": "High Offensive Output Overcomes Al Hazem's Defense",
+          "prob": 0.65
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Midweek Fatigue and Squad Rotation Lead to Draw",
+          "prob": 0.3
+        },
+        {
+          "name": "Al Hazem's Recent Form Results in an Upset",
+          "prob": 0.25
+        },
+        {
+          "name": "Unexpected Defensive Lapse Causes Loss",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 1586,
+      "research_summary_length": 4820,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1370410",
+      "question": "Will AS Monaco FC win on 2026-02-25?",
+      "resolution_date": "2026-02-25",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-18",
+      "q_post_cutoff": true,
+      "volume": 481741.326517,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.28,
+      "scenarios_yes": [
+        {
+          "name": "Monaco executes a perfect counter-attacking game plan",
+          "prob": 0.15
+        },
+        {
+          "name": "PSG suffers early red card or key injury, allowing Monaco to capitalize",
+          "prob": 0.08
+        },
+        {
+          "name": "Monaco scores early and defends a 1-0 lead for 90 minutes",
+          "prob": 0.12
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "PSG dominates possession and scores multiple goals at home",
+          "prob": 0.45
+        },
+        {
+          "name": "Match ends in a draw, with PSG advancing via away goals or penalties",
+          "prob": 0.35
+        },
+        {
+          "name": "Monaco's defensive injuries lead to a collapse and a narrow loss",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5941,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1370410",
+      "question": "Will AS Monaco FC win on 2026-02-25?",
+      "resolution_date": "2026-02-25",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-18",
+      "q_post_cutoff": true,
+      "volume": 481741.326517,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.38,
+      "scenarios_yes": [
+        {
+          "name": "First-Leg Momentum",
+          "prob": 0.35
+        },
+        {
+          "name": "Resilience and Fighting Spirit",
+          "prob": 0.25
+        },
+        {
+          "name": "Tactical Adaptability",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "PSG's Home Advantage",
+          "prob": 0.4
+        },
+        {
+          "name": "Aggregate Pressure",
+          "prob": 0.35
+        },
+        {
+          "name": "Injuries and Suspensions",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2987,
+      "research_summary_length": 5941,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1085085",
+      "question": "Will AC Milan win on 2026-01-15?",
+      "resolution_date": "2026-01-15",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-08",
+      "q_post_cutoff": true,
+      "volume": 637230.15753,
+      "n_wallets_traded": 6,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.48,
+      "scenarios_yes": [
+        {
+          "name": "Milan overcomes fatigue and injury absence with a dominant tactical display",
+          "prob": 0.35
+        },
+        {
+          "name": "Tight match decided by a late goal due to superior squad depth",
+          "prob": 0.25
+        },
+        {
+          "name": "Como's defense collapses under pressure despite Milan's disjointed attack",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Como successfully defends a low block leading to a draw",
+          "prob": 0.4
+        },
+        {
+          "name": "Milan's fatigue leads to defensive errors and a loss on the counter",
+          "prob": 0.2
+        },
+        {
+          "name": "Milan fails to create clear chances due to key injuries and congestion",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5085,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1085085",
+      "question": "Will AC Milan win on 2026-01-15?",
+      "resolution_date": "2026-01-15",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-08",
+      "q_post_cutoff": true,
+      "volume": 637230.15753,
+      "n_wallets_traded": 6,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "Strong squad performance despite rotation",
+          "prob": 0.7
+        },
+        {
+          "name": "Exploiting Como's defensive weaknesses",
+          "prob": 0.65
+        },
+        {
+          "name": "High motivation for a top-four finish",
+          "prob": 0.75
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Struggling away form",
+          "prob": 0.4
+        },
+        {
+          "name": "Fatigue and injuries affecting performance",
+          "prob": 0.6
+        },
+        {
+          "name": "Como's home advantage and momentum",
+          "prob": 0.5
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3563,
+      "research_summary_length": 5085,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1030643",
+      "question": "Will Al Nassr Saudi Club win on 2026-01-08?",
+      "resolution_date": "2026-01-08",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-01",
+      "q_post_cutoff": true,
+      "volume": 543264.786479,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.58,
+      "scenarios_yes": [
+        {
+          "name": "Offensive Overload",
+          "prob": 0.35
+        },
+        {
+          "name": "Defensive Correction",
+          "prob": 0.25
+        },
+        {
+          "name": "Home Crowd Catalyst",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Collapse",
+          "prob": 0.2
+        },
+        {
+          "name": "Tactical Masterclass by Rodgers",
+          "prob": 0.15
+        },
+        {
+          "name": "Momentum Carry",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5909,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1030643",
+      "question": "Will Al Nassr Saudi Club win on 2026-01-08?",
+      "resolution_date": "2026-01-08",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-01",
+      "q_post_cutoff": true,
+      "volume": 543264.786479,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Home advantage and strong offense",
+          "prob": 0.8
+        },
+        {
+          "name": "Recent defensive issues but potential bounce back",
+          "prob": 0.6
+        },
+        {
+          "name": "Motivation to recover from recent poor form",
+          "prob": 0.7
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive fragility against a strong opponent",
+          "prob": 0.5
+        },
+        {
+          "name": "Al Qadsiah's current momentum and form",
+          "prob": 0.6
+        },
+        {
+          "name": "Recent head-to-head trend favoring Al Qadsiah",
+          "prob": 0.4
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3425,
+      "research_summary_length": 5909,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "997089",
+      "question": "Will Alex Honnold not complete a free solo of Taipei 101 by January 31?",
+      "resolution_date": "2026-01-23",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-16",
+      "q_post_cutoff": true,
+      "volume": 740975.211512,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "Weather Window Missed",
+          "prob": 0.45
+        },
+        {
+          "name": "Final Permit/Logistics Delay",
+          "prob": 0.15
+        },
+        {
+          "name": "Strategic Decision to Wait for Better Conditions",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Perfect Weather Window in Late January",
+          "prob": 0.25
+        },
+        {
+          "name": "Early January Execution",
+          "prob": 0.1
+        },
+        {
+          "name": "Rushed Attempt Despite Marginal Conditions",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4957,
+      "research_sources_count": 1
+    },
+    {
+      "market_id": "997089",
+      "question": "Will Alex Honnold not complete a free solo of Taipei 101 by January 31?",
+      "resolution_date": "2026-01-23",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-16",
+      "q_post_cutoff": true,
+      "volume": 740975.211512,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.4,
+      "scenarios_yes": [
+        {
+          "name": "Scheduling Slip into February",
+          "prob": 0.3
+        },
+        {
+          "name": "Adverse Weather Conditions",
+          "prob": 0.25
+        },
+        {
+          "name": "Regulatory or Permit Hurdles",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Firm Schedule in January",
+          "prob": 0.4
+        },
+        {
+          "name": "Favorable Weather",
+          "prob": 0.35
+        },
+        {
+          "name": "Smooth Execution",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 4064,
+      "research_summary_length": 4957,
+      "research_sources_count": 1
+    },
+    {
+      "market_id": "1213782",
+      "question": "Will Feyenoord Rotterdam win on 2026-02-15?",
+      "resolution_date": "2026-02-15",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-08",
+      "q_post_cutoff": true,
+      "volume": 287713.703432,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.54,
+      "scenarios_yes": [
+        {
+          "name": "Home bounce-back victory",
+          "prob": 0.35
+        },
+        {
+          "name": "Away win against lower-table opponent",
+          "prob": 0.12
+        },
+        {
+          "name": "High-scoring home win despite defensive lapses",
+          "prob": 0.08
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Away loss or draw due to defensive fragility",
+          "prob": 0.25
+        },
+        {
+          "name": "Home draw against resilient mid-table side",
+          "prob": 0.15
+        },
+        {
+          "name": "Home loss to a top-3 rival",
+          "prob": 0.07
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4698,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1213782",
+      "question": "Will Feyenoord Rotterdam win on 2026-02-15?",
+      "resolution_date": "2026-02-15",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-08",
+      "q_post_cutoff": true,
+      "volume": 287713.703432,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Home advantage against a weaker opponent",
+          "prob": 0.7
+        },
+        {
+          "name": "Bouncing back from the PSV loss with high motivation",
+          "prob": 0.6
+        },
+        {
+          "name": "Strong attack compensating for defensive issues",
+          "prob": 0.55
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Continuing defensive lapses leading to defeat",
+          "prob": 0.4
+        },
+        {
+          "name": "Psychological impact affecting performance",
+          "prob": 0.35
+        },
+        {
+          "name": "Facing a strong mid-table team that's competitive",
+          "prob": 0.45
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 5062,
+      "research_summary_length": 4698,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1262751",
+      "question": "Will Olympique Lyonnais win on 2026-02-07?",
+      "resolution_date": "2026-02-07",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-31",
+      "q_post_cutoff": true,
+      "volume": 1371473.692404,
+      "n_wallets_traded": 6,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.58,
+      "scenarios_yes": [
+        {
+          "name": "Lyon's momentum carries them to a comfortable away win",
+          "prob": 0.65
+        },
+        {
+          "name": "Nantes fails to score and Lyon wins a tight tactical battle",
+          "prob": 0.55
+        },
+        {
+          "name": "Lyon scores early and controls the game despite Nantes' desperation",
+          "prob": 0.6
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Nantes secures a gritty 1-1 draw via a set-piece goal",
+          "prob": 0.4
+        },
+        {
+          "name": "Lyon rotates squad and drops points in a 0-0 or 1-1 draw",
+          "prob": 0.35
+        },
+        {
+          "name": "Nantes capitalizes on a defensive error for a narrow away loss for Lyon",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5739,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1262751",
+      "question": "Will Olympique Lyonnais win on 2026-02-07?",
+      "resolution_date": "2026-02-07",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-31",
+      "q_post_cutoff": true,
+      "volume": 1371473.692404,
+      "n_wallets_traded": 6,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.7,
+      "scenarios_yes": [
+        {
+          "name": "Lyon's Strong Form Continues",
+          "prob": 0.45
+        },
+        {
+          "name": "Historical Dominance Over Nantes",
+          "prob": 0.35
+        },
+        {
+          "name": "Nantes' Poor Home Performance",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Nantes Fights Back Desperately",
+          "prob": 0.4
+        },
+        {
+          "name": "Lyon's Away Defensive Vulnerabilities",
+          "prob": 0.3
+        },
+        {
+          "name": "Fatigue Affects Lyon's Performance",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2262,
+      "research_summary_length": 5739,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1218240",
+      "question": "Will RC Celta de Vigo win on 2026-02-01?",
+      "resolution_date": "2026-02-01",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-25",
+      "q_post_cutoff": true,
+      "volume": 828272.347299,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.34,
+      "scenarios_yes": [
+        {
+          "name": "Celta breaks the deadlock early and exploits Getafe's forced openness",
+          "prob": 0.25
+        },
+        {
+          "name": "Celta's superior away form overcomes Getafe's home advantage through disciplined pressing",
+          "prob": 0.2
+        },
+        {
+          "name": "Getafe commits a defensive error or concedes from a set-piece in a tight game",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Getafe's defensive style frustrates Celta leading to a low-scoring draw",
+          "prob": 0.35
+        },
+        {
+          "name": "Celta fatigue leads to a second-half collapse and a Getafe win",
+          "prob": 0.15
+        },
+        {
+          "name": "Getafe scores on a counter-attack exploiting Celta's high defensive line",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4964,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1218240",
+      "question": "Will RC Celta de Vigo win on 2026-02-01?",
+      "resolution_date": "2026-02-01",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-25",
+      "q_post_cutoff": true,
+      "volume": 828272.347299,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.38,
+      "scenarios_yes": [
+        {
+          "name": "Strong Offensive Performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Good Away Form Continues",
+          "prob": 0.35
+        },
+        {
+          "name": "Motivation for European Qualification",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Getafe's Defensive Resilience",
+          "prob": 0.4
+        },
+        {
+          "name": "Recent Away Fatigue",
+          "prob": 0.3
+        },
+        {
+          "name": "Inconsistency in Away Games",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2491,
+      "research_summary_length": 4964,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1350007",
+      "question": "Will Elon Musk post 260-279 tweets from February 10 to February 17, 2026?",
+      "resolution_date": "2026-02-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-10",
+      "q_post_cutoff": true,
+      "volume": 1185718.286674,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.28,
+      "scenarios_yes": [
+        {
+          "name": "Steady Moderate Pace",
+          "prob": 0.15
+        },
+        {
+          "name": "Balanced Volatility Averaging to Target",
+          "prob": 0.1
+        },
+        {
+          "name": "Event-Driven Consistent Engagement",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High-Intensity Mania (Total > 400)",
+          "prob": 0.45
+        },
+        {
+          "name": "Low-Activity Quiet Period (Total < 150)",
+          "prob": 0.3
+        },
+        {
+          "name": "Near-Miss Deviation (Total 240-259 or 280-300)",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5145,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1350007",
+      "question": "Will Elon Musk post 260-279 tweets from February 10 to February 17, 2026?",
+      "resolution_date": "2026-02-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-10",
+      "q_post_cutoff": true,
+      "volume": 1185718.286674,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "Consistent Moderate Posting",
+          "prob": 0.4
+        },
+        {
+          "name": "Slight Dip from Highs",
+          "prob": 0.3
+        },
+        {
+          "name": "Planned Moderation",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Return to Low Activity",
+          "prob": 0.35
+        },
+        {
+          "name": "Unexpected Highs Exceeding Upper Bound",
+          "prob": 0.3
+        },
+        {
+          "name": "External Constraints or Events",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 4314,
+      "research_summary_length": 5145,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1269762",
+      "question": "Will Juventus FC win on 2026-02-08?",
+      "resolution_date": "2026-02-08",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-01",
+      "q_post_cutoff": true,
+      "volume": 408888.930817,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.475,
+      "scenarios_yes": [
+        {
+          "name": "Defensive Grind and Set-Piece Win",
+          "prob": 0.25
+        },
+        {
+          "name": "Midfield Control and Clinical Finish",
+          "prob": 0.15
+        },
+        {
+          "name": "Late Goal Breaks the Draw Streak",
+          "prob": 0.07
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High-Draw Outcome (0-0 or 1-1)",
+          "prob": 0.35
+        },
+        {
+          "name": "Defensive Exploitation of Injuries",
+          "prob": 0.1
+        },
+        {
+          "name": "Midfield Collapse due to Suspension/Bookings",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4576,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1269762",
+      "question": "Will Juventus FC win on 2026-02-08?",
+      "resolution_date": "2026-02-08",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-01",
+      "q_post_cutoff": true,
+      "volume": 408888.930817,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.6
+        },
+        {
+          "name": "Effective Defense Keeps Clean Sheet",
+          "prob": 0.5
+        },
+        {
+          "name": "Tactical Adjustments Against Lazio",
+          "prob": 0.4
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Draw Tendency in Home Matches",
+          "prob": 0.35
+        },
+        {
+          "name": "Key Injuries Impacting Attack",
+          "prob": 0.25
+        },
+        {
+          "name": "Suspension of Crucial Midfielder",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 1972,
+      "research_summary_length": 4576,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1063286",
+      "question": "Will Elon Musk post 400-419 tweets from January 2 to January 9, 2026?",
+      "resolution_date": "2026-01-09",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-02",
+      "q_post_cutoff": true,
+      "volume": 951775.59092,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.15,
+      "scenarios_yes": [
+        {
+          "name": "Slight Activity Dip",
+          "prob": 0.08
+        },
+        {
+          "name": "Perfect Volatility Balance",
+          "prob": 0.04
+        },
+        {
+          "name": "Minor Constraint/Outage",
+          "prob": 0.03
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Continued High Baseline (>419)",
+          "prob": 0.45
+        },
+        {
+          "name": "Event-Driven Spike (>419)",
+          "prob": 0.25
+        },
+        {
+          "name": "Low Activity Week (<400)",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5631,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1063286",
+      "question": "Will Elon Musk post 400-419 tweets from January 2 to January 9, 2026?",
+      "resolution_date": "2026-01-09",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-02",
+      "q_post_cutoff": true,
+      "volume": 951775.59092,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.38,
+      "scenarios_yes": [
+        {
+          "name": "Slightly Lower Activity",
+          "prob": 0.2
+        },
+        {
+          "name": "No Major Events",
+          "prob": 0.15
+        },
+        {
+          "name": "New Year Reflections",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Significant Event Spikes",
+          "prob": 0.25
+        },
+        {
+          "name": "Technical Issues",
+          "prob": 0.05
+        },
+        {
+          "name": "Consistent High Activity",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3114,
+      "research_summary_length": 5631,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1259969",
+      "question": "Will Arsenal FC win on 2026-02-07?",
+      "resolution_date": "2026-02-07",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-31",
+      "q_post_cutoff": true,
+      "volume": 1217815.977533,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.76,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Home Victory",
+          "prob": 0.45
+        },
+        {
+          "name": "Narrow Win via Late Goal",
+          "prob": 0.25
+        },
+        {
+          "name": "Win via Counter-Attack/Substitutes",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Frustration Draw (0-0 or 1-1)",
+          "prob": 0.18
+        },
+        {
+          "name": "Sunderland Counter-Attack Win",
+          "prob": 0.04
+        },
+        {
+          "name": "Defensive Stalemate Draw",
+          "prob": 0.03
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5318,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1259969",
+      "question": "Will Arsenal FC win on 2026-02-07?",
+      "resolution_date": "2026-02-07",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-31",
+      "q_post_cutoff": true,
+      "volume": 1217815.977533,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.78,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Home Record",
+          "prob": 0.85
+        },
+        {
+          "name": "Sunderland's Poor Away Form",
+          "prob": 0.75
+        },
+        {
+          "name": "Momentum and Squad Depth",
+          "prob": 0.65
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Sunderland's Resilience at Home",
+          "prob": 0.4
+        },
+        {
+          "name": "Fixture Congestion Impacting Performance",
+          "prob": 0.35
+        },
+        {
+          "name": "Injury Concerns and Tactical Weaknesses",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2004,
+      "research_summary_length": 5318,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1119406",
+      "question": "Will Elon Musk post 420-439 tweets from January 9 to January 16, 2026?",
+      "resolution_date": "2026-01-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-09",
+      "q_post_cutoff": true,
+      "volume": 645473.015128,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.135,
+      "scenarios_yes": [
+        {
+          "name": "Steady Moderate Activity",
+          "prob": 0.05
+        },
+        {
+          "name": "Balanced Variance (Highs and Lows Average Out)",
+          "prob": 0.04
+        },
+        {
+          "name": "Slight Post-Holiday Slowdown from Peak",
+          "prob": 0.045
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High Volatility Spike (Total > 439)",
+          "prob": 0.45
+        },
+        {
+          "name": "Quiet Period or Travel (Total < 420)",
+          "prob": 0.35
+        },
+        {
+          "name": "Strategic Reduction in Posting Frequency",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5923,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1119406",
+      "question": "Will Elon Musk post 420-439 tweets from January 9 to January 16, 2026?",
+      "resolution_date": "2026-01-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-09",
+      "q_post_cutoff": true,
+      "volume": 645473.015128,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.45,
+      "scenarios_yes": [
+        {
+          "name": "Maintains High Activity",
+          "prob": 0.6
+        },
+        {
+          "name": "Moderate Slowdown from Peak",
+          "prob": 0.35
+        },
+        {
+          "name": "Consistent Posting with Minor Fluctuations",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Significant Slowdown Similar to April 2025",
+          "prob": 0.4
+        },
+        {
+          "name": "External Distractions Reduce Posting Frequency",
+          "prob": 0.3
+        },
+        {
+          "name": "Daily Variance Pushes Total Outside Range",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2032,
+      "research_summary_length": 5923,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1466066",
+      "question": "Will England win on 2026-03-27?",
+      "resolution_date": "2026-03-27",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-20",
+      "q_post_cutoff": true,
+      "volume": 473073.0650510002,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.52,
+      "scenarios_yes": [
+        {
+          "name": "Tuchel's tactical system dominates early",
+          "prob": 0.35
+        },
+        {
+          "name": "Narrow win via defensive solidity and set-pieces",
+          "prob": 0.2
+        },
+        {
+          "name": "Late goal breaks a tight contest",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical stalemate resulting in a draw",
+          "prob": 0.3
+        },
+        {
+          "name": "Uruguay exploits counter-attacks for a win",
+          "prob": 0.15
+        },
+        {
+          "name": "Friendly rotation leads to late collapse",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4774,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1466066",
+      "question": "Will England win on 2026-03-27?",
+      "resolution_date": "2026-03-27",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-03-20",
+      "q_post_cutoff": true,
+      "volume": 473073.0650510002,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.6,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Tactical Experimentation Success",
+          "prob": 0.35
+        },
+        {
+          "name": "Key Players' Exceptional Play",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Uruguay's Historical Dominance",
+          "prob": 0.4
+        },
+        {
+          "name": "Friendly Match Volatility",
+          "prob": 0.35
+        },
+        {
+          "name": "Effective Counter-Attacks by Uruguay",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2943,
+      "research_summary_length": 4774,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1309615",
+      "question": "Will TSG 1899 Hoffenheim win on 2026-02-14?",
+      "resolution_date": "2026-02-14",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-07",
+      "q_post_cutoff": true,
+      "volume": 626107.586318,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.46,
+      "scenarios_yes": [
+        {
+          "name": "High-Scoring Home Victory",
+          "prob": 0.18
+        },
+        {
+          "name": "Narrow Home Win (1-0 or 2-1)",
+          "prob": 0.15
+        },
+        {
+          "name": "Rare Clean Sheet Performance",
+          "prob": 0.13
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High-Scoring Draw (Both Teams Score 2+)",
+          "prob": 0.2
+        },
+        {
+          "name": "Standard Draw (1-1)",
+          "prob": 0.16
+        },
+        {
+          "name": "Freiburg Away Win",
+          "prob": 0.14
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4315,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1309615",
+      "question": "Will TSG 1899 Hoffenheim win on 2026-02-14?",
+      "resolution_date": "2026-02-14",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-07",
+      "q_post_cutoff": true,
+      "volume": 626107.586318,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.45,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.35
+        },
+        {
+          "name": "Hoffenheim's Offensive Dominance",
+          "prob": 0.25
+        },
+        {
+          "name": "Freiburg's Poor Away Form",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Defensive Vulnerabilities Exploited",
+          "prob": 0.35
+        },
+        {
+          "name": "High BTTS Leading to Draw",
+          "prob": 0.25
+        },
+        {
+          "name": "Freiburg's Resilient Performance",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2727,
+      "research_summary_length": 4315,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1462822",
+      "question": "Will Olympique de Marseille win on 2026-03-13?",
+      "resolution_date": "2026-03-13",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-03-06",
+      "q_post_cutoff": true,
+      "volume": 581238.0466610026,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.64,
+      "scenarios_yes": [
+        {
+          "name": "Marseille dominates early and secures a comfortable home win",
+          "prob": 0.45
+        },
+        {
+          "name": "Tight contest with a late Marseille goal securing the win",
+          "prob": 0.15
+        },
+        {
+          "name": "Auxerre collapses under pressure after conceding first",
+          "prob": 0.04
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Auxerre defends deep and secures a 0-0 or 1-1 draw",
+          "prob": 0.25
+        },
+        {
+          "name": "Marseille rotates squad due to fatigue and drops points",
+          "prob": 0.08
+        },
+        {
+          "name": "Marseille suffers a rare home loss due to defensive error",
+          "prob": 0.02
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4952,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1462822",
+      "question": "Will Olympique de Marseille win on 2026-03-13?",
+      "resolution_date": "2026-03-13",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-03-06",
+      "q_post_cutoff": true,
+      "volume": 581238.0466610026,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.78,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.85
+        },
+        {
+          "name": "Opponent's Poor Away Form",
+          "prob": 0.75
+        },
+        {
+          "name": "Motivation for European Qualification",
+          "prob": 0.65
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Recent Inconsistency in Results",
+          "prob": 0.35
+        },
+        {
+          "name": "Opponent's Resilience in Draws",
+          "prob": 0.45
+        },
+        {
+          "name": "Potential Fatigue or Rotation",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3105,
+      "research_summary_length": 4952,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "681390",
+      "question": "Will Gr\u00e9gory Doucet win the 2026 Lyon mayoral election?",
+      "resolution_date": "2026-03-22",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-03-15",
+      "q_post_cutoff": true,
+      "volume": 463580.81471299956,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.25,
+      "scenarios_yes": [
+        {
+          "name": "Unexpected First Round Lead and Mobilization",
+          "prob": 0.15
+        },
+        {
+          "name": "Strong Republican Front Against Far-Right",
+          "prob": 0.08
+        },
+        {
+          "name": "Opposition Coalition Collapse in Runoff",
+          "prob": 0.02
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Aulas Maintains Polling Lead and Wins Runoff",
+          "prob": 0.65
+        },
+        {
+          "name": "Low Turnout Among Doucet Base",
+          "prob": 0.15
+        },
+        {
+          "name": "Strategic Voting Consolidates Right",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6192,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "681390",
+      "question": "Will Gr\u00e9gory Doucet win the 2026 Lyon mayoral election?",
+      "resolution_date": "2026-03-22",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-03-15",
+      "q_post_cutoff": true,
+      "volume": 463580.81471299956,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.2,
+      "scenarios_yes": [
+        {
+          "name": "Strong Mobilization in Key Arrondissements",
+          "prob": 0.3
+        },
+        {
+          "name": "National Momentum Shifts Favoring Left",
+          "prob": 0.25
+        },
+        {
+          "name": "Aulas Underperforms in Runoff",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Polls Accurately Predict Aulas' Victory",
+          "prob": 0.4
+        },
+        {
+          "name": "Voter Fatigue and Dissatisfaction with Doucet",
+          "prob": 0.35
+        },
+        {
+          "name": "Strong Coalition Behind Aulas",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3190,
+      "research_summary_length": 6192,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1370425",
+      "question": "Will Sport Lisboa e Benfica win on 2026-02-25?",
+      "resolution_date": "2026-02-25",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-18",
+      "q_post_cutoff": true,
+      "volume": 902667.655758,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.36,
+      "scenarios_yes": [
+        {
+          "name": "Aggressive Comeback Victory",
+          "prob": 0.25
+        },
+        {
+          "name": "Dominant Home Performance",
+          "prob": 0.15
+        },
+        {
+          "name": "Real Madrid Tactical Collapse",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical Stalemate (Draw)",
+          "prob": 0.35
+        },
+        {
+          "name": "Real Madrid Counter-Attack Win",
+          "prob": 0.2
+        },
+        {
+          "name": "Defensive Hold or Aggregate Win for Madrid",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4201,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1370425",
+      "question": "Will Sport Lisboa e Benfica win on 2026-02-25?",
+      "resolution_date": "2026-02-25",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-18",
+      "q_post_cutoff": true,
+      "volume": 902667.655758,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.35,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Necessary Win for Progression",
+          "prob": 0.35
+        },
+        {
+          "name": "Opponent Underperformance",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Away Team Dominance",
+          "prob": 0.45
+        },
+        {
+          "name": "Narrow Aggregate Deficit",
+          "prob": 0.3
+        },
+        {
+          "name": "High Pressure Environment",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2629,
+      "research_summary_length": 4201,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1362059",
+      "question": "Will Elon Musk post 400-419 tweets from February 13 to February 20, 2026?",
+      "resolution_date": "2026-02-20",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-13",
+      "q_post_cutoff": true,
+      "volume": 738267.347682,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.04,
+      "scenarios_yes": [
+        {
+          "name": "Unusually Quiet Week",
+          "prob": 0.08
+        },
+        {
+          "name": "Partial Travel/Restriction",
+          "prob": 0.04
+        },
+        {
+          "name": "Technical/Platform Glitch",
+          "prob": 0.01
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Standard High Volume (>419)",
+          "prob": 0.65
+        },
+        {
+          "name": "Event-Driven Spike (>419)",
+          "prob": 0.2
+        },
+        {
+          "name": "Low Volume (<400)",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6238,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1362059",
+      "question": "Will Elon Musk post 400-419 tweets from February 13 to February 20, 2026?",
+      "resolution_date": "2026-02-20",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-13",
+      "q_post_cutoff": true,
+      "volume": 738267.347682,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.25,
+      "scenarios_yes": [
+        {
+          "name": "Quiet Week with Few Major Announcements",
+          "prob": 0.25
+        },
+        {
+          "name": "Focus on Other Projects or Tasks",
+          "prob": 0.15
+        },
+        {
+          "name": "External Factors Limiting Posting (e.g., Platform Issues)",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Exceeds Upper Bound Due to Event-Driven Spikes",
+          "prob": 0.4
+        },
+        {
+          "name": "Consistent High Posting Activity",
+          "prob": 0.35
+        },
+        {
+          "name": "Unexpected Increase in Tweet Volume",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2197,
+      "research_summary_length": 6238,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1209697",
+      "question": "Will Wolverhampton Wanderers FC win on 2026-01-31?",
+      "resolution_date": "2026-01-31",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-24",
+      "q_post_cutoff": true,
+      "volume": 301377.647644,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.11,
+      "scenarios_yes": [
+        {
+          "name": "Momentum Carryover and Counter-Attack Success",
+          "prob": 0.08
+        },
+        {
+          "name": "Brighton Complacency and Defensive Errors",
+          "prob": 0.05
+        },
+        {
+          "name": "Tactical Masterclass by Rob Edwards",
+          "prob": 0.04
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Historical Dominance Continues (Brighton Win)",
+          "prob": 0.45
+        },
+        {
+          "name": "Defensive Collapse Against Quality Attack",
+          "prob": 0.3
+        },
+        {
+          "name": "Draw Due to Inability to Close Out Games",
+          "prob": 0.2
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5340,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1209697",
+      "question": "Will Wolverhampton Wanderers FC win on 2026-01-31?",
+      "resolution_date": "2026-01-31",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-24",
+      "q_post_cutoff": true,
+      "volume": 301377.647644,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.15,
+      "scenarios_yes": [
+        {
+          "name": "Recent Momentum from West Ham Win",
+          "prob": 0.2
+        },
+        {
+          "name": "Playing at Home with Crowd Support",
+          "prob": 0.15
+        },
+        {
+          "name": "Brighton's Inconsistency Against Relegation-threatened Teams",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Historical Head-to-Head Disadvantage",
+          "prob": 0.35
+        },
+        {
+          "name": "Brighton's Stronger Squad and Form",
+          "prob": 0.25
+        },
+        {
+          "name": "Wolves' Defensive Fragility",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 1726,
+      "research_summary_length": 5340,
+      "research_sources_count": 0
+    },
+    {
+      "market_id": "1375505",
+      "question": "Will Elon Musk post 400-419 tweets from February 17 to February 24, 2026?",
+      "resolution_date": "2026-02-24",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-17",
+      "q_post_cutoff": true,
+      "volume": 1033165.751598,
+      "n_wallets_traded": 6,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Moderate Activity Dip",
+          "prob": 0.15
+        },
+        {
+          "name": "Travel or Holiday Suppression",
+          "prob": 0.05
+        },
+        {
+          "name": "Strategic Reduction in Posting",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Sustained High Activity (>419)",
+          "prob": 0.6
+        },
+        {
+          "name": "Significant Low Activity (<400)",
+          "prob": 0.2
+        },
+        {
+          "name": "Extreme Volatility Missing the Band",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6020,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1375505",
+      "question": "Will Elon Musk post 400-419 tweets from February 17 to February 24, 2026?",
+      "resolution_date": "2026-02-24",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-17",
+      "q_post_cutoff": true,
+      "volume": 1033165.751598,
+      "n_wallets_traded": 6,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.38,
+      "scenarios_yes": [
+        {
+          "name": "Slight Dip in Posting Activity",
+          "prob": 0.35
+        },
+        {
+          "name": "Focus on Specific Topics",
+          "prob": 0.3
+        },
+        {
+          "name": "Technical Issues or Travel",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Maintaining High Posting Activity",
+          "prob": 0.4
+        },
+        {
+          "name": "Significant Drop in Posting",
+          "prob": 0.35
+        },
+        {
+          "name": "Outlier Week Similar to November 2025",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3894,
+      "research_summary_length": 6020,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1111950",
+      "question": "Will AC Milan win on 2026-01-18?",
+      "resolution_date": "2026-01-18",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-11",
+      "q_post_cutoff": true,
+      "volume": 538390.636028,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.74,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Control",
+          "prob": 0.45
+        },
+        {
+          "name": "Grind Out Victory",
+          "prob": 0.25
+        },
+        {
+          "name": "Counter-Attack Efficiency",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Stalemate (Draw)",
+          "prob": 0.2
+        },
+        {
+          "name": "Defensive Collapse",
+          "prob": 0.05
+        },
+        {
+          "name": "Midfield Battle Lost",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5163,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1111950",
+      "question": "Will AC Milan win on 2026-01-18?",
+      "resolution_date": "2026-01-18",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-01-11",
+      "q_post_cutoff": true,
+      "volume": 538390.636028,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.75,
+      "scenarios_yes": [
+        {
+          "name": "Milan's Strong Home Record Against Lecce",
+          "prob": 0.8
+        },
+        {
+          "name": "Current Unbeaten Run and Momentum",
+          "prob": 0.75
+        },
+        {
+          "name": "Lecce's Defensive Vulnerabilities Exploited",
+          "prob": 0.6
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Fatigue from Midweek Match",
+          "prob": 0.4
+        },
+        {
+          "name": "Inconsistent Home Form Against Lower Teams",
+          "prob": 0.35
+        },
+        {
+          "name": "Lecce's Resilient Defense Holds Out",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3917,
+      "research_summary_length": 5163,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1137156",
+      "question": "Will Elon Musk post 140-164 tweets from January 10 to January 12, 2026?",
+      "resolution_date": "2026-01-12",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-05",
+      "q_post_cutoff": true,
+      "volume": 327102.617811,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Significant Activity Reduction",
+          "prob": 0.15,
+          "description": "Musk's daily average drops to ~50 tweets/day due to a temporary lull, travel, or reduced engagement, landing the total in the 140-164 range."
+        },
+        {
+          "name": "Mixed Volatility",
+          "prob": 0.1,
+          "description": "A combination of one very low day (<20 tweets) and two moderate days (60-70 tweets) results in a total within the target range."
+        },
+        {
+          "name": "Baseline Correction",
+          "prob": 0.05,
+          "description": "The 2025 average of 100/day was an anomaly, and by Jan 2026, his activity has structurally settled to the 50/day range."
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Continuation of High Volume",
+          "prob": 0.7,
+          "description": "Musk maintains his 2025 average of ~100 tweets/day, resulting in a 3-day total of ~300, which exceeds the 164 upper bound."
+        },
+        {
+          "name": "Major Event Spike",
+          "prob": 0.1,
+          "description": "A specific event (launch, controversy) causes a massive spike, pushing the total well above 164 (e.g., >200)."
+        },
+        {
+          "name": "Unexpected Silence",
+          "prob": 0.1,
+          "description": "Musk posts very little (<40/day) due to suspension, travel, or personal reasons, resulting in a total below 140."
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5105,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1137156",
+      "question": "Will Elon Musk post 140-164 tweets from January 10 to January 12, 2026?",
+      "resolution_date": "2026-01-12",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-05",
+      "q_post_cutoff": true,
+      "volume": 327102.617811,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.35,
+      "scenarios_yes": [
+        {
+          "name": "Musk reduces tweet volume due to travel or events",
+          "prob": 0.35
+        },
+        {
+          "name": "Musk has a moderate but consistent posting rate over three days",
+          "prob": 0.25
+        },
+        {
+          "name": "One high-volume day and two lower-volume days balance to the target range",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Musk maintains his 2025 average tweet volume",
+          "prob": 0.45
+        },
+        {
+          "name": "Technical issues or account suspension reduce activity below target range",
+          "prob": 0.15
+        },
+        {
+          "name": "Multiple high-volume days push total above the upper limit",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2102,
+      "research_summary_length": 5105,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1225166",
+      "question": "Will Elon Musk post 460-479 tweets from January 23 to January 30, 2026?",
+      "resolution_date": "2026-01-30",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-23",
+      "q_post_cutoff": true,
+      "volume": 767091.549113,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.58,
+      "scenarios_yes": [
+        {
+          "name": "Stable Plateau Continuation",
+          "prob": 0.45
+        },
+        {
+          "name": "Minor Upward Fluctuation within Range",
+          "prob": 0.1
+        },
+        {
+          "name": "Minor Downward Fluctuation within Range",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Significant Volume Drop (Burnout/Low News)",
+          "prob": 0.25
+        },
+        {
+          "name": "Event-Driven Spike (Above 479)",
+          "prob": 0.2
+        },
+        {
+          "name": "Technical Disruption or Hiatus",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5452,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1225166",
+      "question": "Will Elon Musk post 460-479 tweets from January 23 to January 30, 2026?",
+      "resolution_date": "2026-01-30",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-23",
+      "q_post_cutoff": true,
+      "volume": 767091.549113,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "Continued High Volume Posting",
+          "prob": 0.5
+        },
+        {
+          "name": "Slight Increase Due to Events",
+          "prob": 0.3
+        },
+        {
+          "name": "Consistent Posting Without Major Changes",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Burnout Leading to Reduced Posts",
+          "prob": 0.25
+        },
+        {
+          "name": "Unexpected Events Causing Spike Above 500",
+          "prob": 0.15
+        },
+        {
+          "name": "Technical Issues or Hiatus",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 4075,
+      "research_summary_length": 5452,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1360218",
+      "question": "Will Elon Musk post 90-114 tweets from February 12 to February 14, 2026?",
+      "resolution_date": "2026-02-14",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-07",
+      "q_post_cutoff": true,
+      "volume": 364055.128595,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.06,
+      "scenarios_yes": [
+        {
+          "name": "Sustained Quiet Period",
+          "prob": 0.04
+        },
+        {
+          "name": "Strategic Activity Reduction",
+          "prob": 0.01
+        },
+        {
+          "name": "Technical/Platform Constraints",
+          "prob": 0.01
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Standard High Volume (>114)",
+          "prob": 0.85
+        },
+        {
+          "name": "Post-Davos Engagement Spike (>114)",
+          "prob": 0.08
+        },
+        {
+          "name": "Extreme Low Volume (<90)",
+          "prob": 0.02
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5658,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1360218",
+      "question": "Will Elon Musk post 90-114 tweets from February 12 to February 14, 2026?",
+      "resolution_date": "2026-02-14",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-07",
+      "q_post_cutoff": true,
+      "volume": 364055.128595,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.2,
+      "scenarios_yes": [
+        {
+          "name": "Temporary lull in activity due to personal reasons",
+          "prob": 0.3
+        },
+        {
+          "name": "Reduced focus on Twitter during a busy period",
+          "prob": 0.25
+        },
+        {
+          "name": "Absence of major news events prompting tweets",
+          "prob": 0.15
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High baseline activity continues as usual",
+          "prob": 0.4
+        },
+        {
+          "name": "Post-Davos engagement increases tweet volume",
+          "prob": 0.35
+        },
+        {
+          "name": "Tweet spike on one or more days exceeds upper bound",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2091,
+      "research_summary_length": 5658,
+      "research_sources_count": 4
+    },
+    {
+      "market_id": "1632628",
+      "question": "Will Anish Giri win the 2026 FIDE Candidates Tournament?",
+      "resolution_date": "2026-04-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-04-10",
+      "q_post_cutoff": true,
+      "volume": 515249.90897699987,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.02,
+      "scenarios_yes": [],
+      "scenarios_no": [],
+      "parse_failed": true,
+      "thinking_length": 0,
+      "research_summary_length": 5201,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1632628",
+      "question": "Will Anish Giri win the 2026 FIDE Candidates Tournament?",
+      "resolution_date": "2026-04-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-04-10",
+      "q_post_cutoff": true,
+      "volume": 515249.90897699987,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.25,
+      "scenarios_yes": [
+        {
+          "name": "Giri wins his last game and Sindarov loses",
+          "prob": 0.16
+        },
+        {
+          "name": "Tie on points with better tiebreaks",
+          "prob": 0.3
+        },
+        {
+          "name": "Sindarov makes a mistake in the final round",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Giri fails to win his last game",
+          "prob": 0.2
+        },
+        {
+          "name": "Sindarov secures a draw or win in the final round",
+          "prob": 0.7
+        },
+        {
+          "name": "Tiebreaks favor Sindarov despite equal points",
+          "prob": 0.4
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2465,
+      "research_summary_length": 5201,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1009178",
+      "question": "Will Como 1907 win on 2026-01-06?",
+      "resolution_date": "2026-01-06",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2025-12-30",
+      "q_post_cutoff": true,
+      "volume": 962982.079901,
+      "n_wallets_traded": 10,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.72,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Possession Victory",
+          "prob": 0.45
+        },
+        {
+          "name": "Early Goal & Counter-Attack Exploitation",
+          "prob": 0.18
+        },
+        {
+          "name": "Pisa Defensive Collapse",
+          "prob": 0.09
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical Draw (Low Block)",
+          "prob": 0.22
+        },
+        {
+          "name": "Defensive Error Leading to Loss",
+          "prob": 0.05
+        },
+        {
+          "name": "Rare Underdog Win",
+          "prob": 0.03
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5047,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1009178",
+      "question": "Will Como 1907 win on 2026-01-06?",
+      "resolution_date": "2026-01-06",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2025-12-30",
+      "q_post_cutoff": true,
+      "volume": 962982.079901,
+      "n_wallets_traded": 10,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.72,
+      "scenarios_yes": [
+        {
+          "name": "Superior Form and League Position",
+          "prob": 0.75
+        },
+        {
+          "name": "Head-to-Head Psychological Advantage",
+          "prob": 0.65
+        },
+        {
+          "name": "Strong Attacking Prowess",
+          "prob": 0.8
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Away Match Dynamics and Challenges",
+          "prob": 0.4
+        },
+        {
+          "name": "Key Injuries Impacting Performance",
+          "prob": 0.5
+        },
+        {
+          "name": "Pisa's Home Resilience",
+          "prob": 0.3
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2379,
+      "research_summary_length": 5047,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1041282",
+      "question": "Will Al Fateh Saudi Club win on 2026-01-16?",
+      "resolution_date": "2026-01-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-09",
+      "q_post_cutoff": true,
+      "volume": 373463.372547,
+      "n_wallets_traded": 5,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.22,
+      "scenarios_yes": [
+        {
+          "name": "Early Goal and Defensive Resilience",
+          "prob": 0.15
+        },
+        {
+          "name": "Al Ittihad Rotation/Underperformance",
+          "prob": 0.08
+        },
+        {
+          "name": "High-Scoring Upset (3-2 or 2-1)",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Standard Loss (Al Ittihad Control)",
+          "prob": 0.45
+        },
+        {
+          "name": "Draw (Both teams score, Al Fateh fails to close)",
+          "prob": 0.35
+        },
+        {
+          "name": "Heavy Defeat (Defensive Collapse)",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4834,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1041282",
+      "question": "Will Al Fateh Saudi Club win on 2026-01-16?",
+      "resolution_date": "2026-01-16",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-09",
+      "q_post_cutoff": true,
+      "volume": 373463.372547,
+      "n_wallets_traded": 5,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.18,
+      "scenarios_yes": [
+        {
+          "name": "Home advantage boosts performance",
+          "prob": 0.35
+        },
+        {
+          "name": "Opponent's defensive vulnerabilities exploited",
+          "prob": 0.25
+        },
+        {
+          "name": "Mid-table survival motivation leads to strong play",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High-quality opponent dominates the match",
+          "prob": 0.4
+        },
+        {
+          "name": "Defensive instability leads to multiple goals conceded",
+          "prob": 0.35
+        },
+        {
+          "name": "Recent inconsistent form continues with a loss",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2499,
+      "research_summary_length": 4834,
+      "research_sources_count": 3
+    },
+    {
+      "market_id": "1408327",
+      "question": "Will Elon Musk post 90-114 tweets from February 23 to February 25, 2026?",
+      "resolution_date": "2026-02-25",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-18",
+      "q_post_cutoff": true,
+      "volume": 557954.721565,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.28,
+      "scenarios_yes": [
+        {
+          "name": "Moderate Consistency",
+          "prob": 0.15
+        },
+        {
+          "name": "Low-Volume Trend",
+          "prob": 0.1
+        },
+        {
+          "name": "Balanced Mixed Activity",
+          "prob": 0.05
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High-Intensity Burst",
+          "prob": 0.45
+        },
+        {
+          "name": "Deep Silence / Strategic Pause",
+          "prob": 0.2
+        },
+        {
+          "name": "Platform or External Disruption",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6502,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1408327",
+      "question": "Will Elon Musk post 90-114 tweets from February 23 to February 25, 2026?",
+      "resolution_date": "2026-02-25",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-18",
+      "q_post_cutoff": true,
+      "volume": 557954.721565,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.75,
+      "scenarios_yes": [
+        {
+          "name": "Moderate Activity",
+          "prob": 0.6
+        },
+        {
+          "name": "Event-Driven Posting",
+          "prob": 0.3
+        },
+        {
+          "name": "Sporadic Bursts",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Low-Activity Phase",
+          "prob": 0.4
+        },
+        {
+          "name": "External Constraints",
+          "prob": 0.35
+        },
+        {
+          "name": "Strategic Silence",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2725,
+      "research_summary_length": 6502,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1168343",
+      "question": "Will Elon Musk post 140-164 tweets from January 15 to January 17, 2026?",
+      "resolution_date": "2026-01-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-10",
+      "q_post_cutoff": true,
+      "volume": 603512.961636,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.42,
+      "scenarios_yes": [
+        {
+          "name": "Moderate Davos Engagement",
+          "prob": 0.45
+        },
+        {
+          "name": "Steady Baseline Activity",
+          "prob": 0.35
+        },
+        {
+          "name": "Travel-Adjusted Consistency",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tweet Storm Exceeding 164",
+          "prob": 0.3
+        },
+        {
+          "name": "Low Activity/Travel Fatigue",
+          "prob": 0.35
+        },
+        {
+          "name": "Technical/External Suppression",
+          "prob": 0.1
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 6206,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1168343",
+      "question": "Will Elon Musk post 140-164 tweets from January 15 to January 17, 2026?",
+      "resolution_date": "2026-01-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-01-10",
+      "q_post_cutoff": true,
+      "volume": 603512.961636,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.65,
+      "scenarios_yes": [
+        {
+          "name": "High Baseline Activity",
+          "prob": 0.4
+        },
+        {
+          "name": "Davos Engagement",
+          "prob": 0.35
+        },
+        {
+          "name": "Event-Driven Spike",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Low Activity Period",
+          "prob": 0.3
+        },
+        {
+          "name": "Travel Impact",
+          "prob": 0.4
+        },
+        {
+          "name": "Technical Issues",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3372,
+      "research_summary_length": 6206,
+      "research_sources_count": 6
+    },
+    {
+      "market_id": "1341278",
+      "question": "Will Club Brugge KV win on 2026-02-18?",
+      "resolution_date": "2026-02-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-11",
+      "q_post_cutoff": true,
+      "volume": 343802.357362,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.32,
+      "scenarios_yes": [
+        {
+          "name": "Dominant Home Performance",
+          "prob": 0.12
+        },
+        {
+          "name": "Counter-Attack Victory",
+          "prob": 0.1
+        },
+        {
+          "name": "Set-Piece/Chaos Win",
+          "prob": 0.1
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Tactical Draw (Most Likely)",
+          "prob": 0.38
+        },
+        {
+          "name": "Away Win via Counter/Set-Piece",
+          "prob": 0.25
+        },
+        {
+          "name": "Defensive Collapse Loss",
+          "prob": 0.07
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5703,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1341278",
+      "question": "Will Club Brugge KV win on 2026-02-18?",
+      "resolution_date": "2026-02-18",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-11",
+      "q_post_cutoff": true,
+      "volume": 343802.357362,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.4,
+      "scenarios_yes": [
+        {
+          "name": "Strong Home Performance",
+          "prob": 0.3
+        },
+        {
+          "name": "Recent Momentum from Victory",
+          "prob": 0.25
+        },
+        {
+          "name": "Exploiting Opponent's Away Struggles",
+          "prob": 0.2
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "High-Quality Opposition",
+          "prob": 0.4
+        },
+        {
+          "name": "Inconsistent European Form",
+          "prob": 0.35
+        },
+        {
+          "name": "Cautious Knockout Approach",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 3019,
+      "research_summary_length": 5703,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1350015",
+      "question": "Will Elon Musk post 320-339 tweets from February 10 to February 17, 2026?",
+      "resolution_date": "2026-02-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-10",
+      "q_post_cutoff": true,
+      "volume": 810909.768162,
+      "n_wallets_traded": 3,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.04,
+      "scenarios_yes": [
+        {
+          "name": "Sustained drastic reduction in activity",
+          "prob": 0.02
+        },
+        {
+          "name": "Account suspension or technical outage limiting posts",
+          "prob": 0.01
+        },
+        {
+          "name": "Major personal event preventing posting for half the week",
+          "prob": 0.01
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Continuation of current high-volume baseline (~650+ tweets)",
+          "prob": 0.85
+        },
+        {
+          "name": "Moderate activity week (400-500 tweets) due to weekend dip",
+          "prob": 0.1
+        },
+        {
+          "name": "High-activity spike (>700 tweets) due to major events",
+          "prob": 0.03
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 4402,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1350015",
+      "question": "Will Elon Musk post 320-339 tweets from February 10 to February 17, 2026?",
+      "resolution_date": "2026-02-17",
+      "resolved_outcome": "No",
+      "resolved_outcome_int": 0,
+      "info_horizon": "2026-02-10",
+      "q_post_cutoff": true,
+      "volume": 810909.768162,
+      "n_wallets_traded": 3,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.12,
+      "scenarios_yes": [
+        {
+          "name": "Planned Break or Reduced Activity",
+          "prob": 0.05
+        },
+        {
+          "name": "Technical Issues Limiting Posting",
+          "prob": 0.03
+        },
+        {
+          "name": "Personal Reasons Leading to Lower Output",
+          "prob": 0.04
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Maintaining or Increasing Historical Highs",
+          "prob": 0.8
+        },
+        {
+          "name": "Engagement Driven by Current Events",
+          "prob": 0.15
+        },
+        {
+          "name": "Platform Dynamics Encouraging Higher Activity",
+          "prob": 0.05
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2753,
+      "research_summary_length": 4402,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1317165",
+      "question": "Will Parma Calcio 1913 win on 2026-02-15?",
+      "resolution_date": "2026-02-15",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-08",
+      "q_post_cutoff": true,
+      "volume": 462692.483784,
+      "n_wallets_traded": 4,
+      "model_key": "qwen",
+      "model": "qwen3.5:122b",
+      "final_prob": 0.22,
+      "scenarios_yes": [
+        {
+          "name": "Set-Piece Capitalization",
+          "prob": 0.12
+        },
+        {
+          "name": "Verona Defensive Collapse",
+          "prob": 0.06
+        },
+        {
+          "name": "Reserve Player Heroics",
+          "prob": 0.04
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Stalemate/Draw",
+          "prob": 0.35
+        },
+        {
+          "name": "Parma Defensive Breakdown",
+          "prob": 0.25
+        },
+        {
+          "name": "Verona Desperation Win",
+          "prob": 0.15
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 0,
+      "research_summary_length": 5145,
+      "research_sources_count": 5
+    },
+    {
+      "market_id": "1317165",
+      "question": "Will Parma Calcio 1913 win on 2026-02-15?",
+      "resolution_date": "2026-02-15",
+      "resolved_outcome": "Yes",
+      "resolved_outcome_int": 1,
+      "info_horizon": "2026-02-08",
+      "q_post_cutoff": true,
+      "volume": 462692.483784,
+      "n_wallets_traded": 4,
+      "model_key": "deepseek",
+      "model": "deepseek-r1:32b",
+      "final_prob": 0.3,
+      "scenarios_yes": [
+        {
+          "name": "Home Advantage Boosts Performance",
+          "prob": 0.4
+        },
+        {
+          "name": "Confidence from Previous Win Over Verona",
+          "prob": 0.35
+        },
+        {
+          "name": "Verona's Desperation Leads to Mistakes",
+          "prob": 0.25
+        }
+      ],
+      "scenarios_no": [
+        {
+          "name": "Inconsistent Form and High Draw Rate",
+          "prob": 0.4
+        },
+        {
+          "name": "Key Injuries Hinder Attack",
+          "prob": 0.35
+        },
+        {
+          "name": "Defensive Vulnerabilities Exploited by Verona",
+          "prob": 0.25
+        }
+      ],
+      "parse_failed": false,
+      "thinking_length": 2050,
+      "research_summary_length": 5145,
+      "research_sources_count": 5
+    }
+  ]
+}

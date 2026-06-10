@@ -1,0 +1,154 @@
+{
+  "n_questions": 28,
+  "n_agents_per_group": 10,
+  "model": "qwen3.5:122b",
+  "placebo_preamble_chars": 4048,
+  "group_metrics": {
+    "control_a": {
+      "mean_brier": 0.0933,
+      "mean_jsd": 0.0,
+      "err_corr": 1.0,
+      "prob_corr": 1.0
+    },
+    "control_b": {
+      "mean_brier": 0.0857,
+      "mean_jsd": 0.0025,
+      "err_corr": 0.9908,
+      "prob_corr": 0.9926
+    },
+    "treatment": {
+      "mean_brier": 0.0888,
+      "mean_jsd": 0.006,
+      "err_corr": 0.9838,
+      "prob_corr": 0.9851
+    },
+    "placebo": {
+      "mean_brier": 0.0911,
+      "mean_jsd": 0.0025,
+      "err_corr": 0.9907,
+      "prob_corr": 0.9914
+    }
+  },
+  "pair_comparisons": [
+    {
+      "comparison": "stochastic (Control-B \u2212 Control-A)",
+      "ensemble_brier": {
+        "diff_b_minus_a": -0.0076,
+        "bootstrap_95ci": [
+          -0.0855,
+          0.0669
+        ],
+        "welch_p": 0.8512,
+        "cohen_d": -0.05
+      },
+      "mean_pairwise_jsd": {
+        "diff_b_minus_a": 0.0025,
+        "bootstrap_95ci": [
+          0.0015,
+          0.0039
+        ],
+        "welch_p": 0.0005,
+        "cohen_d": 1.065
+      },
+      "pairwise_error_covariance": {
+        "diff_b_minus_a": -0.0077,
+        "bootstrap_95ci": [
+          -0.0856,
+          0.0668
+        ],
+        "welch_p": 0.8495,
+        "cohen_d": -0.051
+      }
+    },
+    {
+      "comparison": "length_effect (Placebo \u2212 Control-B)",
+      "ensemble_brier": {
+        "diff_b_minus_a": 0.0054,
+        "bootstrap_95ci": [
+          -0.0679,
+          0.0746
+        ],
+        "welch_p": 0.8823,
+        "cohen_d": 0.04
+      },
+      "mean_pairwise_jsd": {
+        "diff_b_minus_a": -0.0001,
+        "bootstrap_95ci": [
+          -0.0016,
+          0.0014
+        ],
+        "welch_p": 0.9311,
+        "cohen_d": -0.023
+      },
+      "pairwise_error_covariance": {
+        "diff_b_minus_a": 0.0054,
+        "bootstrap_95ci": [
+          -0.0679,
+          0.0746
+        ],
+        "welch_p": 0.8826,
+        "cohen_d": 0.04
+      }
+    },
+    {
+      "comparison": "pure_cognitive (Treatment \u2212 Placebo)",
+      "ensemble_brier": {
+        "diff_b_minus_a": -0.0023,
+        "bootstrap_95ci": [
+          -0.0759,
+          0.0659
+        ],
+        "welch_p": 0.9496,
+        "cohen_d": -0.017
+      },
+      "mean_pairwise_jsd": {
+        "diff_b_minus_a": 0.0035,
+        "bootstrap_95ci": [
+          0.0011,
+          0.0061
+        ],
+        "welch_p": 0.01,
+        "cohen_d": 0.729
+      },
+      "pairwise_error_covariance": {
+        "diff_b_minus_a": -0.0024,
+        "bootstrap_95ci": [
+          -0.0758,
+          0.0658
+        ],
+        "welch_p": 0.9478,
+        "cohen_d": -0.018
+      }
+    },
+    {
+      "comparison": "cognitive_net (Treatment \u2212 Control-B) [confounded reference]",
+      "ensemble_brier": {
+        "diff_b_minus_a": 0.0032,
+        "bootstrap_95ci": [
+          -0.0689,
+          0.0734
+        ],
+        "welch_p": 0.9332,
+        "cohen_d": 0.023
+      },
+      "mean_pairwise_jsd": {
+        "diff_b_minus_a": 0.0035,
+        "bootstrap_95ci": [
+          0.0009,
+          0.0061
+        ],
+        "welch_p": 0.0154,
+        "cohen_d": 0.676
+      },
+      "pairwise_error_covariance": {
+        "diff_b_minus_a": 0.0031,
+        "bootstrap_95ci": [
+          -0.069,
+          0.0732
+        ],
+        "welch_p": 0.9352,
+        "cohen_d": 0.022
+      }
+    }
+  ]
+}

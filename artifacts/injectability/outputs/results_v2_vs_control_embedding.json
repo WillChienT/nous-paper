@@ -1,0 +1,136 @@
+{
+  "conditions": [
+    "v2",
+    "control"
+  ],
+  "models": [
+    {
+      "model": "deepseek-r1-32b",
+      "metric": "tfidf_cosine",
+      "n_questions": 5,
+      "mean_v2": 0.7325,
+      "mean_control": 0.6294,
+      "mean_diff": 0.1031,
+      "n_questions_v2_gt_control": 5,
+      "sign_test_p": 0.0625,
+      "per_question": {
+        "ambiguous_signal": {
+          "v2": 0.7901,
+          "control": 0.7405
+        },
+        "domain_preference": {
+          "v2": 0.7122,
+          "control": 0.702
+        },
+        "investment": {
+          "v2": 0.716,
+          "control": 0.5529
+        },
+        "risk_assessment": {
+          "v2": 0.7407,
+          "control": 0.5873
+        },
+        "time_preference": {
+          "v2": 0.7033,
+          "control": 0.5641
+        }
+      }
+    },
+    {
+      "model": "llama3.1-8b",
+      "metric": "ollama_cosine",
+      "n_questions": 5,
+      "mean_v2": 0.1537,
+      "mean_control": 0.0976,
+      "mean_diff": 0.056,
+      "n_questions_v2_gt_control": 5,
+      "sign_test_p": 0.0625,
+      "per_question": {
+        "ambiguous_signal": {
+          "v2": 0.1316,
+          "control": 0.1258
+        },
+        "domain_preference": {
+          "v2": 0.1968,
+          "control": 0.0984
+        },
+        "investment": {
+          "v2": 0.138,
+          "control": 0.0886
+        },
+        "risk_assessment": {
+          "v2": 0.1694,
+          "control": 0.119
+        },
+        "time_preference": {
+          "v2": 0.1326,
+          "control": 0.0564
+        }
+      }
+    },
+    {
+      "model": "qwen3-32b",
+      "metric": "ollama_cosine",
+      "n_questions": 5,
+      "mean_v2": 0.1613,
+      "mean_control": 0.0522,
+      "mean_diff": 0.1091,
+      "n_questions_v2_gt_control": 5,
+      "sign_test_p": 0.0625,
+      "per_question": {
+        "ambiguous_signal": {
+          "v2": 0.1092,
+          "control": 0.0208
+        },
+        "domain_preference": {
+          "v2": 0.1715,
+          "control": 0.1345
+        },
+        "investment": {
+          "v2": 0.1653,
+          "control": 0.0007
+        },
+        "risk_assessment": {
+          "v2": 0.2039,
+          "control": 0.0636
+        },
+        "time_preference": {
+          "v2": 0.1565,
+          "control": 0.0414
+        }
+      }
+    },
+    {
+      "model": "qwen3.5-122b",
+      "metric": "ollama_cosine",
+      "n_questions": 5,
+      "mean_v2": 0.9721,
+      "mean_control": 1.0,
+      "mean_diff": -0.0279,
+      "n_questions_v2_gt_control": 0,
+      "sign_test_p": 0.0625,
+      "per_question": {
+        "ambiguous_signal": {
+          "v2": 0.9345,
+          "control": 1.0
+        },
+        "domain_preference": {
+          "v2": 1.0,
+          "control": 1.0
+        },
+        "investment": {
+          "v2": 1.0,
+          "control": 1.0
+        },
+        "risk_assessment": {
+          "v2": 0.9258,
+          "control": 1.0
+        },
+        "time_preference": {
+          "v2": 1.0,
+          "control": 1.0
+        }
+      }
+    }
+  ]
+}

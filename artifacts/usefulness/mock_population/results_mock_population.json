@@ -1,0 +1,344 @@
+{
+  "model": "qwen3.5:122b",
+  "generated_at": "2026-06-03T06:23:37.586436",
+  "listwise_n_questions": 18,
+  "temperatures_analysed": [
+    0.3,
+    0.7
+  ],
+  "spread": {
+    "mock_14dim": {
+      "n_profiles": 14,
+      "n_pairs": 91,
+      "mean_pairwise_dist": 10.348,
+      "min_pairwise_dist": 5.9787,
+      "max_pairwise_dist": 16.4947,
+      "std_pairwise_dist": 2.028
+    },
+    "mock_5dim_comparable": {
+      "n_profiles": 14,
+      "n_pairs": 91,
+      "mean_pairwise_dist": 5.3796,
+      "min_pairwise_dist": 2.6708,
+      "max_pairwise_dist": 10.6637,
+      "std_pairwise_dist": 1.5799,
+      "note": "5 dims: contrarian_score, crowd_sensitivity, analytical_ratio, hedgehog_fox_index, update_rate"
+    },
+    "real10_5dim": {
+      "n_profiles": 10,
+      "n_pairs": 45,
+      "mean_pairwise_dist": 5.1541,
+      "min_pairwise_dist": 2.5477,
+      "max_pairwise_dist": 7.3157,
+      "std_pairwise_dist": 1.2081,
+      "note": "Only 5 dims available in profile_vector (contrarian_score, crowd_sensitivity, analytical_ratio, hedgehog_fox_index, update_rate). Mock spread measured on same 5 dims for fair comparison."
+    }
+  },
+  "baseline_reference": {
+    "source": "results_heterogeneity_tempsweep.json (listwise 21 questions)",
+    "real10_temp03_jsd": 0.0054,
+    "real10_temp03_err_corr": 0.9863,
+    "cb_temp03_jsd": 0.0021,
+    "cb_temp03_err_corr": 0.9921
+  },
+  "per_temperature": [
+    {
+      "temperature": 0.3,
+      "n_listwise_questions": 18,
+      "controlb": {
+        "mean_brier": 0.0332,
+        "mean_jsd": 0.0015,
+        "mean_errcov": 0.0331,
+        "parse_rate": 0.938,
+        "err_corr": 0.9921
+      },
+      "real10_treatment": {
+        "mean_brier": 0.0332,
+        "mean_jsd": 0.004,
+        "mean_errcov": 0.0331,
+        "parse_rate": 0.968,
+        "err_corr": 0.9863
+      },
+      "mock_treatment": {
+        "mean_brier": 0.0342,
+        "mean_jsd": 0.0037,
+        "mean_errcov": 0.0341,
+        "parse_rate": 0.95,
+        "err_corr": 0.9878
+      },
+      "delta_mock_minus_cb": {
+        "jsd": {
+          "diff_b_minus_a": 0.0022,
+          "bootstrap_95ci": [
+            0.001,
+            0.00354
+          ],
+          "welch_p": 0.0605,
+          "cohen_d": 0.658
+        },
+        "brier": {
+          "diff_b_minus_a": 0.00101,
+          "bootstrap_95ci": [
+            -0.00222,
+            0.00481
+          ],
+          "welch_p": 0.9626,
+          "cohen_d": 0.016
+        },
+        "errcov": {
+          "diff_b_minus_a": 0.00093,
+          "bootstrap_95ci": [
+            -0.00231,
+            0.00475
+          ],
+          "welch_p": 0.9653,
+          "cohen_d": 0.015
+        }
+      },
+      "delta_real10_minus_cb": {
+        "jsd": {
+          "diff_b_minus_a": 0.00253,
+          "bootstrap_95ci": [
+            0.00147,
+            0.00372
+          ],
+          "welch_p": 0.0117,
+          "cohen_d": 0.905
+        },
+        "brier": {
+          "diff_b_minus_a": 5e-05,
+          "bootstrap_95ci": [
+            -0.00321,
+            0.00228
+          ],
+          "welch_p": 0.9982,
+          "cohen_d": 0.001
+        },
+        "errcov": {
+          "diff_b_minus_a": -4e-05,
+          "bootstrap_95ci": [
+            -0.00328,
+            0.00217
+          ],
+          "welch_p": 0.9986,
+          "cohen_d": -0.001
+        }
+      },
+      "delta_mock_minus_real10": {
+        "jsd": {
+          "diff_b_minus_a": -0.00033,
+          "bootstrap_95ci": [
+            -0.00123,
+            0.00076
+          ],
+          "welch_p": 0.8022,
+          "cohen_d": -0.084
+        },
+        "brier": {
+          "diff_b_minus_a": 0.00096,
+          "bootstrap_95ci": [
+            -0.00309,
+            0.00521
+          ],
+          "welch_p": 0.9643,
+          "cohen_d": 0.015
+        },
+        "errcov": {
+          "diff_b_minus_a": 0.00097,
+          "bootstrap_95ci": [
+            -0.00307,
+            0.00519
+          ],
+          "welch_p": 0.9639,
+          "cohen_d": 0.015
+        }
+      }
+    },
+    {
+      "temperature": 0.7,
+      "n_listwise_questions": 18,
+      "controlb": {
+        "mean_brier": 0.0338,
+        "mean_jsd": 0.0019,
+        "mean_errcov": 0.0337,
+        "parse_rate": 0.938,
+        "err_corr": 0.9907
+      },
+      "real10_treatment": {
+        "mean_brier": 0.0347,
+        "mean_jsd": 0.0041,
+        "mean_errcov": 0.0346,
+        "parse_rate": 0.964,
+        "err_corr": 0.9801
+      },
+      "mock_treatment": {
+        "mean_brier": 0.0363,
+        "mean_jsd": 0.0035,
+        "mean_errcov": 0.0362,
+        "parse_rate": 0.938,
+        "err_corr": 0.9842
+      },
+      "delta_mock_minus_cb": {
+        "jsd": {
+          "diff_b_minus_a": 0.00162,
+          "bootstrap_95ci": [
+            -0.00019,
+            0.00308
+          ],
+          "welch_p": 0.0931,
+          "cohen_d": 0.576
+        },
+        "brier": {
+          "diff_b_minus_a": 0.00253,
+          "bootstrap_95ci": [
+            -0.00031,
+            0.00621
+          ],
+          "welch_p": 0.9069,
+          "cohen_d": 0.039
+        },
+        "errcov": {
+          "diff_b_minus_a": 0.0025,
+          "bootstrap_95ci": [
+            -0.00034,
+            0.00614
+          ],
+          "welch_p": 0.9083,
+          "cohen_d": 0.039
+        }
+      },
+      "delta_real10_minus_cb": {
+        "jsd": {
+          "diff_b_minus_a": 0.00214,
+          "bootstrap_95ci": [
+            0.00027,
+            0.00437
+          ],
+          "welch_p": 0.1185,
+          "cohen_d": 0.538
+        },
+        "brier": {
+          "diff_b_minus_a": 0.00092,
+          "bootstrap_95ci": [
+            -0.00169,
+            0.00372
+          ],
+          "welch_p": 0.9648,
+          "cohen_d": 0.015
+        },
+        "errcov": {
+          "diff_b_minus_a": 0.00085,
+          "bootstrap_95ci": [
+            -0.0017,
+            0.00358
+          ],
+          "welch_p": 0.9677,
+          "cohen_d": 0.014
+        }
+      },
+      "delta_mock_minus_real10": {
+        "jsd": {
+          "diff_b_minus_a": -0.00052,
+          "bootstrap_95ci": [
+            -0.00228,
+            0.00104
+          ],
+          "welch_p": 0.7042,
+          "cohen_d": -0.128
+        },
+        "brier": {
+          "diff_b_minus_a": 0.00161,
+          "bootstrap_95ci": [
+            -0.00245,
+            0.00617
+          ],
+          "welch_p": 0.9399,
+          "cohen_d": 0.025
+        },
+        "errcov": {
+          "diff_b_minus_a": 0.00165,
+          "bootstrap_95ci": [
+            -0.00239,
+            0.00618
+          ],
+          "welch_p": 0.9385,
+          "cohen_d": 0.026
+        }
+      }
+    }
+  ],
+  "cell_metrics": [
+    {
+      "temperature": 0.3,
+      "group": "mock_treatment",
+      "n_complete_questions": 37,
+      "n_total_preds": 500,
+      "n_ok_preds": 475,
+      "parse_rate": 0.95,
+      "mean_brier": 0.1517,
+      "mean_jsd": 0.0044,
+      "err_corr": 0.9878,
+      "mean_errcov": 0.1515
+    },
+    {
+      "temperature": 0.3,
+      "group": "treatment",
+      "n_complete_questions": 40,
+      "n_total_preds": 500,
+      "n_ok_preds": 484,
+      "parse_rate": 0.968,
+      "mean_brier": 0.1151,
+      "mean_jsd": 0.005,
+      "err_corr": 0.9863,
+      "mean_errcov": 0.1149
+    },
+    {
+      "temperature": 0.3,
+      "group": "controlb",
+      "n_complete_questions": 37,
+      "n_total_preds": 500,
+      "n_ok_preds": 469,
+      "parse_rate": 0.938,
+      "mean_brier": 0.1158,
+      "mean_jsd": 0.0023,
+      "err_corr": 0.9921,
+      "mean_errcov": 0.1157
+    },
+    {
+      "temperature": 0.7,
+      "group": "mock_treatment",
+      "n_complete_questions": 35,
+      "n_total_preds": 500,
+      "n_ok_preds": 469,
+      "parse_rate": 0.938,
+      "mean_brier": 0.0989,
+      "mean_jsd": 0.0049,
+      "err_corr": 0.9842,
+      "mean_errcov": 0.0987
+    },
+    {
+      "temperature": 0.7,
+      "group": "treatment",
+      "n_complete_questions": 40,
+      "n_total_preds": 500,
+      "n_ok_preds": 482,
+      "parse_rate": 0.964,
+      "mean_brier": 0.1185,
+      "mean_jsd": 0.0061,
+      "err_corr": 0.9801,
+      "mean_errcov": 0.1182
+    },
+    {
+      "temperature": 0.7,
+      "group": "controlb",
+      "n_complete_questions": 36,
+      "n_total_preds": 500,
+      "n_ok_preds": 469,
+      "parse_rate": 0.938,
+      "mean_brier": 0.1031,
+      "mean_jsd": 0.0025,
+      "err_corr": 0.9907,
+      "mean_errcov": 0.103
+    }
+  ]
+}

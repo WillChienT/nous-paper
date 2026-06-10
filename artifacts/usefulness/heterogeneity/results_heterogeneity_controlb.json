@@ -1,0 +1,4502 @@
+[
+  {
+    "market_id": "601697",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 74.67
+  },
+  {
+    "market_id": "601697",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 39.91
+  },
+  {
+    "market_id": "601697",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 38.65
+  },
+  {
+    "market_id": "601697",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.02,
+    "parse_failed": false,
+    "inference_time_s": 40.99
+  },
+  {
+    "market_id": "601697",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 28.68
+  },
+  {
+    "market_id": "601697",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 36.15
+  },
+  {
+    "market_id": "601697",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 31.49
+  },
+  {
+    "market_id": "601697",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 36.73
+  },
+  {
+    "market_id": "601697",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 38.33
+  },
+  {
+    "market_id": "601697",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 25.49
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.03,
+    "parse_failed": false,
+    "inference_time_s": 49.3
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 47.82
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.04,
+    "parse_failed": false,
+    "inference_time_s": 37.41
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 47.34
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.02,
+    "parse_failed": false,
+    "inference_time_s": 44.17
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 46.34
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.015,
+    "parse_failed": false,
+    "inference_time_s": 43.04
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.04,
+    "parse_failed": false,
+    "inference_time_s": 34.91
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.025,
+    "parse_failed": false,
+    "inference_time_s": 37.81
+  },
+  {
+    "market_id": "601700",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 48.23
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 37.54
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 35.58
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 40.19
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 33.48
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 28.01
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 31.15
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 31.65
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 32.74
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 30.91
+  },
+  {
+    "market_id": "654415",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 30.61
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.92,
+    "parse_failed": false,
+    "inference_time_s": 33.35
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.92,
+    "parse_failed": false,
+    "inference_time_s": 30.68
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.92,
+    "parse_failed": false,
+    "inference_time_s": 32.15
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.94,
+    "parse_failed": false,
+    "inference_time_s": 37.78
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.92,
+    "parse_failed": false,
+    "inference_time_s": 38.15
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.92,
+    "parse_failed": false,
+    "inference_time_s": 39.92
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.92,
+    "parse_failed": false,
+    "inference_time_s": 40.96
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.92,
+    "parse_failed": false,
+    "inference_time_s": 43.3
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.95,
+    "parse_failed": false,
+    "inference_time_s": 39.62
+  },
+  {
+    "market_id": "601699",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.95,
+    "parse_failed": false,
+    "inference_time_s": 35.42
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.08,
+    "parse_failed": false,
+    "inference_time_s": 48.25
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.07,
+    "parse_failed": false,
+    "inference_time_s": 51.12
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.04,
+    "parse_failed": false,
+    "inference_time_s": 48.53
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.04,
+    "parse_failed": false,
+    "inference_time_s": 57.69
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.05,
+    "parse_failed": false,
+    "inference_time_s": 48.0
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.06,
+    "parse_failed": false,
+    "inference_time_s": 50.21
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.1,
+    "parse_failed": false,
+    "inference_time_s": 55.95
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.08,
+    "parse_failed": false,
+    "inference_time_s": 47.08
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.02,
+    "parse_failed": false,
+    "inference_time_s": 43.44
+  },
+  {
+    "market_id": "601698",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.09,
+    "parse_failed": false,
+    "inference_time_s": 47.46
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 24.25
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 23.92
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 25.42
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 23.08
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 20.54
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 34.31
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 32.53
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 21.45
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 30.14
+  },
+  {
+    "market_id": "654413",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.02,
+    "parse_failed": false,
+    "inference_time_s": 25.86
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.98,
+    "parse_failed": false,
+    "inference_time_s": 44.49
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.98,
+    "parse_failed": false,
+    "inference_time_s": 41.99
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.95,
+    "parse_failed": false,
+    "inference_time_s": 39.55
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 41.28
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.96,
+    "parse_failed": false,
+    "inference_time_s": 51.36
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 30.57
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 46.45
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.98,
+    "parse_failed": false,
+    "inference_time_s": 39.84
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.92,
+    "parse_failed": false,
+    "inference_time_s": 47.51
+  },
+  {
+    "market_id": "669662",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.94,
+    "parse_failed": false,
+    "inference_time_s": 45.61
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.04,
+    "parse_failed": false,
+    "inference_time_s": 45.56
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.07,
+    "parse_failed": false,
+    "inference_time_s": 35.53
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.09,
+    "parse_failed": false,
+    "inference_time_s": 38.94
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.08,
+    "parse_failed": false,
+    "inference_time_s": 45.26
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.07,
+    "parse_failed": false,
+    "inference_time_s": 44.9
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 46.3
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.06,
+    "parse_failed": false,
+    "inference_time_s": 42.31
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.06,
+    "parse_failed": false,
+    "inference_time_s": 48.51
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.08,
+    "parse_failed": false,
+    "inference_time_s": 47.72
+  },
+  {
+    "market_id": "669663",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 44.43
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 29.37
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.02,
+    "parse_failed": false,
+    "inference_time_s": 36.31
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.02,
+    "parse_failed": false,
+    "inference_time_s": 40.32
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.014,
+    "parse_failed": false,
+    "inference_time_s": 33.14
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.028,
+    "parse_failed": false,
+    "inference_time_s": 29.16
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.02,
+    "parse_failed": false,
+    "inference_time_s": 34.06
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 47.34
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.02,
+    "parse_failed": false,
+    "inference_time_s": 46.52
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.025,
+    "parse_failed": false,
+    "inference_time_s": 38.4
+  },
+  {
+    "market_id": "669660",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 49.19
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 32.27
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 30.59
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 30.24
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 36.99
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 39.3
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 35.71
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 133.97
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 39.07
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 34.02
+  },
+  {
+    "market_id": "669661",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 27.76
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 23.74
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 8.39
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 17.59
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 25.29
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 19.58
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 36.2
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 25.05
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 26.78
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 24.42
+  },
+  {
+    "market_id": "1500755",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 27.46
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 19.63
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 18.77
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 14.03
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 19.96
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 20.78
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 20.38
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 20.86
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 12.94
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 22.49
+  },
+  {
+    "market_id": "1500754",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 19.65
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.25,
+    "parse_failed": false,
+    "inference_time_s": 41.65
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 27.82
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.15,
+    "parse_failed": false,
+    "inference_time_s": 23.84
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 49.34
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.45,
+    "parse_failed": false,
+    "inference_time_s": 43.27
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 131.02
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 55.43
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.3,
+    "parse_failed": false,
+    "inference_time_s": 43.49
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 49.72
+  },
+  {
+    "market_id": "1391203",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 48.79
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 58.25
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 46.93
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.62,
+    "parse_failed": false,
+    "inference_time_s": 55.26
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.56,
+    "parse_failed": false,
+    "inference_time_s": 58.34
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 40.49
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.53,
+    "parse_failed": false,
+    "inference_time_s": 58.33
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 49.54
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.59,
+    "parse_failed": false,
+    "inference_time_s": 40.12
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 51.99
+  },
+  {
+    "market_id": "1335034",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.57,
+    "parse_failed": false,
+    "inference_time_s": 49.67
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 46.89
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 53.36
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.33,
+    "parse_failed": false,
+    "inference_time_s": 47.71
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.28,
+    "parse_failed": false,
+    "inference_time_s": 34.26
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 40.08
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.34,
+    "parse_failed": false,
+    "inference_time_s": 44.54
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 50.5
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.34,
+    "parse_failed": false,
+    "inference_time_s": 46.42
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 41.66
+  },
+  {
+    "market_id": "1209706",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 39.29
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 30.82
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 20.41
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 27.44
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 22.52
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 28.41
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 26.64
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 37.54
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 25.96
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 26.17
+  },
+  {
+    "market_id": "1500770",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 25.52
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 129.74
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.72,
+    "parse_failed": false,
+    "inference_time_s": 42.42
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.68,
+    "parse_failed": false,
+    "inference_time_s": 46.25
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.68,
+    "parse_failed": false,
+    "inference_time_s": 38.51
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.72,
+    "parse_failed": false,
+    "inference_time_s": 53.87
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.78,
+    "parse_failed": false,
+    "inference_time_s": 52.32
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.65,
+    "parse_failed": false,
+    "inference_time_s": 47.82
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.65,
+    "parse_failed": false,
+    "inference_time_s": 48.15
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.62,
+    "parse_failed": false,
+    "inference_time_s": 46.48
+  },
+  {
+    "market_id": "1384029",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.74,
+    "parse_failed": false,
+    "inference_time_s": 53.23
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.55,
+    "parse_failed": false,
+    "inference_time_s": 51.35
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.48,
+    "parse_failed": false,
+    "inference_time_s": 59.66
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 128.14
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 131.24
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.11,
+    "parse_failed": false,
+    "inference_time_s": 46.35
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.54,
+    "parse_failed": false,
+    "inference_time_s": 64.79
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 132.57
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 57.08
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 50.6
+  },
+  {
+    "market_id": "1138265",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 51.13
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.53,
+    "parse_failed": false,
+    "inference_time_s": 57.3
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 46.73
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 53.32
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.55,
+    "parse_failed": false,
+    "inference_time_s": 55.49
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.52,
+    "parse_failed": false,
+    "inference_time_s": 47.45
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 47.73
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.56,
+    "parse_failed": false,
+    "inference_time_s": 51.51
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.46,
+    "parse_failed": false,
+    "inference_time_s": 60.4
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 55.56
+  },
+  {
+    "market_id": "1193623",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.6,
+    "parse_failed": false,
+    "inference_time_s": 49.96
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 44.18
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 35.65
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 34.56
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.2,
+    "parse_failed": false,
+    "inference_time_s": 41.91
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 40.17
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 38.12
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 36.11
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 39.84
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.2,
+    "parse_failed": false,
+    "inference_time_s": 38.01
+  },
+  {
+    "market_id": "1352590",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 37.86
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.7,
+    "parse_failed": false,
+    "inference_time_s": 38.97
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.65,
+    "parse_failed": false,
+    "inference_time_s": 36.02
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.65,
+    "parse_failed": false,
+    "inference_time_s": 42.0
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.72,
+    "parse_failed": false,
+    "inference_time_s": 38.45
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.59,
+    "parse_failed": false,
+    "inference_time_s": 48.36
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.65,
+    "parse_failed": false,
+    "inference_time_s": 42.54
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.66,
+    "parse_failed": false,
+    "inference_time_s": 43.37
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 47.93
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.63,
+    "parse_failed": false,
+    "inference_time_s": 40.77
+  },
+  {
+    "market_id": "1358314",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.68,
+    "parse_failed": false,
+    "inference_time_s": 35.98
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.74,
+    "parse_failed": false,
+    "inference_time_s": 43.24
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.72,
+    "parse_failed": false,
+    "inference_time_s": 39.89
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.7,
+    "parse_failed": false,
+    "inference_time_s": 46.13
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.78,
+    "parse_failed": false,
+    "inference_time_s": 46.56
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.75,
+    "parse_failed": false,
+    "inference_time_s": 39.9
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.68,
+    "parse_failed": false,
+    "inference_time_s": 43.96
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.74,
+    "parse_failed": false,
+    "inference_time_s": 46.98
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.74,
+    "parse_failed": false,
+    "inference_time_s": 46.82
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.73,
+    "parse_failed": false,
+    "inference_time_s": 52.05
+  },
+  {
+    "market_id": "1138269",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.7,
+    "parse_failed": false,
+    "inference_time_s": 48.34
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.48,
+    "parse_failed": false,
+    "inference_time_s": 59.17
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 134.04
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.48,
+    "parse_failed": false,
+    "inference_time_s": 54.93
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.08,
+    "parse_failed": false,
+    "inference_time_s": 53.7
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.1,
+    "parse_failed": false,
+    "inference_time_s": 58.77
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.46,
+    "parse_failed": false,
+    "inference_time_s": 44.39
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.51,
+    "parse_failed": false,
+    "inference_time_s": 51.14
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.1,
+    "parse_failed": false,
+    "inference_time_s": 51.55
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.5,
+    "parse_failed": false,
+    "inference_time_s": 49.17
+  },
+  {
+    "market_id": "1363649",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 131.04
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.08,
+    "parse_failed": false,
+    "inference_time_s": 31.12
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.1,
+    "parse_failed": false,
+    "inference_time_s": 43.75
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.13,
+    "parse_failed": false,
+    "inference_time_s": 48.71
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 27.54
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.1,
+    "parse_failed": false,
+    "inference_time_s": 34.85
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 25.62
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 30.65
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.1,
+    "parse_failed": false,
+    "inference_time_s": 29.0
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.08,
+    "parse_failed": false,
+    "inference_time_s": 31.54
+  },
+  {
+    "market_id": "1102112",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.09,
+    "parse_failed": false,
+    "inference_time_s": 28.44
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 38.48
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 41.22
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 46.7
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.41,
+    "parse_failed": false,
+    "inference_time_s": 50.22
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 54.48
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.44,
+    "parse_failed": false,
+    "inference_time_s": 42.45
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.34,
+    "parse_failed": false,
+    "inference_time_s": 42.79
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 56.28
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.3,
+    "parse_failed": false,
+    "inference_time_s": 42.49
+  },
+  {
+    "market_id": "1111915",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.39,
+    "parse_failed": false,
+    "inference_time_s": 44.41
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 44.99
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 63.07
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.62,
+    "parse_failed": false,
+    "inference_time_s": 51.45
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 131.17
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 41.36
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 131.88
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.6,
+    "parse_failed": false,
+    "inference_time_s": 55.92
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 127.23
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 130.41
+  },
+  {
+    "market_id": "1509243",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 127.95
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 22.84
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 7.71
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 8.19
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 22.79
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 17.93
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 21.11
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 21.3
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 18.93
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 18.43
+  },
+  {
+    "market_id": "842006",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 19.52
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 127.05
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 39.25
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 51.43
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 128.36
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 41.85
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.46,
+    "parse_failed": false,
+    "inference_time_s": 42.99
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 51.26
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.45,
+    "parse_failed": false,
+    "inference_time_s": 42.74
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 49.05
+  },
+  {
+    "market_id": "1112525",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.48,
+    "parse_failed": false,
+    "inference_time_s": 48.15
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 45.23
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 34.49
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 40.46
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 37.93
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 62.65
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 51.01
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.28,
+    "parse_failed": false,
+    "inference_time_s": 44.83
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 41.86
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 36.25
+  },
+  {
+    "market_id": "1130345",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.36,
+    "parse_failed": false,
+    "inference_time_s": 45.88
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 48.81
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 56.35
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.4,
+    "parse_failed": false,
+    "inference_time_s": 53.79
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 48.78
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 60.01
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 44.62
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.44,
+    "parse_failed": false,
+    "inference_time_s": 59.11
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.43,
+    "parse_failed": false,
+    "inference_time_s": 47.1
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 57.52
+  },
+  {
+    "market_id": "1335027",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 48.03
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 47.85
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.43,
+    "parse_failed": false,
+    "inference_time_s": 36.39
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 41.76
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.4,
+    "parse_failed": false,
+    "inference_time_s": 38.31
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 37.09
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 42.06
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 42.84
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.4,
+    "parse_failed": false,
+    "inference_time_s": 41.31
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 42.41
+  },
+  {
+    "market_id": "1111919",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 47.3
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.83,
+    "parse_failed": false,
+    "inference_time_s": 39.67
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.83,
+    "parse_failed": false,
+    "inference_time_s": 38.29
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.81,
+    "parse_failed": false,
+    "inference_time_s": 40.31
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.83,
+    "parse_failed": false,
+    "inference_time_s": 39.1
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.83,
+    "parse_failed": false,
+    "inference_time_s": 38.42
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.86,
+    "parse_failed": false,
+    "inference_time_s": 42.91
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.83,
+    "parse_failed": false,
+    "inference_time_s": 46.27
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.81,
+    "parse_failed": false,
+    "inference_time_s": 40.47
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.82,
+    "parse_failed": false,
+    "inference_time_s": 36.16
+  },
+  {
+    "market_id": "1354427",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.82,
+    "parse_failed": false,
+    "inference_time_s": 37.28
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 17.28
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 23.18
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 32.92
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 14.65
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 20.83
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 27.84
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 20.74
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 17.58
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.99,
+    "parse_failed": false,
+    "inference_time_s": 14.3
+  },
+  {
+    "market_id": "842009",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 33.01
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.39,
+    "parse_failed": false,
+    "inference_time_s": 46.81
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 48.99
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.4,
+    "parse_failed": false,
+    "inference_time_s": 48.37
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.39,
+    "parse_failed": false,
+    "inference_time_s": 46.0
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.44,
+    "parse_failed": false,
+    "inference_time_s": 46.61
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.36,
+    "parse_failed": false,
+    "inference_time_s": 45.3
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 42.13
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 45.33
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.41,
+    "parse_failed": false,
+    "inference_time_s": 52.49
+  },
+  {
+    "market_id": "842015",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 45.07
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.52,
+    "parse_failed": false,
+    "inference_time_s": 45.53
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.55,
+    "parse_failed": false,
+    "inference_time_s": 45.86
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.52,
+    "parse_failed": false,
+    "inference_time_s": 41.3
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.45,
+    "parse_failed": false,
+    "inference_time_s": 47.32
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.48,
+    "parse_failed": false,
+    "inference_time_s": 43.25
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.48,
+    "parse_failed": false,
+    "inference_time_s": 43.93
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 46.28
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 42.77
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.62,
+    "parse_failed": false,
+    "inference_time_s": 40.1
+  },
+  {
+    "market_id": "1157310",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.55,
+    "parse_failed": false,
+    "inference_time_s": 59.01
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 57.02
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 125.7
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 49.29
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.36,
+    "parse_failed": false,
+    "inference_time_s": 52.25
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.34,
+    "parse_failed": false,
+    "inference_time_s": 47.27
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 49.01
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 47.3
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.34,
+    "parse_failed": false,
+    "inference_time_s": 60.64
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 129.81
+  },
+  {
+    "market_id": "1370420",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 127.52
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 128.29
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.61,
+    "parse_failed": false,
+    "inference_time_s": 42.05
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 45.16
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 45.96
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.63,
+    "parse_failed": false,
+    "inference_time_s": 42.59
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.52,
+    "parse_failed": false,
+    "inference_time_s": 48.59
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 48.85
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.59,
+    "parse_failed": false,
+    "inference_time_s": 42.75
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.59,
+    "parse_failed": false,
+    "inference_time_s": 42.22
+  },
+  {
+    "market_id": "1209703",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.59,
+    "parse_failed": false,
+    "inference_time_s": 41.84
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 33.31
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.062,
+    "parse_failed": false,
+    "inference_time_s": 50.25
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 127.15
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.04,
+    "parse_failed": false,
+    "inference_time_s": 46.38
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.07,
+    "parse_failed": false,
+    "inference_time_s": 48.75
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.07,
+    "parse_failed": false,
+    "inference_time_s": 46.1
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.06,
+    "parse_failed": false,
+    "inference_time_s": 49.5
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.06,
+    "parse_failed": false,
+    "inference_time_s": 47.08
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.035,
+    "parse_failed": false,
+    "inference_time_s": 44.69
+  },
+  {
+    "market_id": "842028",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.035,
+    "parse_failed": false,
+    "inference_time_s": 43.9
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.62,
+    "parse_failed": false,
+    "inference_time_s": 60.11
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.6,
+    "parse_failed": false,
+    "inference_time_s": 43.71
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.53,
+    "parse_failed": false,
+    "inference_time_s": 55.71
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 46.25
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.52,
+    "parse_failed": false,
+    "inference_time_s": 48.56
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.62,
+    "parse_failed": false,
+    "inference_time_s": 52.19
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.55,
+    "parse_failed": false,
+    "inference_time_s": 46.35
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 43.08
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.56,
+    "parse_failed": false,
+    "inference_time_s": 56.57
+  },
+  {
+    "market_id": "1275259",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.54,
+    "parse_failed": false,
+    "inference_time_s": 51.24
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.62,
+    "parse_failed": false,
+    "inference_time_s": 44.2
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 44.1
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 44.21
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.62,
+    "parse_failed": false,
+    "inference_time_s": 47.84
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.64,
+    "parse_failed": false,
+    "inference_time_s": 48.28
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 46.79
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.61,
+    "parse_failed": false,
+    "inference_time_s": 42.47
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.55,
+    "parse_failed": false,
+    "inference_time_s": 46.25
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.58,
+    "parse_failed": false,
+    "inference_time_s": 53.25
+  },
+  {
+    "market_id": "1138286",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.56,
+    "parse_failed": false,
+    "inference_time_s": 44.89
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 42.87
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.22,
+    "parse_failed": false,
+    "inference_time_s": 43.94
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.25,
+    "parse_failed": false,
+    "inference_time_s": 49.69
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 53.85
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.14,
+    "parse_failed": false,
+    "inference_time_s": 40.98
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 43.45
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 48.38
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 40.5
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.28,
+    "parse_failed": false,
+    "inference_time_s": 46.89
+  },
+  {
+    "market_id": "1273937",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.22,
+    "parse_failed": false,
+    "inference_time_s": 37.4
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.035,
+    "parse_failed": false,
+    "inference_time_s": 45.84
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.04,
+    "parse_failed": false,
+    "inference_time_s": 46.21
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.035,
+    "parse_failed": false,
+    "inference_time_s": 45.73
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.045,
+    "parse_failed": false,
+    "inference_time_s": 49.02
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.045,
+    "parse_failed": false,
+    "inference_time_s": 49.28
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.04,
+    "parse_failed": false,
+    "inference_time_s": 43.89
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.035,
+    "parse_failed": false,
+    "inference_time_s": 35.92
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.045,
+    "parse_failed": false,
+    "inference_time_s": 37.36
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.045,
+    "parse_failed": false,
+    "inference_time_s": 41.47
+  },
+  {
+    "market_id": "842010",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.045,
+    "parse_failed": false,
+    "inference_time_s": 42.93
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.45,
+    "parse_failed": false,
+    "inference_time_s": 53.39
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.53,
+    "parse_failed": false,
+    "inference_time_s": 46.21
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 125.19
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.47,
+    "parse_failed": false,
+    "inference_time_s": 46.93
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 125.97
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.56,
+    "parse_failed": false,
+    "inference_time_s": 46.59
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.52,
+    "parse_failed": false,
+    "inference_time_s": 40.93
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.36,
+    "parse_failed": false,
+    "inference_time_s": 55.67
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 125.65
+  },
+  {
+    "market_id": "1311959",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.42,
+    "parse_failed": false,
+    "inference_time_s": 62.46
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 20.46
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 18.39
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 23.39
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 17.79
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.02,
+    "parse_failed": false,
+    "inference_time_s": 23.2
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 31.05
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 19.61
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 24.78
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 18.9
+  },
+  {
+    "market_id": "842008",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 15.65
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.15,
+    "parse_failed": false,
+    "inference_time_s": 48.74
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 40.24
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 43.02
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.085,
+    "parse_failed": false,
+    "inference_time_s": 43.82
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 37.33
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.17,
+    "parse_failed": false,
+    "inference_time_s": 36.8
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.12,
+    "parse_failed": false,
+    "inference_time_s": 48.13
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 46.01
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 53.53
+  },
+  {
+    "market_id": "842020",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.18,
+    "parse_failed": false,
+    "inference_time_s": 46.35
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 43.96
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 37.94
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 38.12
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 39.72
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 44.55
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 44.63
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.38,
+    "parse_failed": false,
+    "inference_time_s": 34.75
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 43.23
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.32,
+    "parse_failed": false,
+    "inference_time_s": 42.37
+  },
+  {
+    "market_id": "1373941",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.35,
+    "parse_failed": false,
+    "inference_time_s": 38.33
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 24.25
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 124.57
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 21.76
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": null,
+    "parse_failed": true,
+    "inference_time_s": 125.26
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 26.39
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 22.5
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 19.93
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 18.4
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 31.59
+  },
+  {
+    "market_id": "969422",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 20.02
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 14.24
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 22.74
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 13.37
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 18.42
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 16.32
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 23.58
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 21.84
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 24.2
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 18.33
+  },
+  {
+    "market_id": "842021",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 16.59
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.44,
+    "parse_failed": false,
+    "inference_time_s": 52.78
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.475,
+    "parse_failed": false,
+    "inference_time_s": 50.04
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.485,
+    "parse_failed": false,
+    "inference_time_s": 42.64
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.43,
+    "parse_failed": false,
+    "inference_time_s": 52.81
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.49,
+    "parse_failed": false,
+    "inference_time_s": 42.68
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.475,
+    "parse_failed": false,
+    "inference_time_s": 44.29
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.485,
+    "parse_failed": false,
+    "inference_time_s": 47.78
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.495,
+    "parse_failed": false,
+    "inference_time_s": 44.3
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.47,
+    "parse_failed": false,
+    "inference_time_s": 49.11
+  },
+  {
+    "market_id": "1164917",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.48,
+    "parse_failed": false,
+    "inference_time_s": 39.44
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 20,
+    "group": "control_b",
+    "persona_id": "controlb_seed53",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 19.61
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 21,
+    "group": "control_b",
+    "persona_id": "controlb_seed54",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 21.68
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 22,
+    "group": "control_b",
+    "persona_id": "controlb_seed55",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 23.37
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 23,
+    "group": "control_b",
+    "persona_id": "controlb_seed56",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 19.1
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 24,
+    "group": "control_b",
+    "persona_id": "controlb_seed57",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 23.7
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 25,
+    "group": "control_b",
+    "persona_id": "controlb_seed58",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 20.84
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 26,
+    "group": "control_b",
+    "persona_id": "controlb_seed59",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 19.1
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 27,
+    "group": "control_b",
+    "persona_id": "controlb_seed60",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 20.04
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 28,
+    "group": "control_b",
+    "persona_id": "controlb_seed61",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 21.78
+  },
+  {
+    "market_id": "842019",
+    "agent_idx": 29,
+    "group": "control_b",
+    "persona_id": "controlb_seed62",
+    "prob": 0.01,
+    "parse_failed": false,
+    "inference_time_s": 20.78
+  }
+]

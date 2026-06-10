@@ -1,57 +1,46 @@
-# Nous: Extracting and Injecting Cognitive Priors for Diverse LLM Agents
+# Nous: An Attempt to Extract and Inject the Cognition Behind Prediction-Market Behavior
 
-As LLM agents proliferate in prediction markets and collective decision-making, they introduce a systemic risk: **cognitive monoculture**. Agents built on the same foundation models converge on homogeneous reasoning patterns, undermining the epistemic diversity that makes collective intelligence possible.
+As LLM agents proliferate in prediction markets and collective decision-making, they risk a **cognitive monoculture**: agents built on shared foundation models produce correlated forecasts — recent measurement finds the errors of independently-developed frontier models correlated at r ≈ 0.77. Nous asks whether human cognitive diversity can be recovered from real trading behavior and transferred to LLM agents through prompts.
 
-We argue this convergence is a structural consequence of training objectives that learn mean-field approximations of human cognition. The missing layer is **cognitive preprocessing** — the pre-reasoning information processing that shapes which signals an agent attends to, how it perceives risk, and how quickly it updates beliefs.
+**The answer, measured on real Polymarket data, is a dissociation between the two halves of that pipeline.**
 
-## What is Nous?
+## Central Finding
 
-**Nous** is a framework for extracting structured cognitive profiles from human prediction market behavior and injecting them into LLM agents to restore behavioral diversity.
+**Extraction works, partially.** Across 100 wallets, 8 of 14 schema parameters are temporally stable (split-half ICC ≥ 0.5 with bootstrap CI lower bound > 0.3; contrarian score reaches ICC ≈ 0.9); wallets are identifiable from their profiles well above chance (top-1 retrieval 17–22% vs. a 1% random baseline); and two of four pre-specified dimensions rank-correlate with future realized profit out-of-sample, though the correlations do not survive behavioral-confound controls.
 
-The framework consists of:
+**Prompt-level injection does not measurably transmit it.** On a semantic embedding metric, structured injection shows no significant advantage over a length-matched control on any model, and the small output diversity it induces neither reduces ensemble error correlation nor improves Brier score — a null that persists across exploratory checks on sampling temperature (0.0–1.0), a deliberately more-diverse synthetic profile population, and the model-uncertain question subset.
 
-1. **Nous Schema** — An 8-dimensional cognitive profile organized in a Core-Shell-Membrane architecture:
-   - **Core** (near-immutable): Risk Perception, Time Scale Preference, Cognitive Style
-   - **Shell** (slowly evolving): Attention Allocation, Belief Update Inertia, Domain Confidence
-   - **Membrane** (reactive): Independence Index, Loss Response
+**The compression happens in the channel.** Measuring the prompts themselves shows the structure-to-narrative translator emits semantically near-uniform prompts whose spread does not increase when profile spread does. The profile is compressed before the model sees it — which motivates deeper, below-the-prompt injection (parameter-efficient fine-tuning, activation steering) as the next experiment.
 
-2. **Extraction Pipeline** — Infers cognitive parameters from prediction market behavior using Prospect Theory curve fitting, attention decay models, and belief update analysis
-
-3. **Translation & Injection** — Converts parametric profiles into natural-language cognitive instructions and installs them as the foundational layer of an agent's prompt
-
-## Key Results
-
-- Nous-injected agents produce **judgment-level differentiation** (not merely stylistic variation) on 4/5 tasks across 3 models (Qwen3-32B, DeepSeek-R1-32B, Llama 3.1-8B)
-- A second-generation continuous translator achieves **+16.3% mean diversity improvement** over threshold-based translation
-- Automated extraction **matches handwritten persona baselines** on textual diversity while being fully automated
-- **"Correct answer bias"**: LLM safety alignment overrides injected priors on tasks with socially consensual answers — a self-constraining feature, not a bug
+We position Nous as work that **measures** the cognitive-monoculture problem and the limits of a prompt-level remedy, not one that solves it.
 
 ## Paper
 
-Read the full paper: **[Nous_Cognitive_Priors_for_Diverse_LLM_Agents.pdf](Nous_Cognitive_Priors_for_Diverse_LLM_Agents.pdf)**
+Read the V2 paper: **[Nous_V2_An_Attempt_to_Extract_and_Inject.pdf](Nous_V2_An_Attempt_to_Extract_and_Inject.pdf)** (37 pages)
 
-## Paper
+The earlier V1 preprint ([Nous_Cognitive_Priors_for_Diverse_LLM_Agents.pdf](Nous_Cognitive_Priors_for_Diverse_LLM_Agents.pdf), March 2026) is kept for provenance. It should be read as the architectural proposal: several of its headline results (the +16.3% translator diversity gain, parity with handwritten persona baselines, judgment-level differentiation counts) did not survive the stricter metric discipline of the V2 reanalysis and are revised or retracted in V2.
 
-31 pages including appendix, 47 references, 4 figures, 3 tables.
+## Reproduction Artifacts
 
-## Related Code
+The [`artifacts/`](artifacts/) directory contains the release described in the paper's reproducibility section: evaluation and analysis code, frozen extracted profiles (pseudonymized W001–W100), all generated persona prompts, and complete model outputs for every experiment.
 
-- Extraction engine, injection mechanism, and experiment code: [github.com/WillChienT](https://github.com/WillChienT) (coming soon)
-
-## License
-
-Paper: [CC BY-NC-ND 4.0](LICENSE)
+- All reported analyses are reproducible **from the extracted profiles onward**; see [`artifacts/REPRODUCE.md`](artifacts/REPRODUCE.md) for per-table commands.
+- The production extraction parameters fitted to live user behavior, the `translator_v2.py` source, the extractor source, and raw wallet trade histories are **not** released, consistent with the paper's grey-box boundary.
 
 ## Citation
 
 ```bibtex
 @article{qian2026nous,
-  title={Nous: Extracting and Injecting Cognitive Priors for Diverse LLM Agents},
+  title={Nous: An Attempt to Extract and Inject the Cognition Behind Prediction-Market Behavior},
   author={Qian, Haowei},
   journal={Preprint},
   year={2026}
 }
 ```
+
+## License
+
+Paper and artifacts: [CC BY-NC-ND 4.0](LICENSE)
 
 ## Contact
 

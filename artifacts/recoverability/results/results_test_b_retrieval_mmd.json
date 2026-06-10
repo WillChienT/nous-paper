@@ -1,0 +1,223 @@
+[
+  {
+    "subset": "reliable_high",
+    "n_wallets": 100,
+    "dims": [
+      "time_scale_preference.horizon_bias",
+      "independence_index.contrarian_score",
+      "independence_index.crowd_sensitivity",
+      "belief_update_inertia.update_rate",
+      "cognitive_style.analytical_ratio",
+      "attention_allocation.entropy"
+    ],
+    "wallet_identification": {
+      "N": 100,
+      "top1": 0.17,
+      "top5": 0.49,
+      "mrr": 0.3206,
+      "random_baseline_top1": 0.01,
+      "null_top1_mean": 0.0099,
+      "null_top5_mean": 0.05,
+      "null_mrr_mean": 0.0516,
+      "p_top1": 0.0,
+      "p_top5": 0.0,
+      "p_mrr": 0.0,
+      "n_permutations": 2000,
+      "seed": 42,
+      "pass_top1": true,
+      "pass_top5": true
+    },
+    "mmd_energy": {
+      "N": 100,
+      "sigma_median_heuristic": 3.3321,
+      "mmd_squared": 0.010724,
+      "energy_distance": 0.1051,
+      "null_column_shuffle": {
+        "mmd_squared_mean": 0.019344,
+        "mmd_squared_std": 0.001365,
+        "energy_distance_mean": 0.1746,
+        "energy_distance_std": 0.0107,
+        "p_mmd2": 1.0,
+        "p_energy": 1.0
+      },
+      "null_wallet_shuffle": {
+        "mmd_squared_mean": 0.010724,
+        "mmd_squared_std": 0.0,
+        "energy_distance_mean": 0.1051,
+        "energy_distance_std": 0.0,
+        "p_mmd2": 0.493,
+        "p_energy": 0.26
+      },
+      "n_permutations": 2000,
+      "seed": 42,
+      "pass_mmd_col": false,
+      "pass_mmd_trade": false,
+      "pass_energy_col": false,
+      "pass_energy_trade": false
+    },
+    "within_vs_between": {
+      "N": 100,
+      "within_median": 1.4143,
+      "between_median": 3.3457,
+      "ratio_within_to_between": 0.4227,
+      "null_within_median_mean": 3.3292,
+      "null_within_median_std": 0.1247,
+      "p_within_lt_between": 0.0,
+      "n_permutations": 2000,
+      "seed": 42,
+      "pass": true
+    },
+    "overall_pass": false
+  },
+  {
+    "subset": "reliable_med",
+    "n_wallets": 100,
+    "dims": [
+      "risk_perception.lambda_",
+      "time_scale_preference.horizon_bias",
+      "time_scale_preference.patience_index",
+      "independence_index.contrarian_score",
+      "independence_index.crowd_sensitivity",
+      "belief_update_inertia.update_rate",
+      "cognitive_style.analytical_ratio",
+      "cognitive_style.hedgehog_fox_index",
+      "attention_allocation.entropy"
+    ],
+    "wallet_identification": {
+      "N": 100,
+      "top1": 0.22,
+      "top5": 0.47,
+      "mrr": 0.3476,
+      "random_baseline_top1": 0.01,
+      "null_top1_mean": 0.0098,
+      "null_top5_mean": 0.0503,
+      "null_mrr_mean": 0.0517,
+      "p_top1": 0.0,
+      "p_top5": 0.0,
+      "p_mrr": 0.0,
+      "n_permutations": 2000,
+      "seed": 42,
+      "pass_top1": true,
+      "pass_top5": true
+    },
+    "mmd_energy": {
+      "N": 100,
+      "sigma_median_heuristic": 4.0395,
+      "mmd_squared": 0.009203,
+      "energy_distance": 0.1065,
+      "null_column_shuffle": {
+        "mmd_squared_mean": 0.019188,
+        "mmd_squared_std": 0.001016,
+        "energy_distance_mean": 0.1961,
+        "energy_distance_std": 0.0092,
+        "p_mmd2": 1.0,
+        "p_energy": 1.0
+      },
+      "null_wallet_shuffle": {
+        "mmd_squared_mean": 0.009203,
+        "mmd_squared_std": 0.0,
+        "energy_distance_mean": 0.1065,
+        "energy_distance_std": 0.0,
+        "p_mmd2": 0.515,
+        "p_energy": 0.729
+      },
+      "n_permutations": 2000,
+      "seed": 42,
+      "pass_mmd_col": false,
+      "pass_mmd_trade": false,
+      "pass_energy_col": false,
+      "pass_energy_trade": false
+    },
+    "within_vs_between": {
+      "N": 100,
+      "within_median": 1.9372,
+      "between_median": 4.0638,
+      "ratio_within_to_between": 0.4767,
+      "null_within_median_mean": 4.0525,
+      "null_within_median_std": 0.1259,
+      "p_within_lt_between": 0.0,
+      "n_permutations": 2000,
+      "seed": 42,
+      "pass": true
+    },
+    "overall_pass": false
+  },
+  {
+    "subset": "all_dims",
+    "n_wallets": 100,
+    "dims": [
+      "risk_perception.alpha",
+      "risk_perception.beta",
+      "risk_perception.lambda_",
+      "time_scale_preference.horizon_bias",
+      "time_scale_preference.patience_index",
+      "independence_index.contrarian_score",
+      "independence_index.crowd_sensitivity",
+      "belief_update_inertia.update_rate",
+      "belief_update_inertia.confirmation_bias",
+      "cognitive_style.analytical_ratio",
+      "cognitive_style.hedgehog_fox_index",
+      "loss_response.sunk_cost_sensitivity",
+      "loss_response.tilt_factor",
+      "attention_allocation.entropy"
+    ],
+    "wallet_identification": {
+      "N": 100,
+      "top1": 0.19,
+      "top5": 0.44,
+      "mrr": 0.3205,
+      "random_baseline_top1": 0.01,
+      "null_top1_mean": 0.01,
+      "null_top5_mean": 0.0501,
+      "null_mrr_mean": 0.0519,
+      "p_top1": 0.0,
+      "p_top5": 0.0,
+      "p_mrr": 0.0,
+      "n_permutations": 2000,
+      "seed": 42,
+      "pass_top1": true,
+      "pass_top5": true
+    },
+    "mmd_energy": {
+      "N": 100,
+      "sigma_median_heuristic": 5.1912,
+      "mmd_squared": 0.008335,
+      "energy_distance": 0.1108,
+      "null_column_shuffle": {
+        "mmd_squared_mean": 0.012714,
+        "mmd_squared_std": 0.000481,
+        "energy_distance_mean": 0.1576,
+        "energy_distance_std": 0.0049,
+        "p_mmd2": 1.0,
+        "p_energy": 1.0
+      },
+      "null_wallet_shuffle": {
+        "mmd_squared_mean": 0.008335,
+        "mmd_squared_std": 0.0,
+        "energy_distance_mean": 0.1108,
+        "energy_distance_std": 0.0,
+        "p_mmd2": 0.9985,
+        "p_energy": 0.724
+      },
+      "n_permutations": 2000,
+      "seed": 42,
+      "pass_mmd_col": false,
+      "pass_mmd_trade": false,
+      "pass_energy_col": false,
+      "pass_energy_trade": false
+    },
+    "within_vs_between": {
+      "N": 100,
+      "within_median": 3.2669,
+      "between_median": 5.2061,
+      "ratio_within_to_between": 0.6275,
+      "null_within_median_mean": 5.1926,
+      "null_within_median_std": 0.137,
+      "p_within_lt_between": 0.0,
+      "n_permutations": 2000,
+      "seed": 42,
+      "pass": true
+    },
+    "overall_pass": false
+  }
+]

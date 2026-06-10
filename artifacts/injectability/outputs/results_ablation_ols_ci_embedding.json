@@ -1,0 +1,813 @@
+{
+  "seed": 42,
+  "note": "OLS uses embedding/TF-IDF diversity as dependent variable (NOT trigram). results_ablation.json ols_length_covariate used trigram — coefficients differ by design. Raw diversity averages match results_ablation.json embedding_diversity field.",
+  "results": [
+    {
+      "model": "deepseek-r1-32b",
+      "metric": "tfidf_cosine",
+      "embedding_model": null,
+      "anchor_diversity": {
+        "v2": {
+          "computed": 0.7325,
+          "expected": 0.7325,
+          "diff": 0.0,
+          "ok": true
+        },
+        "length_controlled": {
+          "computed": 0.7674,
+          "expected": 0.7674,
+          "diff": 0.0,
+          "ok": true
+        }
+      },
+      "anchor_diversity_ok": true,
+      "ols_vs_trigram_anchor": {
+        "v2": {
+          "embedding_ols_coef": -0.13619,
+          "trigram_ols_coef": -0.1172,
+          "delta_embedding_minus_trigram": -0.01899,
+          "note": "Expected to differ: embedding ≠ trigram diversity"
+        },
+        "length_controlled": {
+          "embedding_ols_coef": -0.10199,
+          "trigram_ols_coef": -0.1042,
+          "delta_embedding_minus_trigram": 0.00221,
+          "note": "Expected to differ: embedding ≠ trigram diversity"
+        }
+      },
+      "method_avg_diversity": {
+        "control": 0.6294,
+        "dim_drop_attention_allocation": 0.7621,
+        "dim_drop_behavioral_exemplars": 0.778,
+        "dim_drop_belief_updating": 0.7811,
+        "dim_drop_cognitive_style": 0.7642,
+        "dim_drop_contrastive_summary": 0.7668,
+        "dim_drop_independence": 0.7746,
+        "dim_drop_interaction_effects": 0.763,
+        "dim_drop_loss_response": 0.7542,
+        "dim_drop_risk_perception": 0.7817,
+        "dim_drop_time_horizon": 0.7848,
+        "handwritten": 0.7533,
+        "length_controlled": 0.7674,
+        "nous_v1": 0.7292,
+        "shuffled": 0.773,
+        "v2": 0.7325
+      },
+      "n_observations": 75,
+      "n_questions": 5,
+      "n_methods_in_ols": 15,
+      "n_per_cell_note": "75 obs = 5 questions × 15 methods (each cell has 1 obs = avg diversity of 9 personas)",
+      "r_squared": 0.582,
+      "r_squared_adj": 0.4845,
+      "df_resid": 60,
+      "coefficients": {
+        "intercept": {
+          "coef": 0.32676,
+          "se": 0.03525,
+          "ci_lower": 0.25625,
+          "ci_upper": 0.39727,
+          "t": 9.27,
+          "p": 0.0
+        },
+        "vs_handwritten_control": {
+          "coef": -0.09716,
+          "se": 0.02283,
+          "ci_lower": -0.14282,
+          "ci_upper": -0.0515,
+          "t": -4.257,
+          "p": 0.0001
+        },
+        "vs_handwritten_dim_drop_attention_allocation": {
+          "coef": -0.09497,
+          "se": 0.01872,
+          "ci_lower": -0.13241,
+          "ci_upper": -0.05754,
+          "t": -5.075,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_behavioral_exemplars": {
+          "coef": -0.08431,
+          "se": 0.01855,
+          "ci_lower": -0.12142,
+          "ci_upper": -0.04721,
+          "t": -4.545,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_belief_updating": {
+          "coef": -0.0839,
+          "se": 0.01846,
+          "ci_lower": -0.12083,
+          "ci_upper": -0.04696,
+          "t": -4.544,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_cognitive_style": {
+          "coef": -0.09885,
+          "se": 0.01853,
+          "ci_lower": -0.13591,
+          "ci_upper": -0.06179,
+          "t": -5.335,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_contrastive_summary": {
+          "coef": -0.09669,
+          "se": 0.01851,
+          "ci_lower": -0.13372,
+          "ci_upper": -0.05966,
+          "t": -5.223,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_independence": {
+          "coef": -0.08924,
+          "se": 0.0185,
+          "ci_lower": -0.12625,
+          "ci_upper": -0.05223,
+          "t": -4.823,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_interaction_effects": {
+          "coef": -0.10118,
+          "se": 0.01849,
+          "ci_lower": -0.13816,
+          "ci_upper": -0.06419,
+          "t": -5.472,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_loss_response": {
+          "coef": -0.10764,
+          "se": 0.01857,
+          "ci_lower": -0.14478,
+          "ci_upper": -0.07051,
+          "t": -5.798,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_risk_perception": {
+          "coef": -0.07469,
+          "se": 0.01874,
+          "ci_lower": -0.11217,
+          "ci_upper": -0.03721,
+          "t": -3.986,
+          "p": 0.0002
+        },
+        "vs_handwritten_dim_drop_time_horizon": {
+          "coef": -0.07958,
+          "se": 0.01848,
+          "ci_lower": -0.11655,
+          "ci_upper": -0.04261,
+          "t": -4.306,
+          "p": 0.0001
+        },
+        "vs_handwritten_length_controlled": {
+          "coef": -0.10199,
+          "se": 0.01832,
+          "ci_lower": -0.13865,
+          "ci_upper": -0.06534,
+          "t": -5.566,
+          "p": 0.0
+        },
+        "vs_handwritten_shuffled": {
+          "coef": -0.0957,
+          "se": 0.01835,
+          "ci_lower": -0.1324,
+          "ci_upper": -0.059,
+          "t": -5.216,
+          "p": 0.0
+        },
+        "vs_handwritten_v2": {
+          "coef": -0.13619,
+          "se": 0.01835,
+          "ci_lower": -0.17289,
+          "ci_upper": -0.09949,
+          "t": -7.423,
+          "p": 0.0
+        },
+        "log_length": {
+          "coef": 0.0643,
+          "se": 0.00307,
+          "ci_lower": 0.05817,
+          "ci_upper": 0.07044,
+          "t": 20.955,
+          "p": 0.0
+        }
+      },
+      "v2_vs_lc_contrast": {
+        "beta_v2": -0.13619,
+        "beta_lc": -0.10199,
+        "diff_v2_minus_lc": -0.0342,
+        "se_diff": 0.02199,
+        "ci_95_lower": -0.07819,
+        "ci_95_upper": 0.00979,
+        "t_diff": -1.555,
+        "p_diff": 0.1251,
+        "p_exact": 0.1251476950913459,
+        "distinguishable_p05": false,
+        "note": "Linear contrast (beta_v2 - beta_lc) with SE from OLS covariance matrix; two-sided t-test, df_resid=60. 95% CI uses t-critical on df_resid."
+      }
+    },
+    {
+      "model": "llama3.1-8b",
+      "metric": "ollama_cosine",
+      "embedding_model": "nomic-embed-text",
+      "anchor_diversity": {
+        "v2": {
+          "computed": 0.1537,
+          "expected": 0.1537,
+          "diff": 0.0,
+          "ok": true
+        },
+        "length_controlled": {
+          "computed": 0.1562,
+          "expected": 0.1562,
+          "diff": 0.0,
+          "ok": true
+        }
+      },
+      "anchor_diversity_ok": true,
+      "ols_vs_trigram_anchor": {
+        "v2": {
+          "embedding_ols_coef": 0.00333,
+          "trigram_ols_coef": -0.0866,
+          "delta_embedding_minus_trigram": 0.08993,
+          "note": "Expected to differ: embedding ≠ trigram diversity"
+        },
+        "length_controlled": {
+          "embedding_ols_coef": 0.0057,
+          "trigram_ols_coef": -0.0753,
+          "delta_embedding_minus_trigram": 0.081,
+          "note": "Expected to differ: embedding ≠ trigram diversity"
+        }
+      },
+      "method_avg_diversity": {
+        "control": 0.0977,
+        "dim_drop_attention_allocation": 0.129,
+        "dim_drop_behavioral_exemplars": 0.1333,
+        "dim_drop_belief_updating": 0.1305,
+        "dim_drop_cognitive_style": 0.1334,
+        "dim_drop_contrastive_summary": 0.1263,
+        "dim_drop_independence": 0.1258,
+        "dim_drop_interaction_effects": 0.153,
+        "dim_drop_loss_response": 0.121,
+        "dim_drop_risk_perception": 0.1405,
+        "dim_drop_time_horizon": 0.1351,
+        "handwritten": 0.1281,
+        "length_controlled": 0.1562,
+        "nous_v1": 0.1365,
+        "shuffled": 0.1267,
+        "v2": 0.1537
+      },
+      "n_observations": 75,
+      "n_questions": 5,
+      "n_methods_in_ols": 15,
+      "n_per_cell_note": "75 obs = 5 questions × 15 methods (each cell has 1 obs = avg diversity of 9 personas)",
+      "r_squared": 0.3971,
+      "r_squared_adj": 0.2564,
+      "df_resid": 60,
+      "coefficients": {
+        "intercept": {
+          "coef": 0.04579,
+          "se": 0.01974,
+          "ci_lower": 0.00631,
+          "ci_upper": 0.08528,
+          "t": 2.32,
+          "p": 0.0238
+        },
+        "vs_handwritten_control": {
+          "coef": -0.02524,
+          "se": 0.01278,
+          "ci_lower": -0.05081,
+          "ci_upper": 0.00033,
+          "t": -1.974,
+          "p": 0.053
+        },
+        "vs_handwritten_dim_drop_attention_allocation": {
+          "coef": -0.01907,
+          "se": 0.01048,
+          "ci_lower": -0.04003,
+          "ci_upper": 0.0019,
+          "t": -1.819,
+          "p": 0.0739
+        },
+        "vs_handwritten_dim_drop_behavioral_exemplars": {
+          "coef": -0.01585,
+          "se": 0.01039,
+          "ci_lower": -0.03663,
+          "ci_upper": 0.00493,
+          "t": -1.525,
+          "p": 0.1324
+        },
+        "vs_handwritten_dim_drop_belief_updating": {
+          "coef": -0.0191,
+          "se": 0.01034,
+          "ci_lower": -0.03979,
+          "ci_upper": 0.00158,
+          "t": -1.847,
+          "p": 0.0697
+        },
+        "vs_handwritten_dim_drop_cognitive_style": {
+          "coef": -0.01581,
+          "se": 0.01038,
+          "ci_lower": -0.03657,
+          "ci_upper": 0.00494,
+          "t": -1.524,
+          "p": 0.1328
+        },
+        "vs_handwritten_dim_drop_contrastive_summary": {
+          "coef": -0.02298,
+          "se": 0.01037,
+          "ci_lower": -0.04372,
+          "ci_upper": -0.00224,
+          "t": -2.216,
+          "p": 0.0305
+        },
+        "vs_handwritten_dim_drop_independence": {
+          "coef": -0.02357,
+          "se": 0.01036,
+          "ci_lower": -0.0443,
+          "ci_upper": -0.00284,
+          "t": -2.275,
+          "p": 0.0265
+        },
+        "vs_handwritten_dim_drop_interaction_effects": {
+          "coef": 0.00354,
+          "se": 0.01036,
+          "ci_lower": -0.01718,
+          "ci_upper": 0.02425,
+          "t": 0.342,
+          "p": 0.7338
+        },
+        "vs_handwritten_dim_drop_loss_response": {
+          "coef": -0.02798,
+          "se": 0.0104,
+          "ci_lower": -0.04878,
+          "ci_upper": -0.00719,
+          "t": -2.691,
+          "p": 0.0092
+        },
+        "vs_handwritten_dim_drop_risk_perception": {
+          "coef": -0.00747,
+          "se": 0.01049,
+          "ci_lower": -0.02846,
+          "ci_upper": 0.01352,
+          "t": -0.712,
+          "p": 0.4794
+        },
+        "vs_handwritten_dim_drop_time_horizon": {
+          "coef": -0.01438,
+          "se": 0.01035,
+          "ci_lower": -0.03508,
+          "ci_upper": 0.00633,
+          "t": -1.389,
+          "p": 0.17
+        },
+        "vs_handwritten_length_controlled": {
+          "coef": 0.0057,
+          "se": 0.01026,
+          "ci_lower": -0.01483,
+          "ci_upper": 0.02623,
+          "t": 0.555,
+          "p": 0.5807
+        },
+        "vs_handwritten_shuffled": {
+          "coef": -0.02366,
+          "se": 0.01028,
+          "ci_lower": -0.04421,
+          "ci_upper": -0.0031,
+          "t": -2.302,
+          "p": 0.0248
+        },
+        "vs_handwritten_v2": {
+          "coef": 0.00333,
+          "se": 0.01028,
+          "ci_lower": -0.01722,
+          "ci_upper": 0.02389,
+          "t": 0.324,
+          "p": 0.7467
+        },
+        "log_length": {
+          "coef": 0.0124,
+          "se": 0.00172,
+          "ci_lower": 0.00897,
+          "ci_upper": 0.01584,
+          "t": 7.217,
+          "p": 0.0
+        }
+      },
+      "v2_vs_lc_contrast": {
+        "beta_v2": 0.00333,
+        "beta_lc": 0.0057,
+        "diff_v2_minus_lc": -0.00236,
+        "se_diff": 0.01232,
+        "ci_95_lower": -0.027,
+        "ci_95_upper": 0.02227,
+        "t_diff": -0.192,
+        "p_diff": 0.8484,
+        "p_exact": 0.8483713320677762,
+        "distinguishable_p05": false,
+        "note": "Linear contrast (beta_v2 - beta_lc) with SE from OLS covariance matrix; two-sided t-test, df_resid=60. 95% CI uses t-critical on df_resid."
+      }
+    },
+    {
+      "model": "qwen3-32b",
+      "metric": "ollama_cosine",
+      "embedding_model": "nomic-embed-text",
+      "anchor_diversity": {
+        "v2": {
+          "computed": 0.1613,
+          "expected": 0.1613,
+          "diff": 0.0,
+          "ok": true
+        },
+        "length_controlled": {
+          "computed": 0.0962,
+          "expected": 0.0962,
+          "diff": 0.0,
+          "ok": true
+        }
+      },
+      "anchor_diversity_ok": true,
+      "ols_vs_trigram_anchor": {
+        "v2": {
+          "embedding_ols_coef": -0.01745,
+          "trigram_ols_coef": 0.052,
+          "delta_embedding_minus_trigram": -0.06945,
+          "note": "Expected to differ: embedding ≠ trigram diversity"
+        },
+        "length_controlled": {
+          "embedding_ols_coef": -0.08277,
+          "trigram_ols_coef": -0.1744,
+          "delta_embedding_minus_trigram": 0.09163,
+          "note": "Expected to differ: embedding ≠ trigram diversity"
+        }
+      },
+      "method_avg_diversity": {
+        "control": 0.0522,
+        "dim_drop_attention_allocation": 0.1774,
+        "dim_drop_behavioral_exemplars": 0.15,
+        "dim_drop_belief_updating": 0.1408,
+        "dim_drop_cognitive_style": 0.2042,
+        "dim_drop_contrastive_summary": 0.2356,
+        "dim_drop_independence": 0.1834,
+        "dim_drop_interaction_effects": 0.2662,
+        "dim_drop_loss_response": 0.1685,
+        "dim_drop_risk_perception": 0.1784,
+        "dim_drop_time_horizon": 0.1657,
+        "handwritten": 0.1403,
+        "length_controlled": 0.0962,
+        "nous_v1": 0.111,
+        "shuffled": 0.1793,
+        "v2": 0.1613
+      },
+      "n_observations": 75,
+      "n_questions": 5,
+      "n_methods_in_ols": 15,
+      "n_per_cell_note": "75 obs = 5 questions × 15 methods (each cell has 1 obs = avg diversity of 9 personas)",
+      "r_squared": 0.2566,
+      "r_squared_adj": 0.0832,
+      "df_resid": 60,
+      "coefficients": {
+        "intercept": {
+          "coef": -0.00162,
+          "se": 0.09517,
+          "ci_lower": -0.192,
+          "ci_upper": 0.18875,
+          "t": -0.017,
+          "p": 0.9864
+        },
+        "vs_handwritten_control": {
+          "coef": -0.07919,
+          "se": 0.06163,
+          "ci_lower": -0.20247,
+          "ci_upper": 0.04408,
+          "t": -1.285,
+          "p": 0.2037
+        },
+        "vs_handwritten_dim_drop_attention_allocation": {
+          "coef": 0.00253,
+          "se": 0.05053,
+          "ci_lower": -0.09854,
+          "ci_upper": 0.10361,
+          "t": 0.05,
+          "p": 0.9602
+        },
+        "vs_handwritten_dim_drop_behavioral_exemplars": {
+          "coef": -0.02663,
+          "se": 0.05008,
+          "ci_lower": -0.12681,
+          "ci_upper": 0.07355,
+          "t": -0.532,
+          "p": 0.5969
+        },
+        "vs_handwritten_dim_drop_belief_updating": {
+          "coef": -0.03674,
+          "se": 0.04985,
+          "ci_lower": -0.13646,
+          "ci_upper": 0.06299,
+          "t": -0.737,
+          "p": 0.4641
+        },
+        "vs_handwritten_dim_drop_cognitive_style": {
+          "coef": 0.02734,
+          "se": 0.05002,
+          "ci_lower": -0.07272,
+          "ci_upper": 0.12741,
+          "t": 0.547,
+          "p": 0.5867
+        },
+        "vs_handwritten_dim_drop_contrastive_summary": {
+          "coef": 0.05861,
+          "se": 0.04999,
+          "ci_lower": -0.04137,
+          "ci_upper": 0.1586,
+          "t": 1.173,
+          "p": 0.2456
+        },
+        "vs_handwritten_dim_drop_independence": {
+          "coef": 0.00625,
+          "se": 0.04995,
+          "ci_lower": -0.09367,
+          "ci_upper": 0.10618,
+          "t": 0.125,
+          "p": 0.9008
+        },
+        "vs_handwritten_dim_drop_interaction_effects": {
+          "coef": 0.08902,
+          "se": 0.04993,
+          "ci_lower": -0.01084,
+          "ci_upper": 0.18889,
+          "t": 1.783,
+          "p": 0.0796
+        },
+        "vs_handwritten_dim_drop_loss_response": {
+          "coef": -0.00791,
+          "se": 0.05013,
+          "ci_lower": -0.10818,
+          "ci_upper": 0.09235,
+          "t": -0.158,
+          "p": 0.8751
+        },
+        "vs_handwritten_dim_drop_risk_perception": {
+          "coef": 0.00373,
+          "se": 0.05059,
+          "ci_lower": -0.09746,
+          "ci_upper": 0.10493,
+          "t": 0.074,
+          "p": 0.9414
+        },
+        "vs_handwritten_dim_drop_time_horizon": {
+          "coef": -0.01162,
+          "se": 0.0499,
+          "ci_lower": -0.11144,
+          "ci_upper": 0.0882,
+          "t": -0.233,
+          "p": 0.8167
+        },
+        "vs_handwritten_length_controlled": {
+          "coef": -0.08277,
+          "se": 0.04948,
+          "ci_lower": -0.18174,
+          "ci_upper": 0.01619,
+          "t": -1.673,
+          "p": 0.0995
+        },
+        "vs_handwritten_shuffled": {
+          "coef": 0.00053,
+          "se": 0.04954,
+          "ci_lower": -0.09856,
+          "ci_upper": 0.09962,
+          "t": 0.011,
+          "p": 0.9914
+        },
+        "vs_handwritten_v2": {
+          "coef": -0.01745,
+          "se": 0.04954,
+          "ci_lower": -0.11654,
+          "ci_upper": 0.08164,
+          "t": -0.352,
+          "p": 0.7259
+        },
+        "log_length": {
+          "coef": 0.0214,
+          "se": 0.00829,
+          "ci_lower": 0.00483,
+          "ci_upper": 0.03798,
+          "t": 2.583,
+          "p": 0.0123
+        }
+      },
+      "v2_vs_lc_contrast": {
+        "beta_v2": -0.01745,
+        "beta_lc": -0.08277,
+        "diff_v2_minus_lc": 0.06533,
+        "se_diff": 0.05937,
+        "ci_95_lower": -0.05344,
+        "ci_95_upper": 0.18409,
+        "t_diff": 1.1,
+        "p_diff": 0.2756,
+        "p_exact": 0.2755953341308358,
+        "distinguishable_p05": false,
+        "note": "Linear contrast (beta_v2 - beta_lc) with SE from OLS covariance matrix; two-sided t-test, df_resid=60. 95% CI uses t-critical on df_resid."
+      }
+    },
+    {
+      "model": "qwen3.5-122b",
+      "metric": "ollama_cosine",
+      "embedding_model": "nomic-embed-text",
+      "anchor_diversity": {
+        "v2": {
+          "computed": 0.9721,
+          "expected": 0.9721,
+          "diff": 0.0,
+          "ok": true
+        },
+        "length_controlled": {
+          "computed": 0.9815,
+          "expected": 0.9815,
+          "diff": 0.0,
+          "ok": true
+        }
+      },
+      "anchor_diversity_ok": true,
+      "ols_vs_trigram_anchor": {
+        "v2": {
+          "embedding_ols_coef": -0.15832,
+          "trigram_ols_coef": 0.0636,
+          "delta_embedding_minus_trigram": -0.22192,
+          "note": "Expected to differ: embedding ≠ trigram diversity"
+        },
+        "length_controlled": {
+          "embedding_ols_coef": -0.1498,
+          "trigram_ols_coef": -0.0104,
+          "delta_embedding_minus_trigram": -0.1394,
+          "note": "Expected to differ: embedding ≠ trigram diversity"
+        }
+      },
+      "method_avg_diversity": {
+        "control": 1.0,
+        "dim_drop_attention_allocation": 1.0,
+        "dim_drop_behavioral_exemplars": 1.0,
+        "dim_drop_belief_updating": 1.0,
+        "dim_drop_cognitive_style": 1.0,
+        "dim_drop_contrastive_summary": 0.9952,
+        "dim_drop_independence": 0.9952,
+        "dim_drop_interaction_effects": 1.0,
+        "dim_drop_loss_response": 0.9955,
+        "dim_drop_risk_perception": 1.0,
+        "dim_drop_time_horizon": 1.0,
+        "handwritten": 0.9866,
+        "length_controlled": 0.9815,
+        "shuffled": 0.9806,
+        "v2": 0.9721
+      },
+      "n_observations": 75,
+      "n_questions": 5,
+      "n_methods_in_ols": 15,
+      "n_per_cell_note": "75 obs = 5 questions × 15 methods (each cell has 1 obs = avg diversity of 9 personas)",
+      "r_squared": 0.2759,
+      "r_squared_adj": 0.107,
+      "df_resid": 60,
+      "coefficients": {
+        "intercept": {
+          "coef": 0.45514,
+          "se": 0.01618,
+          "ci_lower": 0.42277,
+          "ci_upper": 0.4875,
+          "t": 28.131,
+          "p": 0.0
+        },
+        "vs_handwritten_control": {
+          "coef": 0.04674,
+          "se": 0.01048,
+          "ci_lower": 0.02578,
+          "ci_upper": 0.0677,
+          "t": 4.461,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_attention_allocation": {
+          "coef": -0.116,
+          "se": 0.00859,
+          "ci_lower": -0.13319,
+          "ci_upper": -0.09882,
+          "t": -13.504,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_behavioral_exemplars": {
+          "coef": -0.12248,
+          "se": 0.00851,
+          "ci_lower": -0.13951,
+          "ci_upper": -0.10545,
+          "t": -14.386,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_belief_updating": {
+          "coef": -0.12581,
+          "se": 0.00848,
+          "ci_lower": -0.14276,
+          "ci_upper": -0.10885,
+          "t": -14.844,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_cognitive_style": {
+          "coef": -0.12334,
+          "se": 0.0085,
+          "ci_lower": -0.14035,
+          "ci_upper": -0.10633,
+          "t": -14.504,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_contrastive_summary": {
+          "coef": -0.12873,
+          "se": 0.0085,
+          "ci_lower": -0.14573,
+          "ci_upper": -0.11173,
+          "t": -15.149,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_independence": {
+          "coef": -0.12921,
+          "se": 0.00849,
+          "ci_lower": -0.1462,
+          "ci_upper": -0.11222,
+          "t": -15.215,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_interaction_effects": {
+          "coef": -0.12477,
+          "se": 0.00849,
+          "ci_lower": -0.14174,
+          "ci_upper": -0.10779,
+          "t": -14.7,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_loss_response": {
+          "coef": -0.12636,
+          "se": 0.00852,
+          "ci_lower": -0.1434,
+          "ci_upper": -0.10931,
+          "t": -14.828,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_risk_perception": {
+          "coef": -0.11514,
+          "se": 0.0086,
+          "ci_lower": -0.13235,
+          "ci_upper": -0.09794,
+          "t": -13.388,
+          "p": 0.0
+        },
+        "vs_handwritten_dim_drop_time_horizon": {
+          "coef": -0.1251,
+          "se": 0.00848,
+          "ci_lower": -0.14207,
+          "ci_upper": -0.10813,
+          "t": -14.747,
+          "p": 0.0
+        },
+        "vs_handwritten_length_controlled": {
+          "coef": -0.1498,
+          "se": 0.00841,
+          "ci_lower": -0.16663,
+          "ci_upper": -0.13298,
+          "t": -17.811,
+          "p": 0.0
+        },
+        "vs_handwritten_shuffled": {
+          "coef": -0.14979,
+          "se": 0.00842,
+          "ci_lower": -0.16663,
+          "ci_upper": -0.13294,
+          "t": -17.786,
+          "p": 0.0
+        },
+        "vs_handwritten_v2": {
+          "coef": -0.15832,
+          "se": 0.00842,
+          "ci_lower": -0.17517,
+          "ci_upper": -0.14148,
+          "t": -18.8,
+          "p": 0.0
+        },
+        "log_length": {
+          "coef": 0.08013,
+          "se": 0.00141,
+          "ci_lower": 0.07731,
+          "ci_upper": 0.08295,
+          "t": 56.886,
+          "p": 0.0
+        }
+      },
+      "v2_vs_lc_contrast": {
+        "beta_v2": -0.15832,
+        "beta_lc": -0.1498,
+        "diff_v2_minus_lc": -0.00852,
+        "se_diff": 0.01009,
+        "ci_95_lower": -0.02871,
+        "ci_95_upper": 0.01167,
+        "t_diff": -0.844,
+        "p_diff": 0.4021,
+        "p_exact": 0.40214649897746985,
+        "distinguishable_p05": false,
+        "note": "Linear contrast (beta_v2 - beta_lc) with SE from OLS covariance matrix; two-sided t-test, df_resid=60. 95% CI uses t-critical on df_resid."
+      }
+    }
+  ]
+}

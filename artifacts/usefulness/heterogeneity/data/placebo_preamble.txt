@@ -1,0 +1,31 @@
+# Background: The Field of Probabilistic Forecasting
+
+The following is background reading about probabilistic forecasting as a field of study. It is descriptive context, not instruction: it does not tell you how to reason or what to conclude. It surveys terminology, history, and conventions so that the vocabulary of the field is in view.
+
+## Part 1: What the Field Studies
+
+Probabilistic forecasting is the practice of assigning numerical probabilities to uncertain future events and later scoring those probabilities against what actually happened. It sits at the intersection of statistics, decision theory, and cognitive psychology. A forecast in this tradition is expressed as a number between zero and one rather than a categorical "yes" or "no," which allows degrees of confidence to be recorded and compared.
+
+The field distinguishes between the act of forecasting and the act of deciding. A forecast describes a state of belief about the world; a decision uses that belief together with preferences and costs. The two are studied separately, and most of the academic literature on forecasting concerns the first.
+
+## Part 2: A Short History
+
+Systematic interest in forecast quality grew out of meteorology. In 1950 Glenn Brier proposed a scoring rule, now called the Brier score, for evaluating probability forecasts of weather. The score rewards forecasts that are both confident and correct and penalizes confident errors more heavily than hedged ones.
+
+In the social sciences, Philip Tetlock's long-running studies of expert political judgment documented wide variation in forecast accuracy among professionals. His later tournament work popularized the term "superforecaster" for individuals who scored consistently well across many questions. These studies established that forecast accuracy is measurable, varies across people, and is partly a learnable skill rather than a fixed trait.
+
+Prediction markets form a parallel tradition. Markets such as those described by Hanson, Wolfers, and Zitzewitz aggregate many individuals' beliefs into a single price that behaves like a probability. The market price is often treated as a benchmark against which individual forecasters are compared.
+
+## Part 3: Vocabulary and Conventions
+
+Several technical terms recur in the field. "Calibration" refers to the statistical correspondence between stated probabilities and observed frequencies across many forecasts; it is a property of a set of forecasts, not of any single one. "Resolution" refers to whether a question's outcome has been determined. A "proper scoring rule" is a scoring function with the mathematical property that it is optimized, in expectation, by reporting one's true belief; the Brier score and the logarithmic score are the two most common examples.
+
+A "reference class" is a set of past events judged similar to the one being forecast, used to estimate a base rate. A "base rate" is the historical frequency of an outcome within such a class. The terms originate in the statistical literature and are descriptive labels rather than procedures.
+
+Forecasts are sometimes grouped into "questions" with defined resolution criteria and resolution dates. The resolution date is the point at which the outcome becomes known. The interval between the time of forecasting and the resolution date is the forecast horizon.
+
+## Part 4: How Forecasts Are Evaluated
+
+Evaluation in the field is retrospective and aggregate. After many questions resolve, a forecaster's probabilities are compared to outcomes using a scoring rule, and summary statistics are computed across the whole set. Because any single forecast is either followed by the event or not, individual forecasts cannot be judged in isolation; the unit of evaluation is the collection. This is why the literature emphasizes track records over single calls, and why scoring systems are designed to be computed over many questions at once.
+
+These conventions describe how the field talks about and measures forecasting. They are provided here as neutral background only.

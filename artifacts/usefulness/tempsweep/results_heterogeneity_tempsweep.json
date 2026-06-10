@@ -1,0 +1,298 @@
+{
+  "model": "qwen3.5:122b",
+  "listwise_n_questions": 21,
+  "temperatures_run": [
+    0.0,
+    0.3,
+    0.7,
+    1.0
+  ],
+  "per_temperature": [
+    {
+      "temperature": 0.0,
+      "n_listwise_questions": 21,
+      "controlb": {
+        "mean_brier": 0.0474,
+        "mean_jsd": 0.0,
+        "mean_errcov": 0.0474,
+        "parse_rate": 0.94,
+        "err_corr": 1.0
+      },
+      "treatment": {
+        "mean_brier": 0.043,
+        "mean_jsd": 0.0051,
+        "mean_errcov": 0.0428,
+        "parse_rate": 0.966,
+        "err_corr": 0.9859
+      },
+      "delta_trt_minus_cb": {
+        "jsd": {
+          "diff_trt_minus_cb": 0.0051,
+          "bootstrap_95ci": [
+            0.00355,
+            0.00681
+          ],
+          "welch_p": 0.0,
+          "cohen_d": 1.91
+        },
+        "brier": {
+          "diff_trt_minus_cb": -0.00438,
+          "bootstrap_95ci": [
+            -0.01343,
+            0.0029
+          ],
+          "welch_p": 0.8956,
+          "cohen_d": -0.041
+        },
+        "errcov": {
+          "diff_trt_minus_cb": -0.00453,
+          "bootstrap_95ci": [
+            -0.01359,
+            0.00276
+          ],
+          "welch_p": 0.8921,
+          "cohen_d": -0.042
+        }
+      }
+    },
+    {
+      "temperature": 0.3,
+      "n_listwise_questions": 21,
+      "controlb": {
+        "mean_brier": 0.0427,
+        "mean_jsd": 0.0021,
+        "mean_errcov": 0.0427,
+        "parse_rate": 0.938,
+        "err_corr": 0.9921
+      },
+      "treatment": {
+        "mean_brier": 0.0409,
+        "mean_jsd": 0.0054,
+        "mean_errcov": 0.0407,
+        "parse_rate": 0.968,
+        "err_corr": 0.9863
+      },
+      "delta_trt_minus_cb": {
+        "jsd": {
+          "diff_trt_minus_cb": 0.00325,
+          "bootstrap_95ci": [
+            0.00201,
+            0.00455
+          ],
+          "welch_p": 0.0038,
+          "cohen_d": 0.976
+        },
+        "brier": {
+          "diff_trt_minus_cb": -0.00183,
+          "bootstrap_95ci": [
+            -0.00775,
+            0.00226
+          ],
+          "welch_p": 0.9508,
+          "cohen_d": -0.019
+        },
+        "errcov": {
+          "diff_trt_minus_cb": -0.00193,
+          "bootstrap_95ci": [
+            -0.00784,
+            0.00216
+          ],
+          "welch_p": 0.9483,
+          "cohen_d": -0.02
+        }
+      }
+    },
+    {
+      "temperature": 0.7,
+      "n_listwise_questions": 21,
+      "controlb": {
+        "mean_brier": 0.0413,
+        "mean_jsd": 0.0022,
+        "mean_errcov": 0.0412,
+        "parse_rate": 0.938,
+        "err_corr": 0.9907
+      },
+      "treatment": {
+        "mean_brier": 0.0426,
+        "mean_jsd": 0.0055,
+        "mean_errcov": 0.0424,
+        "parse_rate": 0.964,
+        "err_corr": 0.9801
+      },
+      "delta_trt_minus_cb": {
+        "jsd": {
+          "diff_trt_minus_cb": 0.00327,
+          "bootstrap_95ci": [
+            0.0015,
+            0.00537
+          ],
+          "welch_p": 0.0142,
+          "cohen_d": 0.803
+        },
+        "brier": {
+          "diff_trt_minus_cb": 0.0013,
+          "bootstrap_95ci": [
+            -0.00123,
+            0.00424
+          ],
+          "welch_p": 0.9648,
+          "cohen_d": 0.014
+        },
+        "errcov": {
+          "diff_trt_minus_cb": 0.00119,
+          "bootstrap_95ci": [
+            -0.0013,
+            0.00405
+          ],
+          "welch_p": 0.9676,
+          "cohen_d": 0.013
+        }
+      }
+    },
+    {
+      "temperature": 1.0,
+      "n_listwise_questions": 21,
+      "controlb": {
+        "mean_brier": 0.0398,
+        "mean_jsd": 0.0031,
+        "mean_errcov": 0.0397,
+        "parse_rate": 0.91,
+        "err_corr": 0.9896
+      },
+      "treatment": {
+        "mean_brier": 0.0422,
+        "mean_jsd": 0.0054,
+        "mean_errcov": 0.042,
+        "parse_rate": 0.952,
+        "err_corr": 0.9827
+      },
+      "delta_trt_minus_cb": {
+        "jsd": {
+          "diff_trt_minus_cb": 0.00222,
+          "bootstrap_95ci": [
+            0.00069,
+            0.00392
+          ],
+          "welch_p": 0.0617,
+          "cohen_d": 0.595
+        },
+        "brier": {
+          "diff_trt_minus_cb": 0.00236,
+          "bootstrap_95ci": [
+            -0.00265,
+            0.00678
+          ],
+          "welch_p": 0.9358,
+          "cohen_d": 0.025
+        },
+        "errcov": {
+          "diff_trt_minus_cb": 0.00228,
+          "bootstrap_95ci": [
+            -0.00271,
+            0.00669
+          ],
+          "welch_p": 0.938,
+          "cohen_d": 0.024
+        }
+      }
+    }
+  ],
+  "cell_metrics": [
+    {
+      "temperature": 0.0,
+      "group": "controlb",
+      "n_complete_questions": 47,
+      "n_total_preds": 500,
+      "n_ok_preds": 470,
+      "parse_rate": 0.94,
+      "mean_brier": 0.137,
+      "mean_jsd": 0.0,
+      "err_corr": 1.0,
+      "mean_errcov": 0.137
+    },
+    {
+      "temperature": 0.0,
+      "group": "treatment",
+      "n_complete_questions": 41,
+      "n_total_preds": 500,
+      "n_ok_preds": 483,
+      "parse_rate": 0.966,
+      "mean_brier": 0.1312,
+      "mean_jsd": 0.0057,
+      "err_corr": 0.9859,
+      "mean_errcov": 0.1309
+    },
+    {
+      "temperature": 0.3,
+      "group": "controlb",
+      "n_complete_questions": 37,
+      "n_total_preds": 500,
+      "n_ok_preds": 469,
+      "parse_rate": 0.938,
+      "mean_brier": 0.1158,
+      "mean_jsd": 0.0023,
+      "err_corr": 0.9921,
+      "mean_errcov": 0.1157
+    },
+    {
+      "temperature": 0.3,
+      "group": "treatment",
+      "n_complete_questions": 40,
+      "n_total_preds": 500,
+      "n_ok_preds": 484,
+      "parse_rate": 0.968,
+      "mean_brier": 0.1151,
+      "mean_jsd": 0.005,
+      "err_corr": 0.9863,
+      "mean_errcov": 0.1149
+    },
+    {
+      "temperature": 0.7,
+      "group": "controlb",
+      "n_complete_questions": 36,
+      "n_total_preds": 500,
+      "n_ok_preds": 469,
+      "parse_rate": 0.938,
+      "mean_brier": 0.1031,
+      "mean_jsd": 0.0025,
+      "err_corr": 0.9907,
+      "mean_errcov": 0.103
+    },
+    {
+      "temperature": 0.7,
+      "group": "treatment",
+      "n_complete_questions": 40,
+      "n_total_preds": 500,
+      "n_ok_preds": 482,
+      "parse_rate": 0.964,
+      "mean_brier": 0.1185,
+      "mean_jsd": 0.0061,
+      "err_corr": 0.9801,
+      "mean_errcov": 0.1182
+    },
+    {
+      "temperature": 1.0,
+      "group": "controlb",
+      "n_complete_questions": 31,
+      "n_total_preds": 500,
+      "n_ok_preds": 455,
+      "parse_rate": 0.91,
+      "mean_brier": 0.1189,
+      "mean_jsd": 0.0036,
+      "err_corr": 0.9896,
+      "mean_errcov": 0.1188
+    },
+    {
+      "temperature": 1.0,
+      "group": "treatment",
+      "n_complete_questions": 37,
+      "n_total_preds": 500,
+      "n_ok_preds": 476,
+      "parse_rate": 0.952,
+      "mean_brier": 0.1159,
+      "mean_jsd": 0.006,
+      "err_corr": 0.9827,
+      "mean_errcov": 0.1157
+    }
+  ]
+}

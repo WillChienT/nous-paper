@@ -1,0 +1,602 @@
+{
+  "W001": {
+    "wallet_id": "W001",
+    "n_late_closes": 78,
+    "late_pnl_usdc": 23.943131,
+    "n_via_resolution": 75
+  },
+  "W002": {
+    "wallet_id": "W002",
+    "n_late_closes": 20,
+    "late_pnl_usdc": 0.00052,
+    "n_via_resolution": 20
+  },
+  "W003": {
+    "wallet_id": "W003",
+    "n_late_closes": 42,
+    "late_pnl_usdc": 0.003545,
+    "n_via_resolution": 42
+  },
+  "W004": {
+    "wallet_id": "W004",
+    "n_late_closes": 52,
+    "late_pnl_usdc": -267.880917,
+    "n_via_resolution": 42
+  },
+  "W005": {
+    "wallet_id": "W005",
+    "n_late_closes": 171,
+    "late_pnl_usdc": -81.196892,
+    "n_via_resolution": 166
+  },
+  "W006": {
+    "wallet_id": "W006",
+    "n_late_closes": 50,
+    "late_pnl_usdc": -10.286187,
+    "n_via_resolution": 7
+  },
+  "W007": {
+    "wallet_id": "W007",
+    "n_late_closes": 43,
+    "late_pnl_usdc": 0.002167,
+    "n_via_resolution": 43
+  },
+  "W008": {
+    "wallet_id": "W008",
+    "n_late_closes": 78,
+    "late_pnl_usdc": -0.932623,
+    "n_via_resolution": 74
+  },
+  "W009": {
+    "wallet_id": "W009",
+    "n_late_closes": 201,
+    "late_pnl_usdc": -388.593825,
+    "n_via_resolution": 182
+  },
+  "W010": {
+    "wallet_id": "W010",
+    "n_late_closes": 38,
+    "late_pnl_usdc": -933.388181,
+    "n_via_resolution": 5
+  },
+  "W011": {
+    "wallet_id": "W011",
+    "n_late_closes": 116,
+    "late_pnl_usdc": -76.768496,
+    "n_via_resolution": 112
+  },
+  "W012": {
+    "wallet_id": "W012",
+    "n_late_closes": 44,
+    "late_pnl_usdc": -2.512237,
+    "n_via_resolution": 2
+  },
+  "W013": {
+    "wallet_id": "W013",
+    "n_late_closes": 70,
+    "late_pnl_usdc": 185.112588,
+    "n_via_resolution": 44
+  },
+  "W014": {
+    "wallet_id": "W014",
+    "n_late_closes": 76,
+    "late_pnl_usdc": -2.438638,
+    "n_via_resolution": 6
+  },
+  "W015": {
+    "wallet_id": "W015",
+    "n_late_closes": 38,
+    "late_pnl_usdc": -185.127807,
+    "n_via_resolution": 11
+  },
+  "W016": {
+    "wallet_id": "W016",
+    "n_late_closes": 45,
+    "late_pnl_usdc": 1.283394,
+    "n_via_resolution": 4
+  },
+  "W017": {
+    "wallet_id": "W017",
+    "n_late_closes": 256,
+    "late_pnl_usdc": -596.742364,
+    "n_via_resolution": 253
+  },
+  "W018": {
+    "wallet_id": "W018",
+    "n_late_closes": 81,
+    "late_pnl_usdc": -3.57228,
+    "n_via_resolution": 5
+  },
+  "W019": {
+    "wallet_id": "W019",
+    "n_late_closes": 144,
+    "late_pnl_usdc": 0.565381,
+    "n_via_resolution": 14
+  },
+  "W020": {
+    "wallet_id": "W020",
+    "n_late_closes": 83,
+    "late_pnl_usdc": -5.549742,
+    "n_via_resolution": 6
+  },
+  "W021": {
+    "wallet_id": "W021",
+    "n_late_closes": 143,
+    "late_pnl_usdc": 1.325269,
+    "n_via_resolution": 22
+  },
+  "W022": {
+    "wallet_id": "W022",
+    "n_late_closes": 51,
+    "late_pnl_usdc": 0.756204,
+    "n_via_resolution": 46
+  },
+  "W023": {
+    "wallet_id": "W023",
+    "n_late_closes": 153,
+    "late_pnl_usdc": 1.682243,
+    "n_via_resolution": 14
+  },
+  "W024": {
+    "wallet_id": "W024",
+    "n_late_closes": 140,
+    "late_pnl_usdc": 0.289341,
+    "n_via_resolution": 9
+  },
+  "W025": {
+    "wallet_id": "W025",
+    "n_late_closes": 79,
+    "late_pnl_usdc": -1.38497,
+    "n_via_resolution": 6
+  },
+  "W026": {
+    "wallet_id": "W026",
+    "n_late_closes": 87,
+    "late_pnl_usdc": -0.601212,
+    "n_via_resolution": 8
+  },
+  "W027": {
+    "wallet_id": "W027",
+    "n_late_closes": 68,
+    "late_pnl_usdc": -573.917783,
+    "n_via_resolution": 65
+  },
+  "W028": {
+    "wallet_id": "W028",
+    "n_late_closes": 51,
+    "late_pnl_usdc": -3.90023,
+    "n_via_resolution": 0
+  },
+  "W029": {
+    "wallet_id": "W029",
+    "n_late_closes": 82,
+    "late_pnl_usdc": -7.65114,
+    "n_via_resolution": 3
+  },
+  "W030": {
+    "wallet_id": "W030",
+    "n_late_closes": 39,
+    "late_pnl_usdc": -58.066006,
+    "n_via_resolution": 34
+  },
+  "W031": {
+    "wallet_id": "W031",
+    "n_late_closes": 55,
+    "late_pnl_usdc": -268.227935,
+    "n_via_resolution": 55
+  },
+  "W032": {
+    "wallet_id": "W032",
+    "n_late_closes": 63,
+    "late_pnl_usdc": -51.416512,
+    "n_via_resolution": 60
+  },
+  "W033": {
+    "wallet_id": "W033",
+    "n_late_closes": 128,
+    "late_pnl_usdc": -447.749743,
+    "n_via_resolution": 117
+  },
+  "W034": {
+    "wallet_id": "W034",
+    "n_late_closes": 147,
+    "late_pnl_usdc": 0.075116,
+    "n_via_resolution": 8
+  },
+  "W035": {
+    "wallet_id": "W035",
+    "n_late_closes": 137,
+    "late_pnl_usdc": 0.813841,
+    "n_via_resolution": 7
+  },
+  "W036": {
+    "wallet_id": "W036",
+    "n_late_closes": 99,
+    "late_pnl_usdc": -129.385664,
+    "n_via_resolution": 58
+  },
+  "W037": {
+    "wallet_id": "W037",
+    "n_late_closes": 49,
+    "late_pnl_usdc": 1.436314,
+    "n_via_resolution": 49
+  },
+  "W038": {
+    "wallet_id": "W038",
+    "n_late_closes": 143,
+    "late_pnl_usdc": 0.32741,
+    "n_via_resolution": 8
+  },
+  "W039": {
+    "wallet_id": "W039",
+    "n_late_closes": 98,
+    "late_pnl_usdc": -298.079909,
+    "n_via_resolution": 94
+  },
+  "W040": {
+    "wallet_id": "W040",
+    "n_late_closes": 39,
+    "late_pnl_usdc": 0.001959,
+    "n_via_resolution": 39
+  },
+  "W041": {
+    "wallet_id": "W041",
+    "n_late_closes": 267,
+    "late_pnl_usdc": -5779.587996,
+    "n_via_resolution": 254
+  },
+  "W042": {
+    "wallet_id": "W042",
+    "n_late_closes": 160,
+    "late_pnl_usdc": -1283.087901,
+    "n_via_resolution": 150
+  },
+  "W043": {
+    "wallet_id": "W043",
+    "n_late_closes": 38,
+    "late_pnl_usdc": 0.004492,
+    "n_via_resolution": 38
+  },
+  "W044": {
+    "wallet_id": "W044",
+    "n_late_closes": 139,
+    "late_pnl_usdc": 0.13295,
+    "n_via_resolution": 11
+  },
+  "W045": {
+    "wallet_id": "W045",
+    "n_late_closes": 38,
+    "late_pnl_usdc": 3.386299,
+    "n_via_resolution": 38
+  },
+  "W046": {
+    "wallet_id": "W046",
+    "n_late_closes": 18,
+    "late_pnl_usdc": 0.001752,
+    "n_via_resolution": 18
+  },
+  "W047": {
+    "wallet_id": "W047",
+    "n_late_closes": 24,
+    "late_pnl_usdc": 0.573531,
+    "n_via_resolution": 23
+  },
+  "W048": {
+    "wallet_id": "W048",
+    "n_late_closes": 61,
+    "late_pnl_usdc": -488.160639,
+    "n_via_resolution": 58
+  },
+  "W049": {
+    "wallet_id": "W049",
+    "n_late_closes": 175,
+    "late_pnl_usdc": -183.484599,
+    "n_via_resolution": 167
+  },
+  "W050": {
+    "wallet_id": "W050",
+    "n_late_closes": 214,
+    "late_pnl_usdc": -163.627651,
+    "n_via_resolution": 79
+  },
+  "W051": {
+    "wallet_id": "W051",
+    "n_late_closes": 88,
+    "late_pnl_usdc": -120.784314,
+    "n_via_resolution": 18
+  },
+  "W052": {
+    "wallet_id": "W052",
+    "n_late_closes": 64,
+    "late_pnl_usdc": -15.32291,
+    "n_via_resolution": 55
+  },
+  "W053": {
+    "wallet_id": "W053",
+    "n_late_closes": 167,
+    "late_pnl_usdc": -1.741713,
+    "n_via_resolution": 167
+  },
+  "W054": {
+    "wallet_id": "W054",
+    "n_late_closes": 138,
+    "late_pnl_usdc": -2633.503068,
+    "n_via_resolution": 137
+  },
+  "W055": {
+    "wallet_id": "W055",
+    "n_late_closes": 58,
+    "late_pnl_usdc": -217.517983,
+    "n_via_resolution": 49
+  },
+  "W056": {
+    "wallet_id": "W056",
+    "n_late_closes": 95,
+    "late_pnl_usdc": 2.827709,
+    "n_via_resolution": 19
+  },
+  "W057": {
+    "wallet_id": "W057",
+    "n_late_closes": 41,
+    "late_pnl_usdc": -543.122012,
+    "n_via_resolution": 11
+  },
+  "W058": {
+    "wallet_id": "W058",
+    "n_late_closes": 42,
+    "late_pnl_usdc": 0.003381,
+    "n_via_resolution": 42
+  },
+  "W059": {
+    "wallet_id": "W059",
+    "n_late_closes": 121,
+    "late_pnl_usdc": -61.578981,
+    "n_via_resolution": 116
+  },
+  "W060": {
+    "wallet_id": "W060",
+    "n_late_closes": 44,
+    "late_pnl_usdc": 0.003011,
+    "n_via_resolution": 44
+  },
+  "W061": {
+    "wallet_id": "W061",
+    "n_late_closes": 146,
+    "late_pnl_usdc": 1.156297,
+    "n_via_resolution": 11
+  },
+  "W062": {
+    "wallet_id": "W062",
+    "n_late_closes": 96,
+    "late_pnl_usdc": 452.069232,
+    "n_via_resolution": 96
+  },
+  "W063": {
+    "wallet_id": "W063",
+    "n_late_closes": 130,
+    "late_pnl_usdc": -177.89675,
+    "n_via_resolution": 71
+  },
+  "W064": {
+    "wallet_id": "W064",
+    "n_late_closes": 72,
+    "late_pnl_usdc": -32.357177,
+    "n_via_resolution": 72
+  },
+  "W065": {
+    "wallet_id": "W065",
+    "n_late_closes": 82,
+    "late_pnl_usdc": -74.163307,
+    "n_via_resolution": 50
+  },
+  "W066": {
+    "wallet_id": "W066",
+    "n_late_closes": 48,
+    "late_pnl_usdc": -0.089574,
+    "n_via_resolution": 5
+  },
+  "W067": {
+    "wallet_id": "W067",
+    "n_late_closes": 141,
+    "late_pnl_usdc": 0.775175,
+    "n_via_resolution": 12
+  },
+  "W068": {
+    "wallet_id": "W068",
+    "n_late_closes": 84,
+    "late_pnl_usdc": -0.48475,
+    "n_via_resolution": 9
+  },
+  "W069": {
+    "wallet_id": "W069",
+    "n_late_closes": 143,
+    "late_pnl_usdc": 0.344521,
+    "n_via_resolution": 12
+  },
+  "W070": {
+    "wallet_id": "W070",
+    "n_late_closes": 47,
+    "late_pnl_usdc": -159.65952,
+    "n_via_resolution": 21
+  },
+  "W071": {
+    "wallet_id": "W071",
+    "n_late_closes": 95,
+    "late_pnl_usdc": -414.48972,
+    "n_via_resolution": 36
+  },
+  "W072": {
+    "wallet_id": "W072",
+    "n_late_closes": 35,
+    "late_pnl_usdc": 0.00347,
+    "n_via_resolution": 35
+  },
+  "W073": {
+    "wallet_id": "W073",
+    "n_late_closes": 52,
+    "late_pnl_usdc": -3.551689,
+    "n_via_resolution": 5
+  },
+  "W074": {
+    "wallet_id": "W074",
+    "n_late_closes": 42,
+    "late_pnl_usdc": -49.070889,
+    "n_via_resolution": 42
+  },
+  "W075": {
+    "wallet_id": "W075",
+    "n_late_closes": 38,
+    "late_pnl_usdc": 168.701352,
+    "n_via_resolution": 10
+  },
+  "W076": {
+    "wallet_id": "W076",
+    "n_late_closes": 195,
+    "late_pnl_usdc": -1480.835602,
+    "n_via_resolution": 182
+  },
+  "W077": {
+    "wallet_id": "W077",
+    "n_late_closes": 46,
+    "late_pnl_usdc": -762.290422,
+    "n_via_resolution": 46
+  },
+  "W078": {
+    "wallet_id": "W078",
+    "n_late_closes": 38,
+    "late_pnl_usdc": -19.170504,
+    "n_via_resolution": 38
+  },
+  "W079": {
+    "wallet_id": "W079",
+    "n_late_closes": 98,
+    "late_pnl_usdc": -128.772583,
+    "n_via_resolution": 94
+  },
+  "W080": {
+    "wallet_id": "W080",
+    "n_late_closes": 22,
+    "late_pnl_usdc": 55.02326,
+    "n_via_resolution": 22
+  },
+  "W081": {
+    "wallet_id": "W081",
+    "n_late_closes": 79,
+    "late_pnl_usdc": -2.973089,
+    "n_via_resolution": 4
+  },
+  "W082": {
+    "wallet_id": "W082",
+    "n_late_closes": 38,
+    "late_pnl_usdc": -172.992159,
+    "n_via_resolution": 6
+  },
+  "W083": {
+    "wallet_id": "W083",
+    "n_late_closes": 38,
+    "late_pnl_usdc": 0.002214,
+    "n_via_resolution": 38
+  },
+  "W084": {
+    "wallet_id": "W084",
+    "n_late_closes": 101,
+    "late_pnl_usdc": -12.49144,
+    "n_via_resolution": 100
+  },
+  "W085": {
+    "wallet_id": "W085",
+    "n_late_closes": 40,
+    "late_pnl_usdc": 0.002462,
+    "n_via_resolution": 40
+  },
+  "W086": {
+    "wallet_id": "W086",
+    "n_late_closes": 136,
+    "late_pnl_usdc": -0.087983,
+    "n_via_resolution": 7
+  },
+  "W087": {
+    "wallet_id": "W087",
+    "n_late_closes": 36,
+    "late_pnl_usdc": 0.002915,
+    "n_via_resolution": 36
+  },
+  "W088": {
+    "wallet_id": "W088",
+    "n_late_closes": 162,
+    "late_pnl_usdc": -1845.249286,
+    "n_via_resolution": 142
+  },
+  "W089": {
+    "wallet_id": "W089",
+    "n_late_closes": 136,
+    "late_pnl_usdc": -3.737607,
+    "n_via_resolution": 9
+  },
+  "W090": {
+    "wallet_id": "W090",
+    "n_late_closes": 121,
+    "late_pnl_usdc": -299.860007,
+    "n_via_resolution": 110
+  },
+  "W091": {
+    "wallet_id": "W091",
+    "n_late_closes": 102,
+    "late_pnl_usdc": -214.403042,
+    "n_via_resolution": 61
+  },
+  "W092": {
+    "wallet_id": "W092",
+    "n_late_closes": 16,
+    "late_pnl_usdc": 0.000727,
+    "n_via_resolution": 16
+  },
+  "W093": {
+    "wallet_id": "W093",
+    "n_late_closes": 50,
+    "late_pnl_usdc": -81.936037,
+    "n_via_resolution": 47
+  },
+  "W094": {
+    "wallet_id": "W094",
+    "n_late_closes": 151,
+    "late_pnl_usdc": -1.714082,
+    "n_via_resolution": 15
+  },
+  "W095": {
+    "wallet_id": "W095",
+    "n_late_closes": 140,
+    "late_pnl_usdc": 1702.178639,
+    "n_via_resolution": 61
+  },
+  "W096": {
+    "wallet_id": "W096",
+    "n_late_closes": 40,
+    "late_pnl_usdc": 0.005179,
+    "n_via_resolution": 40
+  },
+  "W097": {
+    "wallet_id": "W097",
+    "n_late_closes": 124,
+    "late_pnl_usdc": -212.55725,
+    "n_via_resolution": 116
+  },
+  "W098": {
+    "wallet_id": "W098",
+    "n_late_closes": 30,
+    "late_pnl_usdc": 39.222811,
+    "n_via_resolution": 29
+  },
+  "W099": {
+    "wallet_id": "W099",
+    "n_late_closes": 131,
+    "late_pnl_usdc": 1.250312,
+    "n_via_resolution": 17
+  },
+  "W100": {
+    "wallet_id": "W100",
+    "n_late_closes": 47,
+    "late_pnl_usdc": 0.43275,
+    "n_via_resolution": 6
+  }
+}

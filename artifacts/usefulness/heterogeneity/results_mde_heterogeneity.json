@@ -1,0 +1,80 @@
+{
+  "n_questions": 28,
+  "n_agents": 10,
+  "alpha": 0.05,
+  "power": 0.8,
+  "contrast": "pure cognitive (Treatment - Placebo)",
+  "ensemble_brier": {
+    "welch": {
+      "se": 0.03608,
+      "df": 53.9,
+      "mde_80": 0.1029
+    },
+    "paired": {
+      "n_pairs": 28,
+      "sd_diff": 0.11974,
+      "se": 0.02263,
+      "mde_80": 0.0658,
+      "observed_diff": -0.00229,
+      "paired_t": -0.101,
+      "paired_p": 0.9201
+    }
+  },
+  "pairwise_error_covariance": {
+    "welch": {
+      "se": 0.03606,
+      "df": 53.9,
+      "mde_80": 0.1029
+    },
+    "paired": {
+      "n_pairs": 28,
+      "sd_diff": 0.11973,
+      "se": 0.02263,
+      "mde_80": 0.0658,
+      "observed_diff": -0.00237,
+      "paired_t": -0.105,
+      "paired_p": 0.9172
+    }
+  },
+  "indiv_brier": {
+    "paired": {
+      "n_pairs": 28,
+      "sd_diff": 0.11978,
+      "se": 0.02264,
+      "mde_80": 0.0658,
+      "observed_diff": -0.00155,
+      "paired_t": -0.068,
+      "paired_p": 0.946
+    }
+  },
+  "group_decomposition": {
+    "control_a": {
+      "ensemble_brier": 0.09327,
+      "mean_indiv_brier": 0.09327,
+      "mean_pairwise_errprod": 0.09327,
+      "identity_rhs": 0.09327,
+      "identity_abs_gap": 0.0
+    },
+    "control_b": {
+      "ensemble_brier": 0.08569,
+      "mean_indiv_brier": 0.08644,
+      "mean_pairwise_errprod": 0.08561,
+      "identity_rhs": 0.08569,
+      "identity_abs_gap": 0.0
+    },
+    "treatment": {
+      "ensemble_brier": 0.08884,
+      "mean_indiv_brier": 0.09049,
+      "mean_pairwise_errprod": 0.08866,
+      "identity_rhs": 0.08884,
+      "identity_abs_gap": 0.0
+    },
+    "placebo": {
+      "ensemble_brier": 0.09113,
+      "mean_indiv_brier": 0.09204,
+      "mean_pairwise_errprod": 0.09103,
+      "identity_rhs": 0.09113,
+      "identity_abs_gap": 0.0
+    }
+  }
+}
