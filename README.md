@@ -25,7 +25,7 @@ The earlier V1 preprint ([Nous_Cognitive_Priors_for_Diverse_LLM_Agents.pdf](Nous
 The [`artifacts/`](artifacts/) directory contains the release described in the paper's reproducibility section: evaluation and analysis code, frozen extracted profiles (pseudonymized W001–W100), all generated persona prompts, and complete model outputs for every experiment.
 
 - All reported analyses are reproducible **from the extracted profiles onward**; see [`artifacts/REPRODUCE.md`](artifacts/REPRODUCE.md) for per-table commands.
-- The production extraction parameters fitted to live user behavior, the `translator_v2.py` source, the extractor source, and raw wallet trade histories are **not** released, consistent with the paper's grey-box boundary.
+- The production extraction parameters fitted to live user behavior, the `translator_v2.py` source, the extractor source, and raw wallet trade histories are **not** released, consistent with the paper's gray-box boundary.
 
 ## Citation
 
@@ -44,4 +44,4 @@ Paper and artifacts: [CC BY-NC-ND 4.0](LICENSE)
 
 ## Contact
 
-Haowei Qian — will@novasurge.ai
+Haowei Qian — qianhaowei@alu.fudan.edu.cn
