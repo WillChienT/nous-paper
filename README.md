@@ -16,7 +16,7 @@ We position Nous as work that **measures** the cognitive-monoculture problem and
 
 ## Paper
 
-Read the V2 paper: **[Nous_V2_An_Attempt_to_Extract_and_Inject.pdf](Nous_V2_An_Attempt_to_Extract_and_Inject.pdf)** (37 pages)
+**arXiv: [2606.13038](https://arxiv.org/abs/2606.13038)** (cs.AI) — or read the PDF here: [Nous_V2_An_Attempt_to_Extract_and_Inject.pdf](Nous_V2_An_Attempt_to_Extract_and_Inject.pdf) (37 pages)
 
 The earlier V1 preprint ([Nous_Cognitive_Priors_for_Diverse_LLM_Agents.pdf](Nous_Cognitive_Priors_for_Diverse_LLM_Agents.pdf), March 2026) is kept for provenance. It should be read as the architectural proposal: several of its headline results (the +16.3% translator diversity gain, parity with handwritten persona baselines, judgment-level differentiation counts) did not survive the stricter metric discipline of the V2 reanalysis and are revised or retracted in V2.
 
@@ -30,11 +30,14 @@ The [`artifacts/`](artifacts/) directory contains the release described in the p
 ## Citation
 
 ```bibtex
-@article{qian2026nous,
+@misc{qian2026nous,
   title={Nous: An Attempt to Extract and Inject the Cognition Behind Prediction-Market Behavior},
   author={Qian, Haowei},
-  journal={Preprint},
-  year={2026}
+  year={2026},
+  eprint={2606.13038},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2606.13038}
 }
 ```
 

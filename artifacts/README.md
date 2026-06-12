@@ -2,8 +2,8 @@
 
 Supplementary artifacts for the paper:
 
-> **Nous: Extracting Cognitive Profiles from On-Chain Prediction Market Behavior**  
-> Mywill HK Limited, 2026
+> **Nous: An Attempt to Extract and Inject the Cognition Behind Prediction-Market Behavior**  
+> Haowei Qian, 2026. arXiv:2606.13038 — https://arxiv.org/abs/2606.13038
 
 These materials allow reproduction of all reported analyses **from the extracted profiles onward**. 
 Independent replication of the extraction pipeline from raw wallet histories requires the unreleased 
